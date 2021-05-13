@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+<systemViewName>SİSTEMDEKİ GÖRÜNÜMÜ DEĞİŞTİR</systemViewName>
+<mostra-personajesName>KARAKTERİ GÖSTER</mostra-personajesName>
+<opciones-de-personajes-en-sistemaName>SİSTEMDEKİ KARAKTER ETKİSİ UYGULAYIN</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>GAMELIST'DE KARAKTERE ETKİ UYGULA</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>CAROUSEL'DEKİ LOGOLARI DEĞİŞTİR</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>GAMELIST'DEKİ LOGOLARI DEĞİŞTİR</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>AKTİF KARUSEL LOGOSUNDA ANİMASYONU ETKİNLEŞTİR</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>ARKA PLAN GÖRÜNTÜ SEÇENEKLERİ</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>CAROUSEL ÜZERİNDE SES UYGULA</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>GAMELIST'DE SES UYGULA</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>SİSTEM VİDEO ETKİSİ</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>GAMELIST'DEKİ VİDEO ETKİSİ</subset.opciones-de-video-gamelist>
+<menuName>MENÜ STİLİNİ DEĞİŞTİR</menuName>
+<storylogocarruselsistemaName>AKTİF KARUSEL LOGOSUNDA HAREKETİ ETKİNLEŞTİRİN</storylogocarruselsistemaName>
+<infoName>YALNIZCA DİLİ DEĞİŞTİRİN (Klasik Görünüm)</infoName>
+<MarqueeStyleName>OYNATMA LİSTESİNDEKİ LOGOLARI DEĞİŞTİR (Seçim Çerçevesi)</MarqueeStyleName>
+<systemViewExInfos>SİSTEMDE GÖSTER (InfoEx)</systemViewExInfos> 
+<subset.Logosoncarousel>SİSTEMDE KARUSEL LOGOLARIN DEĞİŞTİRİLMESİ</subset.Logosoncarousel>
+<subset.shader>GÖLGELENDİRİCİLER - (TÜMÜNÜN ÜZERİNDE)</subset.shader>
+<subset.colorset>SİSTEM RENGİNİ DEĞİŞTİR (Menüler)</subset.colorset>
+</variables>
+</theme>

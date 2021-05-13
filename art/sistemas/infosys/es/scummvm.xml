@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		
+		<text name="sys_info" extra="true">
+<!-- MAX SIZE -----------|------>
+<text>Múltiples
+Juegos Point’n Clic
+Todas
+2001
+Ficheros de Juegos
+Joystick, Ratón, Teclado</text>
+		</text>
+		
+		<text name="sys_description" extra="true">
+<!-- MAX SIZE - DEPENDS OF THE WORDS LENGTH ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------->
+<text>Lanzado en 2001, ScummVM es una colección de motores de juegos de aventura de apuntar y hacer clic. Originalmente diseñado para jugar solo juegos de aventura de LucasArts que usan el sistema SCUMM (VM significa máquina virtual), ahora es compatible con otros motores como el de Sierra On-Line de las serie King's Quest y Leisure Suit Larry, Adventure Soft con su serie Simon the Sorcerer y las de Humongous con sus excelentes juegos para niños Freddi Fish y Pajama Sam. Finalmente, también ofrece soporte para traducciones no oficiales de los juegos.</text>
+		</text>
+		
+	</view>
+	
+</theme>

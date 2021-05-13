@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<customView name="WII" inherits="detailed" displayName="${gridDetailsViewName}">    
+<image name="background1" extra="true">
+<visible>true</visible>
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/wiigl.png</path>
+<zIndex>50</zIndex>
+</image>  
+  
+<image name="background3" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/wall/default.png</path>
+<path>./art/sistemas/wall/${system.theme}.png</path>
+<zIndex>29</zIndex>
+</image>
+  
+<textlist name="gamelist">
+<selectorColor>2EF3F980</selectorColor>
+<selectedColor>000000</selectedColor>
+<primaryColor>06E6F5</primaryColor>
+<secondaryColor>7a6161</secondaryColor>
+<fontPath>./art/sistemas/fuentes/Bebas Neue.ttf</fontPath>
+<forceUppercase>1</forceUppercase>
+<pos>0.47 0.23</pos>
+<size>0.38 0.42</size>
+<alignment>left</alignment>
+<horizontalMargin>0.00</horizontalMargin>
+<fontSize>0.03</fontSize>
+<zIndex>90</zIndex>
+</textlist>
+
+<image name="pointer" extra="true">
+<visible>false</visible>
+<pos>0.057 0.595</pos>
+<origin>0.5 0.5</origin>
+<size>0.043 0.133</size>
+<path>./art/sistemas/pointerl/default.png</path>
+<path>./art/sistemas/pointerl/${system.theme}.png</path>
+<zIndex>60</zIndex>
+<storyboard repeat="forever">
+<animation property="x" from="0.057" to="0.065" duration="60" autoreverse="true" begin="4000" repeat="3"/>
+</storyboard>
+</image>
+
+<image name="pointer2" extra="true">
+<visible>flase</visible>
+<pos>0.302 0.595</pos>
+<origin>0.5 0.5</origin>
+<size>0.043 0.133</size>
+<path>./art/sistemas/pointer/default.png</path>
+<path>./art/sistemas/pointer/${system.theme}.png</path>
+<zIndex>60</zIndex>
+<storyboard repeat="forever">
+<animation property="x" from="0.302" to="0.294" duration="60" autoreverse="true" begin="4000" repeat="3"/>
+</storyboard>
+</image>
+
+<image name="background" extra="true">
+<visible>false</visible>
+</image>  
+
+<text name="md_name">
+<visible>false</visible>
+<color>ffffff</color>
+<pos>0.45  0.700</pos>
+<size>0.15 0.05</size>
+<fontSize>0.032</fontSize>
+<fontPath>./art/sistemas/fuentes/Anticlimax.ttf</fontPath>
+<alignment>left</alignment>
+<glowColor>00000060</glowColor>
+<glowSize>2</glowSize>
+</text>
+
+<image name="consola" extra="true">
+<path>./art/sistemas/consoles/default.png</path>
+<path>./art/sistemas/consoles/${system.theme}.png</path>
+<color>ffffff</color>
+<origin>0 0</origin>
+<pos>0.259 0.6400</pos>
+<maxSize>0.11 0.11</maxSize>
+<reflexion>0.30 0.0</reflexion>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="4000" repeat="3"/>
+</storyboard>  
+<zIndex>90</zIndex>
+</image>
+
+<image name="personaje" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.750 0.080</pos>
+<size>0.240 0.795</size>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>92</zIndex>
+</image>
+
+<image name="personaje2" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>2EFE2E</color>
+<origin>0 0</origin>
+<pos>0.750 0.080</pos>
+<size>0.240 0.795</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>90</zIndex>
+</image>
+
+<image name="personaje3" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<pos>0.750 0.080</pos>
+<size>0.240 0.795</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>91</zIndex>
+</image>
+
+<helpsystem name="help">
+<fontSize>0.03</fontSize>
+<pos>-1 1</pos>
+<textColor>00000000</textColor>
+<iconColor>00000000</iconColor>
+</helpsystem>
+
+<text name="logoText">
+<pos>0.593 0.100</pos>
+<size>0.255 0.092</size>
+<origin>0.5 0.5</origin>
+<alignment>center</alignment>
+<fontSize>0.08</fontSize>
+<fontPath>./art/sistemas/fuentes/Bebas Neue.ttf</fontPath>
+<color>00000000</color>
+</text>
+
+<image name="logo">
+<pos>0.593 0.100</pos>
+<size>0.255 0.092</size>
+<origin>0.5 0.5</origin>
+<zIndex>99</zIndex>
+<storyboard repeat="forever">
+<animation property="opacity" from="0" to="1" begin="350" duration="1000" mode="linear"/>
+<animation property="scale" from="0" to="1" begin="350" duration="1000" mode="bump"/>
+<animation property="scaleOrigin" to="0" begin="9000" duration="0"/>
+</storyboard>
+</image>
+
+<image name="md_marquee">
+<pos>0.593 0.100</pos>
+<size>0.255 0.092</size>
+<origin>0.5 0.5</origin>
+<zIndex>99</zIndex>
+<reflexion>0.19 0.0</reflexion>
+</image>	
+
+<image name="md_image">
+<origin>0.5 0.5</origin>
+<size>0.315  0.654</size>
+<pos>0.172 0.41</pos>
+<roundCorners>0</roundCorners>
+<zIndex>47</zIndex>
+</image>	
+
+<image name="predeterminado" extra="true">
+<tile>false</tile>
+<Delay>800</Delay>
+<origin>0.5 0.5</origin>
+<size>0.315  0.654</size>
+<pos>0.172 0.41</pos>
+<delay>0</delay>
+<roundCorners>0</roundCorners>
+<path>./art/sistemas/fondos/default.png</path>
+<zIndex>46</zIndex>
+</image>
+
+<video name="md_video">
+<origin>0.5 0.5</origin>
+<size>0.315  0.654</size>
+<pos>0.172 0.41</pos>
+<delay>0</delay>
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+<roundCorners>0</roundCorners>
+<zIndex>48</zIndex>
+</video>
+
+<text name="md_description">
+<visible>true</visible>
+<glowColor>00000000</glowColor>
+<glowSize>2</glowSize>
+<forceUppercase>0</forceUppercase>
+<fontPath>./art/sistemas/fuentes/Cabin-Regular.ttf</fontPath>
+<fontSize>0.015</fontSize>
+<pos>0.40 0.72</pos>
+<size>0.28 0.13</size>
+<color>ffffff</color>
+<zIndex>90</zIndex>
+<storyboard>     
+<animation property="y" from="0" to="0.73" begin="0" duration="1950" mode="easeOut" repeat="1"/>
+</storyboard>
+</text>
+
+<text name="md_lbl_rating">
+<pos>0.30 0.720</pos>
+<fontPath>./art/sistemas/fuentes/Anticlimax.ttf</fontPath>
+<color>00000000</color>
+<fontSize>0.02</fontSize>
+</text>
+ <rating name="md_rating">
+ <visible>false</visible>
+<pos>0.40 0.720</pos>
+<size>0.11 0.028</size>
+<color>00000000</color>
+<unfilledColor>00000000</unfilledColor>
+</rating>
+	
+<text name="md_lbl_publisher">
+<pos>0.30 0.760</pos>
+<fontPath>./art/sistemas/fuentes/Anticlimax.ttf</fontPath>
+<color>00000000</color>
+<fontSize>0.02</fontSize>
+</text>
+<text name="md_publisher">
+<pos>0.40 0.760</pos>
+<size>0.14 0.04</size>
+<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
+<color>00000000</color>
+<fontSize>0.02</fontSize>
+</text>
+	
+<text name="md_lbl_releasedate">
+<pos>0.30 0.800</pos>
+<fontPath>./art/sistemas/fuentes/Anticlimax.ttf</fontPath>
+<color>00000000</color>
+<fontSize>0.02</fontSize>
+<size>0.11 0.05</size>
+</text>
+<datetime name="md_releasedate">
+<pos>0.40 0.800</pos>
+<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
+<color>00000000</color>
+<size>0.11 0.05</size>
+<fontSize>0.02</fontSize>
+</datetime>
+
+<text name="md_lbl_genre">
+<pos>0.30 0.860</pos>
+<fontPath>./art/sistemas/fuentes/Anticlimax.ttf</fontPath>
+<color>00000000</color>
+<fontSize>0.02</fontSize>
+</text>
+<text name="md_genre">
+<pos>0.40 0.860</pos>
+<size>0.11 0.04</size>
+<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
+<color>00000000</color>
+<fontSize>0.02</fontSize>
+</text>
+
+<text name="md_lbl_developer">
+<pos>0.30 0.900</pos>
+	<size>0.11 0.05</size>
+<fontPath>./art/sistemas/fuentes/Anticlimax.ttf</fontPath>
+<color>00000000</color>
+<fontSize>0.02</fontSize>
+</text>
+<text name="md_developer">
+<pos>0.40 0.900</pos>
+	<size>0.11 0.05</size>
+<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
+<color>00000000</color>
+<fontSize>0.02</fontSize>
+</text>
+
+<text name="md_lbl_lastplayed">
+<pos>0.76 0.51</pos>
+<fontPath>./art/sistemas/fuentes/Anticlimax.ttf</fontPath>
+<color>00000000</color>
+	<size>0.11 0.05</size>
+<fontSize>0.02</fontSize>
+</text>
+<datetime name="md_lastplayed">
+<pos>0.85 0.51</pos>
+<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
+<color>00000000</color>
+	<size>0.11 0.05</size>
+<fontSize>0.02</fontSize>
+</datetime>
+	
+<text name="md_lbl_playcount">
+<pos>0.76 0.57</pos>
+<fontPath>./art/sistemas/fuentes/Anticlimax.ttf</fontPath>
+<color>00000000</color>
+	<size>0.11 0.05</size>
+<fontSize>0.02</fontSize>
+</text>
+<text name="md_playcount">
+<pos>0.87 0.56</pos>
+<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
+<color>00000000</color>
+	<size>0.11 0.07</size>
+<fontSize>0.02</fontSize>
+</text>
+	
+<text name="md_lbl_players">
+<pos>0.76 0.624</pos>
+<fontPath>./art/sistemas/fuentes/Anticlimax.ttf</fontPath>
+<color>00000000</color>
+<fontSize>0.02</fontSize>
+</text>
+<text name="md_players">
+<pos>0.85 0.624</pos>
+<size>0.11 0.04</size>
+<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
+<color>00000000</color>
+<fontSize>0.02</fontSize>
+</text>
+
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
+</image>
+</customView>
+</theme>

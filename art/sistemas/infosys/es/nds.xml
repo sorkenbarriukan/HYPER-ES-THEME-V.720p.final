@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+
+		<text name="sys_info" extra="true">
+<!-- MAX SIZE -----------|------>
+<text>Nintendo
+Consola Portátil
+Séptima
+2004
+Cartuchos DS, GBA
+Joypad + 6 Botones</text>
+		</text>
+		
+		<text name="sys_description" extra="true">
+<!-- MAX SIZE - DEPENDS OF THE WORDS LENGTH ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------->
+<text>La Nintendo DS (Dual Screen) lanzada a finales de 2004 en Japón, es la respuesta de Nintendo para competir con la portátil PSP de Sony. Equipado con un procesador de 66 Mhz, 133 Mhz con DSi, 4 y 16 MB de RAM, 128 sprites como máximo o 120,000 polígonos por segundo. La consola cuenta con dos pantallas retroiluminadas de 256×192 píxeles (una de ellas táctil), stylus, micrófono y WiFi que permite jugar en línea a través de Internet o LAN con otras 16 consolas. En 2006 se lanzó el DS Lite, que era más pequeño y en 2009 el DSi XL con pantallas un 30% más grandes.</text>
+		</text>
+		
+	</view>
+	
+</theme>

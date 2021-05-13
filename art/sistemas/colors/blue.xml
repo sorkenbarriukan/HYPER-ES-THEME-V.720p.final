@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>4</formatVersion>
+  <variables>
+    <baseColor>7CB1F5</baseColor>
+    <gradientEndColor>052DF9</gradientEndColor>
+    <centerFadeColor>40609b50</centerFadeColor>
+    <bottomBarColor>407bc0</bottomBarColor>
+    <glowColor>3060Ab20</glowColor>
+    <systemInfoColor>FAFAFFB0</systemInfoColor>
+    <backgroundImage>./art/fiber.png</backgroundImage>
+  </variables>
+  
+<view name="menu">
+  <menuText name="menutitle">
+<color>ffffff</color>
+</menuText>
+
+<menuText name="menufooter">
+<color>FFFF00</color>
+</menuText>
+
+<menuText name="menutext">
+<color>58D3F7</color>
+<separatorColor>ffffff</separatorColor>
+<selectorColor>${baseColor}</selectorColor>
+<selectorColorEnd>${gradientEndColor}</selectorColorEnd>
+<selectedColor>000000</selectedColor>
+<selectorGradientType>horizontal</selectorGradientType>
+</menuText>
+
+<menuTextSmall name="menutextsmall">
+<color>ffffff</color>
+</menuTextSmall>
+  </view>
+</theme>

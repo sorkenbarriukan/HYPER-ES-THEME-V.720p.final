@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+<systemViewName>ENDRE UTSIKT I SYSTEMET</systemViewName>
+<mostra-personajesName>VIS KARAKTER</mostra-personajesName>
+<opciones-de-personajes-en-sistemaName>GJELD EFFEKT PÅ KARAKTERET I SYSTEMET</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>GJELD EFFEKT PÅ KARAKTERET I SPILLLISTE</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>ENDRE LOGOER I CAROUSEL</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>ENDRE LOGOER I SPILLLISTE</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>AKTIVER ANIMASJON I AKTIV CAROUSEL-LOGO</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>BILDMULIGHETER FOR BAKGRUNN</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>ANVEND LYD PÅ CAROUSEL</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>ANVEND LYD I SPILLLISTE</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>SYSTEMVIDEOEFFEKTA</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>EFFEKT FOR VIDEOEN I GAMELIST</subset.opciones-de-video-gamelist>
+<menuName>ENDRE MENYSTIL</menuName>
+<storylogocarruselsistemaName>AKTIVER BEVEGELSE I AKTIV KAROSELLOGO</storylogocarruselsistemaName>
+<infoName>ENDRE SPRÅK KUN (Klassisk visning)</infoName>
+<MarqueeStyleName>ENDRE LOGOER I SPILLELISTE (Telt)</MarqueeStyleName>
+<systemViewExInfos>VIS (InfoEx) I SYSTEM</systemViewExInfos> 
+<subset.Logosoncarousel>ENDRE CAROUSEL-LOGOER I SYSTEM</subset.Logosoncarousel>
+<subset.shader>SHADERS - (OVER ALL)</subset.shader>
+<subset.colorset>ENDRE SYSTEMFARGE (menyer)</subset.colorset>
+</variables>
+</theme>

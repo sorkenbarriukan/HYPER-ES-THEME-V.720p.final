@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system, basic, detailed, grid, carousel, gamecarousel">
+<image name="background3" extra="true">
+<storyboard>     
+<animation property="h" from="7" to="1" duration="7950" autoreverse="true" repeat="0"/>
+<animation property="w" from="7" to="1" duration="4950" autoreverse="true" repeat="0"/>
+</storyboard>
+</image>
+</view>
+</theme>

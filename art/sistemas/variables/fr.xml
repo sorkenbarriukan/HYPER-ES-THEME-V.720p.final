@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+<systemViewName>CHANGER DE VUE DANS LE SYSTÈME</systemViewName>
+<mostra-personajesName>MONTRER LE PERSONNAGE</mostra-personajesName>
+<opciones-de-personajes-en-sistemaName>APPLIQUER L'EFFET AU PERSONNAGE DANS LE SYSTÈME</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>APPLIQUER L'EFFET AU PERSONNAGE DANS GAMELIST</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>CHANGER LES LOGOS DANS CAROUSEL</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>CHANGER LES LOGOS DANS GAMELIST</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>ACTIVER L'ANIMATION DANS LE LOGO ACTIF CAROUSEL</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>OPTIONS D'IMAGE D'ARRIÈRE-PLAN</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>APPLIQUER LE SON SUR CAROUSEL</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>APPLIQUER LE SON DANS GAMELIST</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>EFFET VIDÉO DU SYSTÈME</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>EFFET SUR LA VIDÉO DANS GAMELIST</subset.opciones-de-video-gamelist>
+<menuName>MODIFIER LE STYLE DU MENU</menuName>
+<storylogocarruselsistemaName>ACTIVER LE MOUVEMENT DANS LE LOGO ACTIF CAROUSEL</storylogocarruselsistemaName>
+<infoName>CHANGER LA LANGUE UNIQUEMENT DANS (Affichage classique)</infoName>
+<MarqueeStyleName>CHANGER LES LOGOS DANS LA LISTE DE LECTURE (Marquee)</MarqueeStyleName>
+<systemViewExInfos>AFFICHER (InfoEx) DANS LE SYSTÈME</systemViewExInfos> 
+<subset.Logosoncarousel>CHANGER LES LOGOS CAROUSEL DANS LE SYSTÈME</subset.Logosoncarousel>
+<subset.shader>OMBRES - (AU-DESSUS DE TOUT)</subset.shader>
+<subset.colorset>CHANGER LA COULEUR DU SYSTÈME (Menus)</subset.colorset>
+</variables>
+</theme>

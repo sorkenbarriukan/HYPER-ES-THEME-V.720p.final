@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+<image name="personaje" extra="true">
+<storyboard>
+<animation property="opacity" from="0" to="10" duration="3950" mode="easeIn"/>    
+<animation property="x" from="1.01" begin="0" duration="2250" mode="easeOut"/>   
+<animation property="opacity" begin="9000" from="0" to="10" duration="3950" mode="easeIn"/>    
+<animation property="x" begin="9000" from="1.01" begin="0" duration="2250" mode="easeOut"/>  
+<animation property="opacity" begin="18000" from="0" to="10" duration="3950" mode="easeIn"/>    
+<animation property="x" begin="18000" from="1.01" begin="0" duration="2250" mode="easeOut"/>
+<animation property="opacity" begin="278000" from="0" to="10" duration="3950" mode="easeIn"/>    
+<animation property="x" begin="27000" from="1.01" begin="0" duration="2250" mode="easeOut"/>
+<animation property="opacity" begin="36000" from="0" to="10" duration="3950" mode="easeIn"/>    
+<animation property="x" begin="36000" from="1.01" begin="0" duration="2250" mode="easeOut"/>
+<animation property="opacity" begin="45000" from="0" to="10" duration="3950" mode="easeIn"/>    
+<animation property="x" begin="45000" from="1.01" begin="0" duration="2250" mode="easeOut"/>
+<animation property="opacity" begin="54000" from="0" to="10" duration="3950" mode="easeIn"/>    
+<animation property="x" begin="54000" from="1.01" begin="0" duration="2250" mode="easeOut"/>
+<animation property="opacity" begin="63000" from="0" to="10" duration="3950" mode="easeIn"/>    
+<animation property="x" begin="63000" from="1.01" begin="0" duration="2250" mode="easeOut"/> 
+</storyboard>
+</image>
+
+<image name="personaje2" extra="true">
+<color>FFFFFFFF</color>
+<storyboard>
+<animation property="opacity" from="0" to="10" duration="3950" mode="easeIn"/>
+<animation property="x" from="0" begin="0" duration="2250" mode="easeOut"/>    
+<animation property="opacity" begin="9000" from="0" to="10" duration="3950" mode="easeIn"/>
+<animation property="x" begin="9000" from="0" begin="0" duration="2250" mode="easeOut"/> 
+<animation property="opacity" begin="18000" from="0" to="10" duration="3950" mode="easeIn"/>
+<animation property="x" begin="18000" from="0" begin="0" duration="2250" mode="easeOut"/>
+<animation property="opacity" begin="27000" from="0" to="10" duration="3950" mode="easeIn"/>
+<animation property="x" begin="27000" from="0" begin="0" duration="2250" mode="easeOut"/>
+<animation property="opacity" begin="36000" from="0" to="10" duration="3950" mode="easeIn"/>
+<animation property="x" begin="36000" from="0" begin="0" duration="2250" mode="easeOut"/>
+<animation property="opacity" begin="45000" from="0" to="10" duration="3950" mode="easeIn"/>
+<animation property="x" begin="45000" from="0" begin="0" duration="2250" mode="easeOut"/>
+<animation property="opacity" begin="54000" from="0" to="10" duration="3950" mode="easeIn"/>
+<animation property="x" begin="54000" from="0" begin="0" duration="2250" mode="easeOut"/>
+<animation property="opacity" begin="63000" from="0" to="10" duration="3950" mode="easeIn"/>
+<animation property="x" begin="63000" from="0" begin="0" duration="2250" mode="easeOut"/>
+</storyboard>
+</image>
+
+<image name="personaje3" extra="true">
+<visible>false</visible>
+</image>
+
+<text name="systemInfo">
+<storyboard repeat="0">  
+<animation property="opacity" from="0" to="10" duration="2950" mode="easeIn"/> 
+<animation property="opacity" from="0" to="10" duration="2950" begin="8000" mode="easeIn"/>
+</storyboard>
+</text>
+</view>
+</theme>

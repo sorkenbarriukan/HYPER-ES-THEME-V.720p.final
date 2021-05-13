@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+  
+<view name="system">
+<image name="background1" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/systemcarousel.png</path>
+<zIndex>10</zIndex>
+</image>
+
+<image name="logo">
+<storyboard event="activate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<storyboard event="deactivate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<linearSmooth>true</linearSmooth>
+<storyboard event="activate">
+<animation property="scale" to="1.2" duration="1000" mode="easeOut" autoreverse="true" repeat="forever"/>
+</storyboard>
+</image>
+
+<image name="background3" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/wall/default.png</path>
+<path>./art/sistemas/wall/${system.theme}.png</path>
+<zIndex>9</zIndex>
+</image>
+  
+<image name="pointer" extra="true">
+<tile>false</tile>
+<pos>0.963 0.50</pos>
+<origin>0.5 0.5</origin>
+<size>0.075 0.175</size>
+<path>./art/sistemas/pointer/default.png</path>
+<path>./art/sistemas/pointer/${system.theme}.png</path>
+<zIndex>90</zIndex> 
+<storyboard repeat="forever">
+<animation property="x" from="0.963" to="0.940" duration="60" autoreverse="true" begin="4000" repeat="3"/>
+</storyboard>
+</image>
+     
+<image name="predeterminado" extra="true">
+<tile>false</tile>
+<Delay>800</Delay>
+<pos>0.3086 0.508</pos>
+<origin>0.5 0.5</origin>
+<size>0.4470 0.449</size>
+<path>./art/sistemas/fondos/default.png</path>
+<zIndex>20</zIndex>
+<storyboard>
+        <animation property="y" from="0.05" begin="0" duration="350" mode="easeOut"/>
+        <animation property="opacity" from="0" to="1" duration="2950" mode="easeIn"/>
+        <animation property="scale" from="0" to="1" duration="350" mode="easeOut"/>
+      </storyboard>
+</image>
+   
+<video name="backgroundvideo" extra="true">
+<visible>true</visible>
+<path>{random}</path>                  
+<pos>0.3086 0.508</pos>
+<origin>0.5 0.5</origin>
+<size>0.4470 0.449</size>
+<delay>0</delay>
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+<color>FFFFFF</color>   
+<storyboard>       
+<animation property="opacity" from="0" to="1" duration="950" mode="easeIn"/>
+        <animation property="y" from="1.0" begin="0" duration="1250" mode="easeOut"/>    
+</storyboard>
+<zIndex>30</zIndex>
+</video>
+
+<image name="consola" extra="true">
+<path>./art/sistemas/consoles/default.png</path>
+<path>./art/sistemas/consoles/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.1150 0.7430</pos>
+<maxSize>0.14 0.14</maxSize>
+<reflexion>0.30 0.0</reflexion>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="4000" repeat="3"/>
+</storyboard>  
+<zIndex>90</zIndex>
+</image>
+
+<image name="personaje" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.4850 0.2567</pos>
+<size>0.2295 0.7155</size>
+<storyboard>       
+       <animation property="x" from="1.01" begin="0" duration="2250" mode="easeOut"/>    
+</storyboard>
+<zIndex>60</zIndex>
+</image>
+
+<helpsystem name="help">
+<textColor>00000000</textColor>
+<iconColor>00000000</iconColor>
+<fontSize>0.020</fontSize>
+<pos>0.06 0.93</pos>
+</helpsystem>
+
+<carousel name="systemcarousel">
+<zIndex>43</zIndex>	      
+<type>vertical_wheel</type>
+<pos>0.294 0</pos>
+<size>1 1</size>
+<logoScale>1.05</logoScale>
+<logoSize>0.150 0.260</logoSize>
+<color>00000000</color>
+<maxLogoCount>30</maxLogoCount>
+<logoRotation>8</logoRotation>
+<logoRotationOrigin>2.50 0.5</logoRotationOrigin>
+<logoAlignment>center</logoAlignment>       
+</carousel>
+
+<text name="systemInfo">
+<systemInfoDelay>700</systemInfoDelay>
+<pos>-0.23 0.16</pos>
+<fontSize>0.03</fontSize>
+<fontPath>./art/sistemas/fuentes/Bebas Neue.ttf</fontPath>
+<backgroundColor>00000000</backgroundColor>
+<color>ffffff</color>
+<glowColor>050505</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.60 0.0</reflexion>
+<storyboard>       
+<animation property="opacity" from="0" to="1" duration="950" mode="easeIn"/>
+<animation property="x" from="1.0" begin="0" duration="1250" mode="easeOut"/>  
+</storyboard>
+</text>
+
+<image name="box1" extra="true">
+<origin>0.5 0.5</origin>
+<pos>0.10 0.80</pos>
+<maxSize>0.11 0.24</maxSize>
+<zIndex>89</zIndex>
+<path>{random:thumbnail}</path>
+<color>FFFFFFFF</color>
+<origin>0.5 0.5</origin>
+<roundCorners>0.05</roundCorners>
+<visible>true</visible>
+<reflexion>0.50 0.0</reflexion>
+<opacity>0</opacity>
+<scale>0</scale>
+<scaleOrigin>0 0.5</scaleOrigin>
+<storyboard repeat="forever">
+<animation property="opacity" from="0" to="1" begin="350" duration="1000" mode="linear"/>
+<animation property="scale" from="0" to="1" begin="350" duration="1000" mode="bump"/>
+<animation property="scaleOrigin" to="0" begin="9000" duration="0"/>
+<animation property="scale" from="1" to="0" begin="9000" duration="1000" mode="easeOut"/>
+<animation property="opacity" from="1" to="0" begin="9000" duration="1000" mode="easeOut"/>
+</storyboard>
+</image>
+    
+<text name="logoText">
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<color>${baseColor}</color>
+<forceUppercase>true</forceUppercase>
+</text>
+<image name="logo">
+<path>./art/sistemas/silverring/${system.theme}.png</path>
+<path>./${system.theme}/art/system-${lang}.png</path>
+<path>./${system.theme}/art/system-${lang}.svg</path>
+</image>
+       
+<text name="sys_info" extra="true">
+<visible>false</visible>
+</text>
+<text name="sys_description" extra="true">
+<visible>false</visible>
+</text>
+
+<image name="ControllerOverlay" extra="true">
+<tile>false</tile>
+<pos>0.615 0.20</pos>
+<origin>0.5 0.5</origin>
+<size>0.145 0.145</size>
+<path>./../splash.svg</path>
+<path>./../../${system.theme}/art/controller.svg</path>
+<color>${baseColor}</color>
+</image>
+</view>
+</theme>

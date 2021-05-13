@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+<systemViewName>عرض التغيير في النظام
+</systemViewName>
+<mostra-personajesName>عرض الحرف
+</mostra-personajesName>
+<opciones-de-personajes-en-sistemaName>تطبيق التأثير على الشخصية في النظام
+</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>تطبيق التأثير على الشخصية في قائمة الألعاب
+</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>تغيير الشعارات في CAROUSEL
+</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>تغيير الشعارات في قائمة الألعاب
+</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>تنشيط الرسوم المتحركة في شعار CAROUSEL النشط
+</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>خيارات الصورة الخلفية
+</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>تطبيق الصوت على CAROUSEL</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>تطبيق الصوت في قائمة الألعاب
+</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>تأثير نظام الفيديو
+</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>التأثير على الفيديو في قائمة الألعاب
+</subset.opciones-de-video-gamelist>
+<menuName>تغيير نمط القائمة
+</menuName>
+<storylogocarruselsistemaName>تنشيط الحركة في شعار CAROUSEL النشط
+</storylogocarruselsistemaName>
+<infoName>تغيير اللغة فقط في (العرض الكلاسيكي)
+</infoName>
+<MarqueeStyleName>تغيير الشعارات في قائمة التشغيل (الشاشة الاسمية)
+</MarqueeStyleName>
+<systemViewExInfos>عرض (InfoEx) في النظام
+</systemViewExInfos> 
+<subset.Logosoncarousel>تغيير شعارات CAROUSEL في النظام
+</subset.Logosoncarousel>
+<subset.shader>تظليل - (فوق الكل)
+</subset.shader>
+<subset.colorset>تغيير لون النظام (القوائم)
+</subset.colorset>
+</variables>
+</theme>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<text name="sys_info" extra="true">
+<!-- MAX SIZE -----------|------>
+<text>Microsoft & Sony, Pioneer
+Personnal Computer
+Terza Generazione
+1983
+Cartrucce, floppy & nastro
+Joystick, mouse, tastiera</text>
+		</text>
+
+		<text name="sys_description" extra="true">
+<!-- MAX SIZE - DEPENDS OF THE WORDS LENGTH ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------->
+<text>MSX è uno standard di microcomputer con vocazione domestica di origine giapponese. Risale agli anni '80, pertanto i computer prodotti da vari produttori erano compatibili tra loro grazie a MSX-DOS 1. Microsoft MSX è l'acronimo di Macchine con software intercambiabile, ma viene spesso interpretato come MicroSoft eXtension. MSX ha visualizzato la grafica a 256 × 192 pixel con 16 colori e vedrà la prima generazione di giochi convertiti dagli arcade e perle uniche come Penguin Adventure, Exa Inova, Crusader, α-roid, Gall Force.</text>
+		</text>
+		
+	</view>
+
+</theme>

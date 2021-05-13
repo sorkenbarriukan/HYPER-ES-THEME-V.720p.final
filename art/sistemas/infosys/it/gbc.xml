@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<text name="sys_info" extra="true">
+<!-- MAX SIZE -----------|------>
+<text>Nintendo
+Console di gioco portatile
+Quinta Generazione
+1998
+Cartucce GBC, GB
+Joypad a 2 pulsanti</text>
+		</text>
+		
+		<text name="sys_description" extra="true">
+<!-- MAX SIZE - DEPENDS OF THE WORDS LENGTH ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------->
+<text>Il Game Boy Color creato nel 1989 da Nintendo è la console portatile succeduta al Game Boy. Incorpora uno schermo a colori appena più grande di quello del Game Boy, ma ha un processore da 8 Mhz, 32 KB di RAM, 16 KB di memoria video e visualizza una risoluzione di 160x144 pixel in 56 colori. È retrocompatibile con tutti i giochi Game Boy di prima generazione e ha una durata della batteria di 10 ore. Sarà disponibile in 6 diversi colori al lancio: viola, verde, rosa, blu, giallo e viola chiaro. Ma anche in edizioni limitate come nero, traslucido, oro, Pokémon...</text>
+		</text>
+		
+	</view>
+
+</theme>

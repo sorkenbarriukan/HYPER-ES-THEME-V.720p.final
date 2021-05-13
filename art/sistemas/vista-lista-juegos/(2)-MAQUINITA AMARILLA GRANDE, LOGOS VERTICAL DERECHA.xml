@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<customView name="(2)-MAQUINITA AMARILLA GRANDE, LOGOS VERTICAL DERECHA" inherits="grid" displayName="${gridDetailsViewName}">
+<image name="background">
+<tile>false</tile>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<size>1 1</size>
+<path>./art/sistemas/fondos/menu vert arcd big noscl.png</path>
+<zIndex>70</zIndex>
+</image>
+    
+    <image name="puntero" extra="true">
+<tile>false</tile>
+<pos>0.963 0.47</pos>
+<origin>0.5 0.5</origin>
+<size>0.075 0.175</size>
+<path>./art/sistemas/pointer/default.png</path>
+<path>./art/sistemas/pointer/${system.theme}.png</path>
+<zIndex>90</zIndex>
+<storyboard repeat="forever">
+<animation property="x" from="0.963" to="0.940" duration="60" autoreverse="true" begin="4000" repeat="3"/>
+</storyboard>
+</image>
+
+<imagegrid name="gamegrid">
+<pos>0.663 -0.09</pos>
+<size>0.30 0.983</size>
+<padding>0.04 .50 0.07 0.30</padding>
+<scrollDirection>vertical</scrollDirection>
+<autoLayout>1 1</autoLayout>
+<imageSource>marquee</imageSource>
+<autoLayoutSelectedZoom>1.46</autoLayoutSelectedZoom>
+<margin>0.005 0.02</margin>
+<centerSelection>false</centerSelection>
+<scrollLoop>true</scrollLoop>
+<alignment>left</alignment>
+<folderImage>./art/sistemas/fondos/deffolder.png</folderImage>
+<gameImage>./art/sistemas/fondos/defgame.png</gameImage>
+<zIndex>90</zIndex>
+</imagegrid>
+
+ <image name="gridtile.favorite">
+<path>./art/gridfav.png</path>
+<pos>0.75 0</pos>
+<maxSize>0.25 0.25</maxSize>
+<origin>0 0</origin>
+<color>A0A0A0A0</color>
+</image>  
+    
+<gridtile name="default">
+<padding>50 16</padding>
+<backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+<backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+<imageSizeMode>maxSize</imageSizeMode>
+<imageColor>FFFFFF</imageColor>
+<reflexion>0.09 0.0</reflexion>
+</gridtile>
+
+<gridtile name="selected">
+<backgroundCenterColor>00000000</backgroundCenterColor>
+<backgroundEdgeColor>00000000</backgroundEdgeColor>
+<padding>55 13</padding>
+<imageColor>FFFFFF</imageColor>
+</gridtile>
+
+<text name="gridtile">
+<color>1C00ff00</color>
+<backgroundColor>00000000</backgroundColor>
+<fontSize>0.022</fontSize>
+<alignment>center</alignment>
+<size>1 0.24</size>
+</text>
+<text name="gridtile_selected">
+<color>1C00ff00</color>
+<glowColor>${glowColor}</glowColor>
+<glowSize>0</glowSize>
+</text>
+
+<text name="md_name">
+<visible>true</visible>
+<color>ffffff</color>
+<pos>0.26 0.790</pos>
+<size>0.20 0.05</size>
+<fontSize>0.042</fontSize>
+<fontPath>./art/sistemas/fuentes/Bebas Neue.ttf</fontPath>
+<alignment>left</alignment>
+<glowColor>00000060</glowColor>
+<glowSize>2</glowSize>
+</text>
+
+<image name="md_image">
+<visible>true</visible>
+<pos>0.2815 0.569</pos>
+<size>0.3958 0.5620</size>
+<origin>0.5 0.5</origin>
+<zIndex>19</zIndex>
+</image>
+
+<image name="predeterminado" extra="true">
+<tile>false</tile>
+<Delay>800</Delay>
+<pos>0.2815 0.569</pos>
+<size>0.3948 0.5620</size>
+<origin>0.5 0.5</origin>
+<path>./art/sistemas/fondos/default.png</path>
+<zIndex>18</zIndex>
+<storyboard>
+        <animation property="y" from="0.05" begin="0" duration="350" mode="easeOut"/>
+        <animation property="opacity" from="0" to="1" duration="2950" mode="easeIn"/>
+        <animation property="scale" from="0" to="1" duration="350" mode="easeOut"/>
+      </storyboard>
+</image>
+
+<image name="personaje" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.500 0.2860</pos>
+<size>0.2095 0.7055</size>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>62</zIndex>
+</image>
+
+<image name="personaje2" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<origin>0 0</origin>
+<pos>0.500 0.2860</pos>
+<size>0.2095 0.7055</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>60</zIndex>
+</image>
+
+<image name="personaje3" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<pos>0.500 0.2860</pos>
+<size>0.2095 0.7055</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>61</zIndex>
+</image>
+
+<video name="md_video">
+<pos>0.2815 0.569</pos>
+<size>0.3958 0.5620</size>
+<origin>0.5 0.5</origin>
+<delay>0</delay>
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+<zIndex>20</zIndex>
+</video>
+
+<helpsystem name="help">
+<visible>false</visible>
+<textColor>000000</textColor>
+<iconColor>000000</iconColor>
+<fontSize>0.020</fontSize>
+<pos>0.9995 0.9992</pos>
+</helpsystem>
+
+<image name="neon" extra="true">
+<path>./art/sistemas/fondos/neonlights.png</path>
+<pos>0.287 0.223</pos>
+<size>0.470 0.214</size>
+<origin>0.5 1</origin>
+<zIndex>14</zIndex>
+</image>
+
+<text name="logoText">
+<visible>false</visible>
+<pos>0.287 0.120</pos>
+<size>0.470 0.214</size>
+<origin>0.5 1</origin>
+<alignment>center</alignment>
+<fontSize>0.08</fontSize>
+<fontPath>./art/sistemas/fuentes/Bebas Neue.ttf</fontPath>
+<color>00000000</color>
+<zIndex>65</zIndex>
+</text>
+
+<image name="md_marquee">
+<pos>0.287 0.120</pos>
+<size>0.470 0.214</size>
+<origin>0.5 0.5</origin>
+<zIndex>69</zIndex>
+</image>
+
+<image name="logo">
+<pos>0.287 0.215</pos>
+<size>0.460 0.204</size>
+<origin>0.5 1</origin>
+<zIndex>65</zIndex>
+</image>
+
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
+</image>
+
+ <rating name="md_rating">
+ <visible>false</visible>
+<pos>0.06 0.800</pos>
+<size>0.05 0.03</size>
+<color>FFFFFF</color>
+<unfilledColor>808080</unfilledColor>
+</rating>
+</customView>
+</theme>

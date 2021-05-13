@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+<view name="system">
+<text name="systemInfoEx" extra="true">
+ <visible>true</visible>
+<text>
+Jugados : {binding:played}
+</text>
+<verticalAlignment>center</verticalAlignment>
+          <fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
+        <fontSize>0.020</fontSize>
+        <pos>0.12 0.842</pos>
+        <size>0.48 0.28</size>
+        <zIndex>50</zIndex>
+        <color>ffffff</color>
+        <glowColor>00000000</glowColor>
+        <glowSize>1</glowSize>
+      </text>
+  </view>
+</theme>

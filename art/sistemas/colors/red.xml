@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>4</formatVersion>
+  <variables>
+    <baseColor>FA0307</baseColor>
+    <gradientEndColor>4E0304</gradientEndColor>
+    <centerFadeColor>d7b31f50</centerFadeColor>
+    <bottomBarColor>B404AE</bottomBarColor>
+    <glowColor>8B711520</glowColor>
+    <systemInfoColor>FAFAFFB0</systemInfoColor>
+  </variables>
+  
+  <view name="menu">
+  <menuText name="menutitle">
+<color>FFFF00</color>
+</menuText>
+
+<menuText name="menufooter">
+<color>FFFF00</color>
+</menuText>
+
+<menuText name="menutext">
+<color>ffffff</color>
+<separatorColor>FA0307</separatorColor>
+<selectorColor>${baseColor}</selectorColor>
+<selectorColorEnd>${gradientEndColor}</selectorColorEnd>
+<selectedColor>FFFF00</selectedColor>
+<selectorGradientType>horizontal</selectorGradientType>
+</menuText>
+
+<menuTextSmall name="menutextsmall">
+<color>FFFF00</color>
+</menuTextSmall>
+  </view>
+</theme>

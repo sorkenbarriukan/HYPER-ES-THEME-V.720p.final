@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		
+		<text name="sys_description" extra="true">
+<!-- MAX SIZE - DEPENDS OF THE WORDS LENGTH ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------->
+<text>Esta sección contiene los últimos juegos que has jugado, todos los sistemas están organizados en orden cronológico para permitirte encontrarlos rápidamente y continuar sus aventuras ...
+Como un viaje en el tiempo, puedes regresar para ver la progresión de tu jugador.
+Todos los filtros de clasificación habituales están disponibles para ayudarte a encontrar rápidamente lo que está buscando.</text>
+		</text>
+		
+	</view>
+
+</theme>

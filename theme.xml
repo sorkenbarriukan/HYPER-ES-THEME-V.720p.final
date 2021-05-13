@@ -1,0 +1,598 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-----------------------------------------------------------------------------------------------------------------
+Theme: HYPER-ES-THEME-V.31.final 720p   (  )
+(Based on the carbon theme)
+ES: Fabrice CARUSO...  ( https://github.com/fabricecaruso )
+Batocera Linux: nadenislamarre...   ( https://batocera.org/ )
+RetroBat for windows:  kaylh...  ( http://www.retrobat.ovh/ )
+-------------------------------------------------------------------------------------------------------------------------->
+
+<theme defaultView="Carrusel Arcade Grande Con Scanline">
+<formatVersion>7</formatVersion>
+
+<variables>
+<systemViewName>CAMBIAR VISTA EN SISTEMA</systemViewName>
+<mostra-personajesName>MOSTRAR PERSONAJE</mostra-personajesName>
+<opciones-de-personajes-en-sistemaName>APLICAR EFECTO AL PERSONAJE EN SISTEMA</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>APLICAR EFECTO AL PERSONAJE EN GAMELIST</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>CAMBIAR LOGOS EN CARRUSEL</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>CAMBIAR LOGOS EN GAMELIST</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>ACTIVAR ANIMACION EN LOGO ACTIVO DEL CARRUSEL</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>OPCIONES DE IMAGEN DE FONDO</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>APLICAR SONIDO EN CARRUSEL</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>APLICAR SONIDO EN GAMELIST</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>EFECTO AL VIDEO EN SISTEMA</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>EFECTO AL VIDEO EN GAMELIST</subset.opciones-de-video-gamelist>
+<menuName>CAMBIAR ESTILO DEL MENU</menuName>
+<storylogocarruselsistemaName>ACTIVAR MOVIMIENTO EN LOGO ACTIVO DEL CARRUSEL</storylogocarruselsistemaName>
+<infoName>CAMBIAR LENGUAJE SOLO EN (Classic View)</infoName>
+<MarqueeStyleName>CAMBIAR LOGOS EN LISTA DE JUEGOS (Marquee)</MarqueeStyleName>
+<systemViewExInfos>MOSTRAR (InfoEx) EN SISTEMA</systemViewExInfos> 
+<subset.Logosoncarousel>CAMBIAR LOGOS DEL CARRUSEL EN SISTEMA</subset.Logosoncarousel>
+<subset.shader>SHADERS - (POR ENCIMA DE TODO)</subset.shader>
+<subset.colorset>CAMBIAR COLOR DEL SISTEMA (Menus)</subset.colorset>
+</variables>
+
+
+<!-- LENGUAJES (VARIABLES) -->
+<include lang="es_MX">./art/sistemas/variables/es.xml</include>
+<include lang="es">./art/sistemas/variables/es.xml</include>
+<include lang="ca">./art/sistemas/variables/ca.xml</include>
+<include lang="cy">./art/sistemas/variables/cy.xml</include>
+<include lang="eu">./art/sistemas/variables/eu.xml</include>
+<include lang="nl">./art/sistemas/variables/nl.xml</include>
+<include lang="ar">./art/sistemas/variables/ar.xml</include>
+<include lang="pt_BR">./art/sistemas/variables/pt_BR.xml</include>
+<include lang="pt">./art/sistemas/variables/pt.xml</include>
+<include lang="it">./art/sistemas/variables/it.xml</include>
+<include lang="fr">./art/sistemas/variables/fr.xml</include>
+<include lang="ru">./art/sistemas/variables/ru.xml</include>
+<include lang="de">./art/sistemas/variables/de.xml</include>
+<include lang="gr">./art/sistemas/variables/gr.xml</include>
+<include lang="hu">./art/sistemas/variables/hu.xml</include>
+<include lang="el">./art/sistemas/variables/el.xml</include>
+<include lang="tr">./art/sistemas/variables/tr.xml</include>
+<include lang="ja">./art/sistemas/variables/ja.xml</include>
+<include lang="ko">./art/sistemas/variables/ko.xml</include>
+<include lang="oc">./art/sistemas/variables/oc.xml</include>
+<include lang="pl">./art/sistemas/variables/pl.xml</include>
+<include lang="zh">./art/sistemas/variables/zh.xml</include>
+<include lang="nn">./art/sistemas/variables/nn.xml</include>
+<include lang="sv">./art/sistemas/variables/sv.xml</include>
+<include lang="uk">./art/sistemas/variables/uk.xml</include>
+<include lang="en">./art/sistemas/variables/en.xml</include>
+  
+  
+ <!--  Modos de Vistas en sistema -->
+<subset name="systemview" displayName="${systemViewName}">
+<include name="(1)-Carrusel Arcade Grande Con Scanline">./art/sistemas/systemview/arcade grande scanline carusel.xml</include>
+<include name="(2)-Carrusel Arcade Grande Sin Scanline">./art/sistemas/systemview/arcade grande no scanline carusel.xml</include>
+<include name="(1)-Ruleta Limpio">./art/sistemas/systemview/ruleta left limpio.xml</include>
+<include name="(2)-Ruleta Scanline">./art/sistemas/systemview/ruleta left scanline.xml</include>
+<include name="(3)-Ruleta Cristal Rayado">./art/sistemas/systemview/ruleta left glass scrach.xml</include>
+<include name="(1)-Ruleta Video  Rotate">./art/sistemas/systemview/ruleta left scanline video rotation.xml</include>
+<include name="(2)-Ruleta Scanline Video  Girado">./art/sistemas/systemview/ruleta left video rotation.xml</include>
+<include name="(3)-Ruleta Cristal Video  Girado">./art/sistemas/systemview/ruleta left glass scrach video rotation.xml</include>
+<include name="(1)-HYPER-ES THEME (2) Carrusel Fondo Del Sistema">./art/sistemas/systemview/coin-upss2 carusel left.xml</include>
+<include name="(2)-HYPER-ES THEME (2) Carrusel Video Aleatorio">./art/sistemas/systemview/coin-upss2 carusel left video.xml</include>
+<include name="Hyperspin Carousel Derecha">./art/sistemas/systemview/carousel right.xml</include>
+<include name="Hyperspin Carousel Izquierda">./art/sistemas/systemview/carousel left.xml</include>
+<include name="(1)-Carrusel  Maquinita Grande Scanlines">./art/sistemas/systemview/big cabin sacanlines.xml</include>
+<include name="(2)-Carrusel  Maquinita Grande">./art/sistemas/systemview/big cabin.xml</include>
+<include name="(3)-Carrusel  Maquinita Grande Limpio">./art/sistemas/systemview/big cabin sacanlines limpio.xml</include>
+<include name="(4)-Carrusel  Con Scanline">./art/sistemas/systemview/Coin upss Scanline.xml</include>
+<include name="(5)-Carrusel  Scanline 2">./art/sistemas/systemview/Coin upss No Scanline.xml</include>
+<include name="(6)-Carrusel  Con Scanline & Glitch">./art/sistemas/systemview/Coin upss Scanline and glitch.xml</include>
+<include name="(1)-Carrusel  Scanlines grandes">./art/sistemas/systemview/Coin upss next big scnl.xml</include>
+<include name="(2)-Carrusel  Maquinita Obscura">./art/sistemas/systemview/Coin upss next glas scratch.xml</include>
+<include name="(3)-Carrusel  Maquinita Amarilla">./art/sistemas/systemview/Coin upss next yellow Cabinet.xml</include>
+<include name="(1)-Marco 1">./art/sistemas/systemview/FF1.xml</include>
+<include name="(2)-Marco 2">./art/sistemas/systemview/FF2.xml</include>
+<include name="Gamer">./art/sistemas/systemview/gamer.xml</include>
+<include name="Videos Intro De Los Sistemas">./art/sistemas/systemview/intros systems.xml</include>
+<include name="Hard Mix">./art/sistemas/systemview/retrotv.xml</include>
+<include name="V.5.25 Another">./art/sistemas/systemview/pantalla ovalda.xml</include>
+<include name="Mini">./art/sistemas/systemview/mini.xml</include>
+<include name="PandoraBox">./art/sistemas/systemview/pandora.xml</include>
+<include name="PandoraBox 2">./art/sistemas/systemview/pandora2.xml</include>
+<include name="Clasica">./art/sistemas/systemview/classic.xml</include>
+<include name="Clasica 2">./art/sistemas/systemview/classic2.xml</include>
+<include name="Comic Horizontal">./art/sistemas/systemview/comich2.xml</include>
+<include name="Comic Carrusel Derecha">./art/sistemas/systemview/comic carrusel derecha.xml</include>
+<include name="Mano Alzada">./art/sistemas/systemview/freehand.xml</include>
+<include name="Hyperspin 2 Carrusel Izquierda">./art/sistemas/systemview/Hyperspin izq.xml</include>
+<include name="Hyperspin 2 Carrusel Derecha">./art/sistemas/systemview/Hyperspin derh.xml</include>
+<include name="Alterno">./art/sistemas/systemview/alterno.xml</include>
+<include name="SIMPLE VIDEO">./art/sistemas/systemview/simplevideo.xml</include>
+<include name="SIMPLE WALLPAPER">./art/sistemas/systemview/simplewallpaper.xml</include>
+
+<include name="HYPERMAX">./art/sistemas/systemview/hyper.xml</include>
+
+
+<include name="-TATE- IZQUIERDA 1">./art/sistemas/systemview/verticalleft.xml</include>
+<include name="-TATE- IZQUIERDA 2">./art/sistemas/systemview/verticalleft4.xml</include>
+<include name="-TATE- IZQUIERDA MAQUINITA AMARILLA">./art/sistemas/systemview/verticalleft3.xml</include>
+<include name="-TATE- DERECHA">./art/sistemas/systemview/verticalright.xml</include>
+<include name="-TATE- DERECHA- 2">./art/sistemas/systemview/verticalright4.xml</include>
+<include name="-TATE- DERECHA- MAQUINITA AMARILLA">./art/sistemas/systemview/verticalright3.xml</include>
+<include name="-TATE- IZQUIERDA- COMIC 1">./art/sistemas/systemview/tate comic1.xml</include>
+<include name="-TATE- IZQUIERDA- COMIC 2">./art/sistemas/systemview/tate comic2.xml</include>
+
+<include name="(1)-Horizontal Video PANTALLA COMPLETA">./art/sistemas/systemview/horizontal full video random.xml</include>
+<include name="(2)-Horizontal Video Intro Batocera For Snakervill">./art/sistemas/systemview/Horizontal full video intro batocera snkv.xml</include>
+<include name="(3)-Horizontal Video Intro RETROBAT">./art/sistemas/systemview/Horizontal full video intro retrobat.xml</include>
+<include name="(3)-Horizontal FONDO SISTEMA">./art/sistemas/systemview/Horizontal Wallpaper System.xml</include>
+<include name="(4)-Horizontal FONDO SISTEMA Logo HYPER-ES THEME">./art/sistemas/systemview/Horizontal Wallpaper logo batocera.xml</include>
+<include name="(5)-Horizontal FONDO SISTEMA & Minivideo Aleatorio">./art/sistemas/systemview/Horizontal Wallpaper System&MinivideoRandom.xml</include>
+<include name="(6)-Horizontal FONDO SISTEMA & Minivideo con Scanline">./art/sistemas/systemview/Horizontal Wallpaper System&MinivideoRandomScanline.xml</include>
+<include name="(7)-Horizontal Animacion">./art/sistemas/systemview/Horizontal Wallpaper System animation.xml</include>
+<include name="(8)-Horizontal Flat -  Con FONDO SISTEMA">./art/sistemas/systemview/flat wallpaper nes.xml</include>
+<include name="(1)-Vertical Maquinita Grande sin Scanline">./art/sistemas/systemview/arcade grande no scanline vertical.xml</include>
+<include name="(2)-Vertical Maquinita Grande con Scanline">./art/sistemas/systemview/arcade grande scanline vertical.xml</include>
+<include name="(1)-Vertical  con Scanline">./art/sistemas/systemview/Coin upss Vertical Scanline.xml</include>
+<include name="(2)-Vertical  sin Scanline">./art/sistemas/systemview/Coin upss Vertical No Scanline.xml</include>
+<include name="(3)-Vertical  con Scanline & Glitch">./art/sistemas/systemview/Coin upss Vertical Scanline glitch.xml</include>
+<include name="(1)-Vertical Flat - Fondo de sistema">./art/sistemas/systemview/flat wallpaper.xml</include>
+<include name="(2)-Vertical Flat - Video Aleatorio">./art/sistemas/systemview/flat video random.xml</include>
+<include name="(1)-Fondo Retro Consola Cemfundog Vista 1">./art/sistemas/systemview/retroconsol 1.xml</include>
+<include name="(2)-Fondo Retro Consola Cemfundog Vista 2">./art/sistemas/systemview/retroconsol 2.xml</include>
+<include name="(3)-Fondo & video Aleatorio Retro Consola Cemfundog Vista 3">./art/sistemas/systemview/retroconsol 3.xml</include>
+<include name="(1)-Video Aleatorio Retro Consola Cemfundog Vista 2">./art/sistemas/systemview/retroconsol video 2.xml</include>
+<include name="(2)-Video Aleatorio Retro Consola Cemfundog Vista 1">./art/sistemas/systemview/retroconsol video 1.xml</include>
+
+<include name="Pandoras Key 8">./art/sistemas/systemview/pandoraskey8.xml</include>
+<include name="Capcom">./art/sistemas/systemview/capcom.xml</include>
+<include name="KOF">./art/sistemas/systemview/kof.xml</include>
+<include name="8ITOCERA">./art/sistemas/systemview/8itocera.xml</include>
+<include name="ATARI">./art/sistemas/systemview/atari.xml</include>
+<include name="BATRONCERA">./art/sistemas/systemview/batroncera.xml</include>
+<include name="TERRAN">./art/sistemas/systemview/terran.xml</include>
+<include name="YELLOW">./art/sistemas/systemview/yellow.xml</include>
+<include name="RESIDENT E">./art/sistemas/systemview/resident.xml</include>
+<include name="BTCPLS">./art/sistemas/systemview/btcpls.xml</include>
+<include name="WII">./art/sistemas/systemview/wii.xml</include>
+</subset>
+
+
+<!------------------------ MENU-------------------------->
+  <subset name="menu" displayName="${menuName}">
+<include name="Naranja (POR DEFECTO)">./art/sistemas/menus/por defecto.xml</include>
+<include name="IMAGEN BLUR - FUENTE MANO ALZADA">./art/sistemas/menus/menu2.xml</include>
+<include name="FONDO MULTICOLOR - FUENTE COMIC">./art/sistemas/menus/menu3.xml</include>
+<include name="MANO ALZADA - FUENTE MANO ALZADA">./art/sistemas/menus/menu4.xml</include>
+<include name="FONDO OBSCURO - FUENTE Pixel LCD">./art/sistemas/menus/menu5.xml</include>
+<include name="FONDO RUIDO - FUENTE Pixel LCD">./art/sistemas/menus/menu6.xml</include>
+</subset>
+  
+  
+<!-- --------------------------------------- ((( MENU -- OPCIONES DE PERSONAJES ))) -------------------------------- -->
+<subset name="mostrar-personajes" displayName="${mostra-personajesName}">
+
+<!--  MOSTRAR PERSONAJES-->
+<include name="NO (Por Defecto)" displayName="${yes}">./art/sistemas/storyboards/no Activate characters.xml</include>
+<include name="SI" displayName="${yes}">./art/sistemas/storyboards/characters.xml</include>
+</subset>
+
+<!-- storyboards  System Character-->
+<subset name="opciones-de-personajes-en-sistema" displayName="${opciones-de-personajes-en-sistemaName}">
+<include name="•NINGUNO">./art/sistemas/storyboards/system/character/default.xml</include>
+<include name="•Giro">./art/sistemas/storyboards/system/character/giro.xml</include>
+<include name="•Acople">./art/sistemas/storyboards/system/character/acople.xml</include>
+<include name="•Sacudida">./art/sistemas/storyboards/system/character/sacudida.xml</include>
+<include name="•Efecto Hypermax Plus+">./art/sistemas/storyboards/system/character/Efecto Hypermax Plus+.xml</include>
+<include name="•Opacity">./art/sistemas/storyboards/system/character/opacity.xml</include>
+<include name="•EaseOutCubic">./art/sistemas/storyboards/system/character/easeOutCubic.xml</include>
+<include name="•Aparecer Desde Izquierda">./art/sistemas/storyboards/system/character/From Left.xml</include>
+<include name="•Aparecer Desde Abajo">./art/sistemas/storyboards/system/character/From below.xml</include>
+<include name="•Aparecer Desde Arriva">./art/sistemas/storyboards/system/character/From above.xml</include>
+<include name="•Aparecer Desde Derecha">./art/sistemas/storyboards/system/character/From right Slow.xml</include>
+<include name="•Aparecer Lento">./art/sistemas/storyboards/system/character/Appears slow.xml</include>
+<include name="•bump">./art/sistemas/storyboards/system/character/bump.xml</include>
+<include name="•Rebote">./art/sistemas/storyboards/system/character/rebote.xml</include>
+<include name="•Escala">./art/sistemas/storyboards/system/character/scale&rotation.xml</include>
+<include name="•Parpedeo">./art/sistemas/storyboards/system/character/parpedeo.xml</include>
+<include name="•Opacidad y Giro">./art/sistemas/storyboards/system/character/opacity&rotation.xml</include>
+<include name="•Acercamiento">./art/sistemas/storyboards/system/character/Vayven.xml</include>
+<include name="•Extender">./art/sistemas/storyboards/system/character/Vuelta.xml</include>
+<include name="•Extender Hacia Abajo">./art/sistemas/storyboards/system/character/Vuelta centro.xml</include>
+<include name="•Estirar Ala Izquierda">./art/sistemas/storyboards/system/character/Stretch right.xml</include>
+<include name="•Estirar Ala Izquierda & Arriva">./art/sistemas/storyboards/system/character/Stretch left&Up.xml</include>
+<include name="•Estirar">./art/sistemas/storyboards/system/character/vueltas.xml</include>
+<include name="•Parpadeo 2">./art/sistemas/storyboards/system/character/parpadeo2.xml</include>
+<include name="•Glitch">./art/sistemas/storyboards/system/character/glitch.xml</include>
+</subset>
+
+
+<!--  storyboards  Menu Character-->
+<subset name="opciones-de-personajes-en-gamelist" displayName="${opciones-de-personajes-en-gamelistName}">
+<include name="˙NINGUNO">./art/sistemas/storyboards/menu/character/default.xml</include>
+<include name="˙Giro">./art/sistemas/storyboards/menu/character/giro.xml</include>
+<include name="˙Acople">./art/sistemas/storyboards/menu/character/acople.xml</include>
+<include name="˙Sacudida">./art/sistemas/storyboards/menu/character/sacudida.xml</include>
+<include name="˙Efecto Hypermax Plus+">./art/sistemas/storyboards/menu/character/Efecto Hypermax Plus+.xml</include>
+<include name="˙Opacity">./art/sistemas/storyboards/menu/character/opacity.xml</include>
+<include name="˙EaseOutCubic">./art/sistemas/storyboards/menu/character/easeOutCubic.xml</include>
+<include name="˙Aparecer Desde Izquierda">./art/sistemas/storyboards/menu/character/From Left.xml</include>
+<include name="˙Aparecer Desde Abajo">./art/sistemas/storyboards/menu/character/From below.xml</include>
+<include name="˙Aparecer Desde Arriva">./art/sistemas/storyboards/menu/character/From above.xml</include>
+<include name="˙Aparecer Desde Derecha">./art/sistemas/storyboards/menu/character/From right Slow.xml</include>
+<include name="˙Aparecer Lento">./art/sistemas/storyboards/menu/character/Appears slow.xml</include>
+<include name="˙bump">./art/sistemas/storyboards/menu/character/bump.xml</include>
+<include name="˙Rebote">./art/sistemas/storyboards/menu/character/rebote.xml</include>
+<include name="˙Escala">./art/sistemas/storyboards/menu/character/scale&rotation.xml</include>
+<include name="˙Parpedeo">./art/sistemas/storyboards/menu/character/parpedeo.xml</include>
+<include name="˙Opacidad y Giro">./art/sistemas/storyboards/menu/character/opacity&rotation.xml</include>
+<include name="˙Acercamiento">./art/sistemas/storyboards/menu/character/Vayven.xml</include>
+<include name="˙Extender">./art/sistemas/storyboards/menu/character/Vuelta.xml</include>
+<include name="˙Extender hacia abajo">./art/sistemas/storyboards/menu/character/Vuelta centro.xml</include>
+<include name="˙Estirar Ala Izquierda">./art/sistemas/storyboards/menu/character/Stretch right.xml</include>
+<include name="˙Parpadeo2">./art/sistemas/storyboards/menu/character/parpadeo2.xml</include>
+<include name="˙Glitch">./art/sistemas/storyboards/menu/character/glitch.xml</include>
+
+</subset>
+
+
+<!-- --------------------------------------- ((( OPCIONES DE LOGOS ))) -------------------------------- -->
+<subset name="cambiar-logos-en-carrusel" displayName="${cambiar-logos-en-carruselName}">
+<include name="˙Ticket" displayName="${no}">./art/sistemas/storyboards/logos/ticket.xml</include>  
+<include name="˙Silverring" displayName="${no}">./art/sistemas/storyboards/logos/silverring.xml</include>  
+<include name="˙Marquee" displayName="${no}">./art/sistemas/storyboards/logos/marquee.xml</include> 
+<include name="˙Cartucho Nes" displayName="${no}">./art/sistemas/storyboards/logos/nes.xml</include> 
+<include name="˙Comic" displayName="${no}">./art/sistemas/storyboards/logos/comics.xml</include> 
+<include name="˙Consolas" displayName="${no}">./art/sistemas/storyboards/logos/consoles.xml</include>
+<include name="˙Simples" displayName="${no}">./art/sistemas/storyboards/logos/simples.xml</include>     
+<include name="˙Personajes" displayName="${no}">./art/sistemas/storyboards/logos/characters.xml</include>   
+</subset>
+
+<!--  tipo de marquesina -->
+<subset name="cambiar-logos-en-gamelist" displayName="${cambiar-logos-en-gamelistName}">
+<include name=" ˙Logos">./art/sistemas/storyboards/menu/logo/silverring.xml</include>
+<include name=" ˙Marquee">./art/sistemas/storyboards/menu/logo/marquee.xml</include>
+<include name=" ˙Silverring">./art/sistemas/storyboards/menu/logo/silverring.xml</include>
+<include name=" ˙Ticket">./art/sistemas/storyboards/menu/logo/ticket.xml</include>
+</subset>
+
+<!-- MOVIMIENTO EN LOGO SELECCIONADO DEL CARRUSEL EN SISTEMA-->
+<subset name="activar-movimiento-en-logo-de-carrusel" displayName="${activar-movimiento-en-logo-de-carruselName}">
+<include name="˙NINGUNO" displayName="${si}">./art/sistemas/storyboards/logos/movimiento en carrusel NO.xml</include>
+<include name="˙BUMP" displayName="${si}">./art/sistemas/storyboards/logos/movimiento en carrusel SI.xml</include>
+<include name="˙GLITCH" displayName="${si}">./art/sistemas/storyboards/logos/movimiento en carrusel GLITCH.xml</include>
+<include name="˙PARPADEO" displayName="${si}">./art/sistemas/storyboards/logos/movimiento en carrusel PARPADEO.xml</include>
+<include name="˙SACUDIDA" displayName="${si}">./art/sistemas/storyboards/logos/movimiento en carrusel SACUDIDA.xml</include>
+<include name="˙ESTIRAR" displayName="${si}">./art/sistemas/storyboards/logos/movimiento en carrusel ESTIRAR.xml</include>
+<include name="˙BLINK" displayName="${si}">./art/sistemas/storyboards/logos/movimiento en carrusel BLINK.xml</include>
+<include name="˙ESTIRAR DESDE CENTRO" displayName="${si}">./art/sistemas/storyboards/logos/movimiento en carrusel ESTIRAR DESDE CENTRO.xml</include>
+<include name="˙BUMP DESDE CENTRO" displayName="${si}">./art/sistemas/storyboards/logos/movimiento en carrusel BUMP DESDE CENTRO.xml</include>
+</subset>
+
+
+<!-- --------------------------------------- ((( OPCIONES DE IMAGEN DE FONDO ))) -------------------------------- -->
+<!--  color en backgrownd -->
+<subset name="opciones-imagen-de-fondo" displayName="${subset.opciones-imagen-de-fondo}">
+<include name="Color Normal ( POR DEFECTO)" displayName="${Orange}">./art/sistemas/storyboards/colorbg/normal.xml</include>
+<include name="˙Fuchsia" displayName="${red}">./art/sistemas/storyboards/colorbg/violeta.xml</include>
+<include name="˙Verde" displayName="${red}">./art/sistemas/storyboards/colorbg/verde.xml</include>
+<include name="˙Naranja" displayName="${red}">./art/sistemas/storyboards/colorbg/naranja.xml</include>
+<include name="˙Rojo" displayName="${red}">./art/sistemas/storyboards/colorbg/rojo.xml</include>
+<include name="˙Amarillo" displayName="${red}">./art/sistemas/storyboards/colorbg/amarillo.xml</include>
+<include name="˙Aqua" displayName="${red}">./art/sistemas/storyboards/colorbg/aqua.xml</include>
+<include name="˙Azul" displayName="${red}">./art/sistemas/storyboards/colorbg/azul.xml</include>
+
+<!--  Animate Backgrownd-->
+<include name="(( APLICAR ANIMACION A LA IMAGEN DE FONDO ))" displayName="${yes}"></include>
+<include name="Sin Animar (POR DEFECTO)" displayName="${yes}">./art/sistemas/storyboards/backgrownd/none.xml</include>
+<include name="˙Bump" displayName="${yes}">./art/sistemas/storyboards/backgrownd/bump.xml</include>
+<include name="˙Blink" displayName="${yes}">./art/sistemas/storyboards/backgrownd/blink.xml</include>
+<include name="˙Desde Arriva & Abajo" displayName="${yes}">./art/sistemas/storyboards/backgrownd/move.xml</include>
+<include name="˙Sacudida" displayName="${yes}">./art/sistemas/storyboards/backgrownd/sacudida.xml</include>
+<include name="˙Efecto Hypermax Plus+" displayName="${red}">./art/sistemas/storyboards/backgrownd/Efecto Hypermax Plus+.xml</include>
+<include name="˙Giro" displayName="${yes}">./art/sistemas/storyboards/backgrownd/giro.xml</include>
+<include name="˙Parpedeo" displayName="${yes}">./art/sistemas/storyboards/backgrownd/parpedeo.xml</include>
+<include name="˙De derercha A Izquierda" displayName="${yes}">./art/sistemas/storyboards/backgrownd/from right to left.xml</include>
+<include name="˙Tremor" displayName="${yes}">./art/sistemas/storyboards/backgrownd/tremor.xml</include>
+<include name="˙Temblor" displayName="${yes}">./art/sistemas/storyboards/backgrownd/shake.xml</include>
+<include name="˙Estirar ala derecha" displayName="${yes}">./art/sistemas/storyboards/backgrownd/Stretch right.xml</include>
+<include name="˙Estirar en Varios Angulos" displayName="${yes}">./art/sistemas/storyboards/backgrownd/For all sides.xml</include>
+<include name="˙Estirar hacia Abajo" displayName="${yes}">./art/sistemas/storyboards/backgrownd/Stretch down.xml</include>
+<include name="˙Vueltas" displayName="${yes}">./art/sistemas/storyboards/backgrownd/vueltas.xml</include>
+<include name="˙Cambiar Color De Rojo a Naranja" displayName="${red}">./art/sistemas/storyboards/colorbg/rojo&naranja.xml</include>
+<include name="˙Cambiar Color De Amarillo a Rojo" displayName="${red}">./art/sistemas/storyboards/colorbg/rojo&naranja.xml</include>
+<include name="˙Cambiar Color De Verde a Azul" displayName="${red}">./art/sistemas/storyboards/colorbg/verde2azul.xml</include>
+<include name="˙Cambiar Color De Fuchsia a Amarillo" displayName="${red}">./art/sistemas/storyboards/colorbg/fuchia2amarillo.xml</include>
+</subset>
+
+
+<!-- --------------------------------------- ((( OPCIONES DE SONIDO SISTEMA Y GAMELIST ))) -------------------------------- -->
+
+<!-- sonidos en sistema-->
+<subset name="aplicar-sonido-en-carrusel" displayName="${subset.aplicar-sonido-en-carrusel}">
+<include name="˙Ninguno ((POR DEFECTO))" displayName="${none}"/>
+<include name="˙dkJump">./art/sistemas/sounds navigation/dkjump.xml</include>
+<include name="˙smwactivated">./art/sistemas/sounds navigation/smw activated.xml</include>
+<include name="˙basic">./art/sistemas/sounds navigation/basic.xml</include>
+<include name="˙beep_4">./art/sistemas/sounds navigation/beep_4.xml</include>
+<include name="˙beep_5">./art/sistemas/sounds navigation/beep_5.xml</include>
+<include name="˙beep_9">./art/sistemas/sounds navigation/beep_9.xml</include>
+<include name="˙beep_11">./art/sistemas/sounds navigation/beep_11.xml</include>
+<include name="˙beep_12">./art/sistemas/sounds navigation/beep_12.xml</include>
+<include name="˙beep_13">./art/sistemas/sounds navigation/beep_13.xml</include>
+<include name="˙beep_19">./art/sistemas/sounds navigation/beep_19.xml</include>
+<include name="˙beep_20">./art/sistemas/sounds navigation/beep_20.xml</include>
+<include name="˙beep_21">./art/sistemas/sounds navigation/beep_21.xml</include>
+<include name="˙highlight">./art/sistemas/sounds navigation/highlight.xml</include>
+<include name="˙keyok2">./art/sistemas/sounds navigation/keyok2.xml</include>
+<include name="˙keyok3">./art/sistemas/sounds navigation/keyok3.xml</include>
+<include name="˙keyok5">./art/sistemas/sounds navigation/keyok5.xml</include>
+<include name="˙lm_coin">./art/sistemas/sounds navigation/lm_coin.xml</include>
+<include name="˙lm_ghost">./art/sistemas/sounds navigation/lm_ghost.xml</include>
+<include name="˙load">./art/sistemas/sounds navigation/load.xml</include>
+<include name="˙mb_jump">./art/sistemas/sounds navigation/mb_jump.xml</include>
+<include name="˙mb_sc">./art/sistemas/sounds navigation/mb_sc.xml</include>
+<include name="˙mb_touch">./art/sistemas/sounds navigation/mb_touch.xml</include>
+<include name="˙no_damage">./art/sistemas/sounds navigation/no_damage.xml</include>
+<include name="˙nsmb_pause">./art/sistemas/sounds navigation/nsmb_pause.xml</include>
+<include name="˙romulan_beep1">./art/sistemas/sounds navigation/romulan_beep1.xml</include>
+<include name="˙scroll">./art/sistemas/sounds navigation/scroll.xml</include>
+<include name="˙scroll2">./art/sistemas/sounds navigation/scroll2.xml</include>
+<include name="˙scroll3">./art/sistemas/sounds navigation/scroll3.xml</include>
+<include name="˙smb3_map_travel">./art/sistemas/sounds navigation/smb3_map_travel.xml</include>
+<include name="˙smw_1-up">./art/sistemas/sounds navigation/smw_1-up.xml</include>
+<include name="˙smw_coin">./art/sistemas/sounds navigation/smw_coin.xml</include>
+<include name="˙smw_fireball">./art/sistemas/sounds navigation/smw_fireball.xml</include>
+<include name="˙smw_kick">./art/sistemas/sounds navigation/smw_kick.xml</include>
+<include name="˙smw_stomp">./art/sistemas/sounds navigation/smw_stomp.xml</include>
+<include name="˙systemsound">./art/sistemas/sounds navigation/systemsound.xml</include>
+</subset>
+
+<!--  sonidos de navegacion para grid & gamelist -->
+<subset name="aplicar-sonido-en-gamelist" displayName="${subset.aplicar-sonido-en-gamelistl}">
+<include name="•Ninguno (POR DEFECTO)" displayName="${none}"/>
+<include name="•dkJump">./art/sistemas/sounds navigation/sndgrid/dkjump.xml</include>
+<include name="•smwactivated">./art/sistemas/sounds navigation/sndgrid/smw activated.xml</include>
+<include name="•basic">./art/sistemas/sounds navigation/sndgrid/basic.xml</include>
+<include name="•beep_4">./art/sistemas/sounds navigation/sndgrid/beep_4.xml</include>
+<include name="•beep_5">./art/sistemas/sounds navigation/sndgrid/beep_5.xml</include>
+<include name="•beep_9">./art/sistemas/sounds navigation/sndgrid/beep_9.xml</include>
+<include name="•beep_11">./art/sistemas/sounds navigation/sndgrid/beep_11.xml</include>
+<include name="•beep_12">./art/sistemas/sounds navigation/sndgrid/beep_12.xml</include>
+<include name="•beep_13">./art/sistemas/sounds navigation/sndgrid/beep_13.xml</include>
+<include name="•beep_19">./art/sistemas/sounds navigation/sndgrid/beep_19.xml</include>
+<include name="•beep_20">./art/sistemas/sounds navigation/sndgrid/beep_20.xml</include>
+<include name="•beep_21">./art/sistemas/sounds navigation/sndgrid/beep_21.xml</include>
+<include name="•highlight">./art/sistemas/sounds navigation/sndgrid/highlight.xml</include>
+<include name="•keyok2">./art/sistemas/sounds navigation/sndgrid/keyok2.xml</include>
+<include name="•keyok3">./art/sistemas/sounds navigation/sndgrid/keyok3.xml</include>
+<include name="•keyok5">./art/sistemas/sounds navigation/sndgrid/keyok5.xml</include>
+<include name="•lm_coin">./art/sistemas/sounds navigation/sndgrid/lm_coin.xml</include>
+<include name="•lm_ghost">./art/sistemas/sounds navigation/sndgrid/lm_ghost.xml</include>
+<include name="•load">./art/sistemas/sounds navigation/sndgrid/load.xml</include>
+<include name="•mb_jump">./art/sistemas/sounds navigation/sndgrid/mb_jump.xml</include>
+<include name="•mb_sc">./art/sistemas/sounds navigation/sndgrid/mb_sc.xml</include>
+<include name="•mb_touch">./art/sistemas/sounds navigation/sndgrid/mb_touch.xml</include>
+<include name="•no_damage">./art/sistemas/sounds navigation/sndgrid/no_damage.xml</include>
+<include name="•nsmb_pause">./art/sistemas/sounds navigation/sndgrid/nsmb_pause.xml</include>
+<include name="•romulan_beep1">./art/sistemas/sounds navigation/sndgrid/romulan_beep1.xml</include>
+<include name="•scroll">./art/sistemas/sounds navigation/sndgrid/scroll.xml</include>
+<include name="•scroll2">./art/sistemas/sounds navigation/sndgrid/scroll2.xml</include>
+<include name="•scroll3">./art/sistemas/sounds navigation/sndgrid/scroll3.xml</include>
+<include name="•smb3_map_travel">./art/sistemas/sounds navigation/sndgrid/smb3_map_travel.xml</include>
+<include name="•smw_1-up">./art/sistemas/sounds navigation/sndgrid/smw_1-up.xml</include>
+<include name="•smw_coin">./art/sistemas/sounds navigation/sndgrid/smw_coin.xml</include>
+<include name="•smw_fireball">./art/sistemas/sounds navigation/sndgrid/smw_fireball.xml</include>
+<include name="•smw_kick">./art/sistemas/sounds navigation/sndgrid/smw_kick.xml</include>
+<include name="•smw_stomp">./art/sistemas/sounds navigation/sndgrid/smw_stomp.xml</include>
+<include name="•systemsound">./art/sistemas/sounds navigation/sndgrid/systemsound.xml</include>
+</subset>
+
+
+
+<!-- --------------------------------------- ((( OPCIONES DE VIDEO ))) -------------------------------- -->
+<!--storyboards  System Video  -->
+<subset name="opciones-de-video-sistema" displayName="${subset.opciones-de-video-sistema}">
+<include name="˙Ninguno (POR DEFECTO)" displayName="${none}"/>
+<include name="˙EaseOutCubic">./art/sistemas/storyboards/system/video/easeOutCubic.xml</include>
+<include name="˙Aparecer Desde La Izquierda">./art/sistemas/storyboards/system/video/From Left.xml</include>
+<include name="˙Aparecer Lento">./art/sistemas/storyboards/system/video/Appears slow.xml</include>
+<include name="˙Aparecer Desde Abajo">./art/sistemas/storyboards/system/video/From below.xml</include>
+<include name="˙Opacidad">./art/sistemas/storyboards/system/video/Opacity.xml</include>
+<include name="˙Aparecer Desde Arriva">./art/sistemas/storyboards/system/video/From above.xml</include>
+<include name="˙Bump">./art/sistemas/storyboards/system/video/bump.xml</include>
+<include name="˙Aparecer Desde La Derecha Lento">./art/sistemas/storyboards/system/video/From right Slow.xml</include>
+<include name="˙Sacudida">./art/sistemas/storyboards/system/video/sacudida.xml</include>
+</subset>
+
+<!--storyboards  Menu Video -->
+<subset name="opciones-de-video-gamelist" displayName="${subset.opciones-de-video-gamelist}">
+<include name="•Ninguno ((POR DEFECTO))" displayName="${none}"/>
+<include name="•EaseOutCubic">./art/sistemas/storyboards/menu/video/easeOutCubic.xml</include>
+<include name="•Aparecer Desde Izquierda">./art/sistemas/storyboards/menu/video/From Left.xml</include>
+<include name="•Aparecer Lento">./art/sistemas/storyboards/menu/video/Appears slow.xml</include>
+<include name="•Aparecer Desde Abajo">./art/sistemas/storyboards/menu/video/From below.xml</include>
+<include name="•Opacidad">./art/sistemas/storyboards/menu/video/Opacity.xml</include>
+<include name="•Aparecer Desde Arriva">./art/sistemas/storyboards/menu/video/From above.xml</include>
+<include name="•Bump">./art/sistemas/storyboards/menu/video/bump.xml</include>
+<include name="•Aparecer Desde Derecha Lento">./art/sistemas/storyboards/menu/video/From right Slow.xml</include>
+</subset>
+
+
+<!--  color en efectos y texto -->
+<subset name="Colorset" displayName="${subset.colorset}">
+<include name="Naranja" displayName="${Orange}">./art/sistemas/colors/orange.xml</include>
+<include name="Rojo" displayName="${red}">./art/sistemas/colors/red.xml</include>
+<include name="Azul" displayName="${blue}">./art/sistemas/colors/blue.xml</include>
+<include name="Verde" displayName="${green}">./art/sistemas/colors/green.xml</include>  
+<include name="Amarillo" displayName="${yellow}">./art/sistemas/colors/yellow.xml</include>
+<include name="Negro" displayName="${Black}">./art/sistemas/colors/Black.xml</include>
+<include name="Gris" displayName="${Grey}">./art/sistemas/colors/grey.xml</include>
+</subset>
+
+<!--Show  Info-->
+ <subset name="info" displayName="${infoName}">
+<include name="Español  (Por Defecto)" displayName="${yes}">./art/sistemas/infosys/es/${system.theme}.xml</include>
+<include name="Italiano" displayName="${yes}">./art/sistemas/infosys/it/${system.theme}.xml</include>
+<include name="Frances" displayName="${yes}">./art/sistemas/infosys/fr/${system.theme}.xml</include>
+<include name="Portuges" displayName="${yes}">./art/sistemas/infosys/pt/${system.theme}.xml</include>
+<include name="Ingles" displayName="${yes}">./art/sistemas/infosys/en/${system.theme}.xml</include>
+</subset>
+
+<!--  systemInfoEx-->
+<subset name="ShowsystemInfoEx" displayName="${systemViewExInfos}" tinyScreen="false">
+<include name="No" displayName="${no}"/>
+<include name="Juegos Jugados" displayName="${yes}">./art/sistemas/storyboards/systemInfoEx/Games played.xml</include>
+<include name="Juegos Totales" displayName="${yes}">./art/sistemas/storyboards/systemInfoEx/Total.xml</include>
+<include name="Favoritos" displayName="${yes}">./art/sistemas/storyboards/systemInfoEx/Favorites.xml</include>
+<include name="Juegos Mas Jugados" displayName="${yes}">./art/sistemas/storyboards/systemInfoEx/Most played.xml</include>
+<include name="Jugados" displayName="${yes}">./art/sistemas/storyboards/systemInfoEx/Played.xml</include>
+<include name="Ocultos" displayName="${yes}">./art/sistemas/storyboards/systemInfoEx/Hidden.xml</include>
+<include name="Ultimos Jugados" displayName="${yes}">./art/sistemas/storyboards/systemInfoEx/Last played.xml</include>
+</subset>
+
+
+<!--  Efectos en pantalla encima de todo -->
+<subset name="Shader" displayName="${subset.shader}">
+<include name="Ninguno" displayName="${none}"/>
+<include name="Crt">./art/sistemas/shader/crt.xml</include>
+<include name="Filtro 2">./art/sistemas/shader/fitro 2.xml</include>
+<include name="Papel Para Comic View">./art/sistemas/shader/efecto papel arrugado.xml</include>
+<include name="ScanLines">./art/sistemas/shader/scanlines.xml</include>
+<include name="ScanLines-2">./art/sistemas/shader/scanlines3.xml</include>
+<include name="ScanLines-3">./art/sistemas/shader/scanlines4.xml</include>
+<include name="ScanLines-4">./art/sistemas/shader/scanlines5.xml</include>
+<include name="ScanLines-5">./art/sistemas/shader/scanlines7.xml</include>
+<include name="ScanLines-6">./art/sistemas/shader/scanlines10.xml</include>
+<include name="ScanLines vertical">./art/sistemas/shader/scanlines vertical.xml</include>
+<include name="Efecto Cristal">./art/sistemas/shader/glass effect.xml</include>
+<include name="Filtro Azul">./art/sistemas/shader/filtro hue blue.xml</include>
+</subset>
+
+
+<!--system -->
+<view name="system">
+<image name="background" extra="true">
+<tile>true</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/system.png</path>
+</image>
+    
+<text name="logoText">
+<fontPath>./art/sistemas/fuentes/.ttf</fontPath>
+<color>${baseColor}</color>
+<fontSize>0.060</fontSize>
+<forceUppercase>true</forceUppercase>
+</text>
+<image name="logo">
+<path>./${system.theme}/art/system-${lang}.png</path>
+<path>./${system.theme}/art/system-${lang}.svg</path>
+</image>
+</view>
+  
+  
+<!--------------------------- Pantalla por encima de todo------------------------------------- -->
+<view name="screen">
+<text name="clock">
+<textColor>777777FF</textColor>
+<fontSize>0.035</fontSize>
+<pos>0.90 0.94</pos>
+<size>0.09 0.058</size>
+<fontSize>0.020</fontSize>
+<alignment>right</alignment>
+<verticalAlignment>center</verticalAlignment>
+</text>
+<controllerActivity name="controllerActivity">
+<pos>0.01 0.01</pos>
+<size>0.085 0.025</size>
+<itemSpacing>0.003</itemSpacing>
+<imagePath>./art/gamepad.svg</imagePath>
+<color>FFFFFF80</color>
+<activityColor>A0A0FFC0</activityColor>
+<hotkeyColor>FFA0A0C0</hotkeyColor>
+</controllerActivity>
+
+<text name="marca de agua" extra="true">
+<pos>0.0 0.974</pos>
+<size>0.285 0.025</size>
+<text>HYPER-ES-THEME</text>
+<fontSize>0.015</fontSize>
+<fontPath>./art/sistemas/fuentes/Anticlimax.ttf</fontPath>
+<color>ffffff50</color>
+<forceUppercase>true</forceUppercase>
+</text>
+</view>
+  
+  
+<!---------------------------  VISTAS EN LISTA DE JUEGOS----------------------- -->
+
+<include name="BASICO">./art/sistemas/vista-lista-juegos/basico.xml</include>
+<include name="DETALLADO">./art/sistemas/vista-lista-juegos/detalle.xml</include>
+<include name="GRID">./art/sistemas/vista-lista-juegos/grid.xml</include>
+<include name="(1)-Grid Scanline">./art/sistemas/vista-lista-juegos/Grid Scanline.xml</include>
+<include name="(2)-Grid Detalle">./art/sistemas/vista-lista-juegos/Grid Detalle.xml</include>
+<include name="CARRUSEL">./art/sistemas/vista-lista-juegos/carrusel.xml</include>
+<include name="GAME CARRUSEL">./art/sistemas/vista-lista-juegos/gamecarousel.xml</include>
+<include name="MAQUINITA GRANDE  CARRUSEL DERECHA">./art/sistemas/vista-lista-juegos/MAQUINITA GRANDE  CARRUSEL DERECHA.xml</include>
+<include name="MAQUINITA GRANDE  CARRUSEL IZQUIERDA">./art/sistemas/vista-lista-juegos/MAQUINITA GRANDE  CARRUSEL IZQUIERDA.xml</include>
+<include name="(1)-MAQUINITA OBSCURA & LOGOS VERTICAL IZQUIERDA">./art/sistemas/vista-lista-juegos/(1)-MAQUINITA OBSCURA & LOGOS VERTICAL IZQUIERDA.xml</include>
+ <include name="(2)-MAQUINITA OBSCURA - LOGOS VERTICAL IZQUIERDA Con Scanline">./art/sistemas/vista-lista-juegos/carrusel.xml</include>
+ <include name="CARRUSEL">./art/sistemas/vista-lista-juegos/(2)-MAQUINITA OBSCURA - LOGOS VERTICAL IZQUIERDA Con Scanline.xml</include>
+ <include name="(1)-MAQUINITA AMARILLA GRANDE - LOGOS VERTICAL DERECHA">./art/sistemas/vista-lista-juegos/(1)-MAQUINITA AMARILLA GRANDE - LOGOS VERTICAL DERECHA.xml</include>
+ <include name="(2)-MAQUINITA OBSCURA GRANDE - LOGOS VERTICAL DERECHA">./art/sistemas/vista-lista-juegos/(2)-MAQUINITA OBSCURA GRANDE - LOGOS VERTICAL DERECHA.xml</include>
+ <include name="(1)-MAQUINITA LARGA  AMARILLA - LOGOS VERTICAL DERECHA & SCANLIN">./art/sistemas/vista-lista-juegos/(1)-MAQUINITA LARGA  AMARILLA - LOGOS VERTICAL DERECHA & SCANLIN.xml</include>
+ <include name="(2)-MAQUINITA LARGA  AMARILLA - LOGOS VERTICAL DERECHA">./art/sistemas/vista-lista-juegos/(2)-MAQUINITA LARGA  AMARILLA - LOGOS VERTICAL DERECHA.xml</include>
+ <include name="(1)-MAQUINITA MEDIA  OBSCURA - LOGOS VERTICAL DERECHA & SCANLINE">./art/sistemas/vista-lista-juegos/(1)-MAQUINITA MEDIA  OBSCURA - LOGOS VERTICAL DERECHA & SCANLINE.xml</include>
+ <include name="(2)-MAQUINITA MEDIA  OBSCURA - LOGOS VERTICAL DERECHA">./art/sistemas/vista-lista-juegos/(2)-MAQUINITA MEDIA  OBSCURA - LOGOS VERTICAL DERECHA.xml</include>
+ <include name="(3)-MAQUINITA OBSCURA CRISTAL - LOGOS VERTICAL DERECHA & SCANLINE">./art/sistemas/vista-lista-juegos/(3)-MAQUINITA OBSCURA CRISTAL - LOGOS VERTICAL DERECHA & SCANLINE.xml</include>
+ <include name="(4)-MAQUINITA  OBSCURA CRISTAL - LOGOS VERTICAL DERECHA">./art/sistemas/vista-lista-juegos/(4)-MAQUINITA  OBSCURA CRISTAL - LOGOS VERTICAL DERECHA.xml</include>
+ <include name="(1)-MAQUINITA AMARILLA GRANDE CON SCANLINE, LOGOS VERTICAL DERECHA">./art/sistemas/vista-lista-juegos/(1)-MAQUINITA AMARILLA GRANDE CON SCANLINE, LOGOS VERTICAL DERECHA.xml</include>
+ <include name="(2)-MAQUINITA AMARILLA GRANDE, LOGOS VERTICAL DERECHA">./art/sistemas/vista-lista-juegos/(2)-MAQUINITA AMARILLA GRANDE, LOGOS VERTICAL DERECHA.xml</include>
+ <include name="(1)-MAQUINITA OBSCURA CON SCANLINE, LOGOS VERTICAL DERECHA CON GLITCH 1">./art/sistemas/vista-lista-juegos/(1)-MAQUINITA OBSCURA CON SCANLINE, LOGOS VERTICAL DERECHA CON GLITCH 1.xml</include>
+ <include name="(2)-MAQUINITA OBSCURA CON SCANLINE, LOGOS VERTICAL DERECHA CON GLITCH 2">./art/sistemas/vista-lista-juegos/(2)-MAQUINITA OBSCURA CON SCANLINE, LOGOS VERTICAL DERECHA CON GLITCH 2.xml</include>
+ <include name="(3)-MAQUINITA OBSCURA CON SCANLINE, LOGOS VERTICAL DERECHA CON GLITCH 3">./art/sistemas/vista-lista-juegos/(3)-MAQUINITA OBSCURA CON SCANLINE, LOGOS VERTICAL DERECHA CON GLITCH 3.xml</include>
+ <include name="(4)-MAQUINITA OBSCURA CON SCANLINE, LOGOS VERTICAL DERECHA CON GLITCH 4">./art/sistemas/vista-lista-juegos/(4)-MAQUINITA OBSCURA CON SCANLINE, LOGOS VERTICAL DERECHA CON GLITCH 4.xml</include>
+<include name="ESTILO PLANO. MAQUINITA OBSCURA- LOGOS VERTICAL DERECHA">./art/sistemas/vista-lista-juegos/ESTILO PLANO. MAQUINITA OBSCURA- LOGOS VERTICAL DERECHA.xml</include>
+<include name="(1)-MAQUINITA 2 - AMARILLA, LOGOS VERTICAL DERECHA">./art/sistemas/vista-lista-juegos/(1)-MAQUINITA 2 - AMARILLA, LOGOS VERTICAL DERECHA.xml</include>
+<include name="(2)-MAQUINITA 2 - OBSCURA, LOGOS VERTICAL DERECHA">./art/sistemas/vista-lista-juegos/(2)-MAQUINITA 2 - OBSCURA, LOGOS VERTICAL DERECHA.xml</include>
+<include name="(1)-VIDEO SIN EZQUINAS-CRYSTAL RAYADO. LOGOS VERTICAL IZQUIERDA">./art/sistemas/vista-lista-juegos/(1)-VIDEO SIN EZQUINAS-CRYSTAL RAYADO. LOGOS VERTICAL IZQUIERDA.xml</include>
+<include name="(2)-VIDEO SIN EZQUINAS-CRYSTAL RAYADO. LOGOS VERTICAL DERECHA">./art/sistemas/vista-lista-juegos/(2)-VIDEO SIN EZQUINAS-CRYSTAL RAYADO. LOGOS VERTICAL DERECHA.xml</include>
+<include name="VIDEO GIRADO SIN EZQUINAS-CRYSTAL RAYADO. LOGOS VERTICAL IZQUIERDA">./art/sistemas/vista-lista-juegos/VIDEO GIRADO SIN EZQUINAS-CRYSTAL RAYADO. LOGOS VERTICAL IZQUIERDA.xml</include>
+<include name="GAMER - LOGOS VERTICAL DERECHA">./art/sistemas/vista-lista-juegos/GAMER - LOGOS VERTICAL DERECHA.xml</include>
+<include name="FONDO EFECTO MULTICOLOR - LOGOS HIRIZONTAL">./art/sistemas/vista-lista-juegos/FONDO EFECTO MULTICOLOR - LOGOS HIRIZONTAL.xml</include>
+<include name="HypersPin 2 Carrusel Izquierda">./art/sistemas/vista-lista-juegos/HypersPin 2 Carrusel Izquierda.xml</include>
+<include name="HypersPin 2 Carrusel Derecha">./art/sistemas/vista-lista-juegos/HypersPin 2 Carrusel derecha.xml</include>
+<include name="VIDEO INTRO - LOGOS VERTICAL IZQUIERDA">./art/sistemas/vista-lista-juegos/VIDEO INTRO - LOGOS VERTICAL IZQUIERDA.xml</include>
+<include name="HARD MIX - LOGOS VERTICAL IZQUIERDA">./art/sistemas/vista-lista-juegos/HARD MIX - LOGOS VERTICAL IZQUIERDA.xml</include>
+<include name="V.5.25 Another- LOGOS VERTICAL DERECHA">./art/sistemas/vista-lista-juegos/V.5.25 Another- LOGOS VERTICAL DERECHA.xml</include>
+<include name="MINI -- LOGOS CARRUSEL DERECHA">./art/sistemas/vista-lista-juegos/MINI -- LOGOS CARRUSEL DERECHA.xml</include>
+<include name="PANDORABOX 1">./art/sistemas/vista-lista-juegos/PANDORABOX 1.xml</include>
+<include name="PANDORABOX 2">./art/sistemas/vista-lista-juegos/PANDORABOX 2.xml</include>
+<include name="CLASICA">./art/sistemas/vista-lista-juegos/CLASICA.xml</include>
+<include name="COMIC">./art/sistemas/vista-lista-juegos/COMIC.xml</include>
+<include name="COMIC CARRUSEL DERECHA">./art/sistemas/vista-lista-juegos/comic carrusel derecha.xml</include>
+<include name="MANO ALZADA">./art/sistemas/vista-lista-juegos/MANO ALZADA.xml</include>
+<include name="Alterno">./art/sistemas/vista-lista-juegos/alterno.xml</include>
+<include name="SIMPLE VIDEO">./art/sistemas/vista-lista-juegos/simplevideo.xml</include>
+<include name="HYPERMAX">./art/sistemas/vista-lista-juegos/hyper.xml</include>
+<include name="-TATE  IZQUIERDA - MAQUINITA OBSCURA">./art/sistemas/vista-lista-juegos/-TATE  IZQUIERDA - MAQUINITA OBSCURA.xml</include>
+<include name="-TATE  IZQUIERDA - MAQUINITA AMARILLA">./art/sistemas/vista-lista-juegos/-TATE  IZQUIERDA - MAQUINITA AMARILLA.xml</include>
+<include name="-TATE  DERECHA - MAQUINITA OBSCURA">./art/sistemas/vista-lista-juegos/-TATE  DERECHA - MAQUINITA OBSCURA.xml</include>
+<include name="-TATE  DERECHA - MAQUINITA AMARILLA">./art/sistemas/vista-lista-juegos/-TATE  DERECHA - MAQUINITA AMARILLA.xml</include>
+<include name="-TATE- COMIC BLANCO">./art/sistemas/vista-lista-juegos/-TATE- COMIC BLANCO.xml</include>
+<include name="-TATE- COMIC COLOR">./art/sistemas/vista-lista-juegos/-TATE- COMIC COLOR.xml</include>
+<include name="-TATE- COMIC CON comic book dots">./art/sistemas/vista-lista-juegos/-TATE- COMIC CON comic book dots.xml</include>
+<include name="Pandoras Key 8">./art/sistemas/vista-lista-juegos/Pandoras Key 8.xml</include>
+<include name="Capcom">./art/sistemas/vista-lista-juegos/Capcom.xml</include>
+<include name="KOF">./art/sistemas/vista-lista-juegos/KOF.xml</include>
+<include name="8ITOCERA">./art/sistemas/vista-lista-juegos/8ITOCERA.xml</include>
+<include name="ATARI">./art/sistemas/vista-lista-juegos/ATARI.xml</include>
+<include name="BATRONCERA">./art/sistemas/vista-lista-juegos/BATRONCERA.xml</include>
+<include name="TERRAN">./art/sistemas/vista-lista-juegos/TERRAN.xml</include>
+<include name="AMARILLO">./art/sistemas/vista-lista-juegos/AMARILLO.xml</include>
+<include name="RESIDENT E">./art/sistemas/vista-lista-juegos/RESIDENT E.xml</include>
+<include name="BTCPLS">./art/sistemas/vista-lista-juegos/BTCPLS.xml</include>
+<include name="WII">./art/sistemas/vista-lista-juegos/WII.xml</include>
+<include name="MAQUINITA OBSCURA CON SCANLINE - LOGOS CARATULAS VERTICAL DERECHA">./art/sistemas/vista-lista-juegos/MAQUINITA OBSCURA CON SCANLINE - LOGOS CARATULAS VERTICAL DERECHA.xml</include>
+<include name="MAQUINITA OBSCURA - LOGOS CARATULAS VERTICAL DERECHA">./art/sistemas/vista-lista-juegos/MAQUINITA OBSCURA - LOGOS CARATULAS VERTICAL DERECHA.xml</include>
+<include name="MAQUINITA OBSCURA--SCANLINE & GLITCH - LOGOS CARATULAS VERTICAL DERECHA">./art/sistemas/vista-lista-juegos/MAQUINITA OBSCURA--SCANLINE & GLITCH - LOGOS CARATULAS VERTICAL DERECHA.xml</include>
+<include name="CARRUSEL">./art/sistemas/vista-lista-juegos/carrusel.xml</include>
+</theme>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="basic, detailed, grid, carousel, gamecarousel">
+<image name="personaje" extra="true">
+<storyboard>       
+<animation property="scale" from="0" to="1" duration="2800" mode="easeOutCubic"/>  
+<animation property="scale" begin="11000" from="0" to="1" duration="2800" mode="easeOutCubic"/>  
+<animation property="scale" begin="22000" from="0" to="1" duration="2800" mode="easeOutCubic"/>
+<animation property="scale" begin="33000" from="0" to="1" duration="2800" mode="easeOutCubic"/>
+<animation property="scale" begin="44000" from="0" to="1" duration="2800" mode="easeOutCubic"/>
+<animation property="scale" begin="55000" from="0" to="1" duration="2800" mode="easeOutCubic"/>
+<animation property="scale" begin="66000" from="0" to="1" duration="2800" mode="easeOutCubic"/>
+<animation property="scale" begin="77000" from="0" to="1" duration="2800" mode="easeOutCubic"/>
+<animation property="scale" begin="88000" from="0" to="1" duration="2800" mode="easeOutCubic"/>
+<animation property="scale" begin="99000" from="0" to="1" duration="2800" mode="easeOutCubic"/>   
+</storyboard>
+</image>
+
+<image name="personaje2" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="personaje3" extra="true">
+<visible>flase</visible>
+</image>
+</view>
+</theme>

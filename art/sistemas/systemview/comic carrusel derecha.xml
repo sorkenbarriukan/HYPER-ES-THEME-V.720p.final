@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+<image name="background3" extra="true">
+<tile>false</tile>
+<pos>0.023 0.539</pos>
+<size>0.7936 0.235</size>
+<origin>0 0</origin>
+<path>./art/sistemas/wall/default.png</path>
+<path>./art/sistemas/wall/${system.theme}.png</path>
+<zIndex>25</zIndex>
+</image>
+
+<image name="background1" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/comic carrusel derecha.png</path>
+<zIndex>30</zIndex>
+</image>  
+ 
+ <image name="fondocarrusel" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/fondocarrusel.png</path>
+<zIndex>31</zIndex>
+<storyboard repeat="0">
+<animation property="color" from="EF05FA" to="056DFA" begin="100" duration="1300" autoreverse="true" mode="EaseOut"/>
+</storyboard>
+</image>  
+
+ <image name="circulofondoccarrusel" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/circulofondocarrusel.png</path>
+<zIndex>32</zIndex>
+</image>  
+
+<image name="imagelogsimple" extra="true">
+<tile>false</tile>
+<pos>0.500 0.360</pos>
+<maxSize>0.150 0.168</maxSize>
+<origin>0 0</origin>
+<path>./art/sistemas/logosimples/default.png</path>
+<path>./art/sistemas/logosimples/${system.theme}.png</path>
+<zIndex>35</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-8" to="8" duration="100" autoreverse="true" begin="4000" repeat="3"/>
+</storyboard>
+</image>
+  
+<image name="imagelogones" extra="true">
+<tile>false</tile>
+<pos>0.230 0.070</pos>
+<maxSize>0.100 0.118</maxSize>
+<origin>0 0</origin>
+<path>./art/sistemas/silverring/default.png</path>
+<path>./art/sistemas/silverring/${system.theme}.png</path>
+<zIndex>35</zIndex>
+<storyboard repeat="0">
+<animation property="opacity" from="0" to="1" begin="350" duration="1000" mode="linear"/>
+<animation property="scale" from="0" to="1" begin="350" duration="1000" mode="bump"/>
+<animation property="scaleOrigin" to="0" begin="9000" duration="0"/>
+<animation property="scale" from="1" to="0" begin="9000" duration="1000" mode="easeOut"/>
+<animation property="opacity" from="1" to="0" begin="9000" duration="1000" mode="easeOut"/>
+<animation property="rotation" from="0" to="720" begin="9000" duration="1000" mode="easeOut"/>
+<animation property="opacity" from="0" to="10" duration="2950" begin="3000" mode="easeIn"/>
+</storyboard>
+</image>
+
+<image name="personaje" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.580 0.3060</pos>
+<size>0.200 0.665</size>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>92</zIndex>
+</image>
+
+<image name="personaje2" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>2EFE2E</color>
+<origin>0 0</origin>
+<pos>0.580 0.3060</pos>
+<size>0.200 0.665</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>90</zIndex>
+</image>
+
+<image name="personaje3" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<pos>0.580 0.3060</pos>
+<size>0.200 0.665</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>91</zIndex>
+</image>
+
+
+<video name="backgroundvideo0" extra="true">
+<visible>true</visible>
+<path>{random}</path>                  
+<pos>0.287 0.132</pos>
+<origin>0.5 0.5</origin>
+<size>0.5230 0.226</size>
+<delay>0</delay>
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+<color>FFFFFF</color> 
+<roundCorners>0</roundCorners>  
+<zIndex>28</zIndex>
+<rotation>0</rotation> 
+</video>
+
+<video name="backgroundvideo1" extra="true">
+<visible>true</visible>
+<path>{random}</path>                  
+<pos>0.5740 0.4010</pos>
+<origin>0.5 0.5</origin>
+<size>0.4730 0.266</size>
+<delay>0</delay>
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+<color>FFFFFF</color> 
+<roundCorners>0</roundCorners>  
+<zIndex>28</zIndex>
+<rotation>0</rotation> 
+</video>
+
+<video name="backgroundvideo2" extra="true">
+<visible>true</visible>
+<path>{random}</path>                  
+<pos>0.1370 0.8870</pos>
+<origin>0.5 0.5</origin>
+<size>0.2290 0.190</size>
+<delay>0</delay>
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+<color>FFFFFF</color> 
+<roundCorners>0</roundCorners>  
+<zIndex>28</zIndex>
+<rotation>0</rotation> 
+</video>
+
+
+
+<image name="logo">
+<storyboard event="activate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<storyboard event="deactivate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<linearSmooth>true</linearSmooth>
+<storyboard event="activate">
+<animation property="scale" to="1.2" duration="1000" mode="easeOut" autoreverse="true" repeat="forever"/>
+</storyboard>
+</image>
+
+<carousel name="systemcarousel">
+<type>vertical_wheel</type>
+<pos>0.799 0</pos>
+<size>0.201 1</size>
+<logoScale>0.91</logoScale>
+<zIndex>41</zIndex>          
+<logoSize>0.16 0.16</logoSize>
+<color>00000000</color>
+<logoRotation>-5.5</logoRotation>
+<logoRotationOrigin>3.2 0.5</logoRotationOrigin>
+<logoAlignment>center</logoAlignment>
+<maxLogoCount>13</maxLogoCount>
+</carousel>
+
+<text name="systemInfo">
+<systemInfoDelay>300</systemInfoDelay>
+<pos>0.215  0.680</pos>
+<size>0.420 0.35</size>
+<fontSize>0.05</fontSize>
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<backgroundColor>00000000</backgroundColor>
+<color>ffffff</color>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<rotation>0</rotation> 
+<zIndex>65</zIndex>
+</text>
+
+<image name="box1" extra="true">
+<origin>0.5 0.5</origin>
+<pos>0.180 0.394</pos>
+<size>0.310 0.248</size>
+<zIndex>27</zIndex>
+<path>{random:image}</path>
+<color>FFFFFFFF</color>
+<roundCorners>0</roundCorners> 
+<rotation>0</rotation> 
+<visible>true</visible>
+<reflexion>0</reflexion>
+<opacity>0</opacity>
+<scale>0</scale>
+<scaleOrigin>0 0.5</scaleOrigin>
+<storyboard repeat="1">
+<animation property="opacity" from="1" to="1" begin="350" duration="700" mode="linear"/>
+<animation property="scale" from="1" to="1" begin="350" duration="800"/>
+</storyboard>
+</image>
+
+<image name="box2" extra="true">
+<origin>0.5 0.5</origin>
+<pos>0.728 0.881</pos>
+<size>0.297 0.210</size>
+<zIndex>27</zIndex>
+<path>{random:thumbnail}</path>
+<color>FFFFFFFF</color>
+<roundCorners>0</roundCorners> 
+<rotation>-0</rotation> 
+<visible>true</visible>
+<reflexion>0</reflexion>
+<opacity>0</opacity>
+<scale>0</scale>
+<scaleOrigin>0 0.5</scaleOrigin>
+<storyboard repeat="1">
+<animation property="opacity" from="1" to="1" begin="350" duration="700" mode="linear"/>
+<animation property="scale" from="1" to="1" begin="350" duration="800"/>
+</storyboard>
+</image>
+
+<image name="box3" extra="true">
+<origin>0.5 0.5</origin>
+<pos>0.686 0.130</pos>
+<maxSize>0.170 0.188</maxSize>
+<zIndex>97</zIndex>
+<path>{random:marquee}</path>
+<color>FFFFFFFF</color>
+<roundCorners>0</roundCorners> 
+<rotation>0</rotation> 
+<visible>true</visible>
+<reflexion>0</reflexion>
+<opacity>0</opacity>
+<scale>0</scale>
+<scaleOrigin>0 0.5</scaleOrigin>
+<storyboard repeat="1">
+<animation property="opacity" from="1" to="1" begin="350" duration="700" mode="linear"/>
+<animation property="scale" from="1" to="1" begin="350" duration="800"/>
+</storyboard>
+</image>
+
+<image name="box4" extra="true">
+<origin>0.5 0.5</origin>
+<pos>0.133 0.874</pos>
+<maxSize>0.110 0.138</maxSize>
+<zIndex>97</zIndex>
+<path>{random:marquee}</path>
+<color>FFFFFFFF</color>
+<roundCorners>0</roundCorners> 
+<rotation>0</rotation> 
+<visible>true</visible>
+<reflexion>0</reflexion>
+<opacity>0</opacity>
+<scale>0</scale>
+<scaleOrigin>0 0.5</scaleOrigin>
+<storyboard repeat="1">
+<animation property="opacity" from="1" to="1" begin="350" duration="700" mode="linear"/>
+<animation property="scale" from="1" to="1" begin="350" duration="800"/>
+</storyboard>
+</image>
+
+<helpsystem name="help">
+<visible>false</visible>
+<textColor>1C00ff00</textColor>
+<iconColor>1C00ff00</iconColor>
+<fontSize>0.020</fontSize>
+<pos>0.50 0.03</pos>
+</helpsystem>
+    
+<text name="logoText">
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<color>${baseColor}</color>
+<forceUppercase>true</forceUppercase>
+</text>
+<image name="logo">
+<path>./art/sistemas/comic/${system.theme}.png</path>
+<path>./art/sistemas/silverring/${system.theme}.png</path>
+</image>
+</view>
+</theme>

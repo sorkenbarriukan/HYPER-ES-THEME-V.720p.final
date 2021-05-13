@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+<video name="backgroundvideo" extra="true">
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="4500" repeat="3"/>
+</storyboard>
+</video>
+
+<image name="fondorec" extra="true">
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="4500" repeat="3"/>
+</storyboard>
+</image>
+
+<image name="hardmix" extra="true">
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="4500" repeat="3"/>
+</storyboard>
+</image>
+
+<image name="fondotv" extra="true">
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="4500" repeat="3"/>
+</storyboard>
+</image>
+
+<image name="predeterminado" extra="true">
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="4500" repeat="3"/>
+</storyboard>
+</image>
+
+<image name="fondovideo" extra="true">
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="4500" repeat="3"/>
+</storyboard>
+</image>
+</view>
+</theme>

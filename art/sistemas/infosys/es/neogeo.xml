@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		
+		<text name="sys_info" extra="true">
+<!-- MAX SIZE -----------|------>
+<text>SNK
+Sistema Arcade
+Cuarta
+1990
+Cartucho ROM 
+Stick Arcade</text>
+		</text>
+		
+		<text name="sys_description" extra="true">
+<!-- MAX SIZE - DEPENDS OF THE WORDS LENGTH ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------->
+<text>El Neo Geo MVS es un sistema arcade lanzado en 1990 por la compañía japonesa SNK. Se comercializó como 24 bits y podía mostrar una resolución de 320×224 en 4096 colores entre 65,536. El MVS ofrece la capacidad de colocar hasta seis cartuchos en un solo terminal, una consideración económica para operadores con espacio y presupuesto limitado. Es conocida por su biblioteca de juegos 2D de calidad, muchos de los cuales son juegos de lucha. Los exclusivos de NeoGeo-CD se convirtieron en formato ROM, perdiendo la música original pero obteniendo correcciones de errores.</text>
+		</text>
+		
+	</view>
+	
+</theme>

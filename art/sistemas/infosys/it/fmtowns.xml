@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<text name="sys_info" extra="true">
+<!-- MAX SIZE -----------|------>
+<text>Fujitsu, Casino
+Personnal Computer
+Quarta / Quinta Generazione
+1989
+CD-Rom
+Joypad a 2/4 bottoni</text>
+		</text>
+		
+		<text name="sys_description" extra="true">
+<!-- MAX SIZE - DEPENDS OF THE WORDS LENGTH ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------->
+<text>Il sistema Fujitsu FM Towns, rilasciato nel 1989, è una variante del PC incentrata su multimedia e videogiochi. Poiché si è evoluto fino al 1997, è stato equipaggiato con x386, x486 e Pentium da 16 a 100 Mhz. Include modalità grafiche che vanno da 320x240 a 640x480 pixel, da 16 a 32 mila colori da una tavola che va da 4096 a 16 milioni. Può visualizzare 1024 sprite contemporaneamente e per l'audio è dotato di CDRom, nonché 8 voci PCM e 6 canali FM. Il suo catalogo di giochi è molto vario e include molte conversioni arcade (perfette) e molti giochi Hentai (adulti).</text>
+		</text>
+		
+	</view>
+
+</theme>

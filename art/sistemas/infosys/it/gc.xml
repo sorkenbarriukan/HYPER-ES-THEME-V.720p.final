@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<text name="sys_info" extra="true">
+<!-- MAX SIZE -----------|------>
+<text>Nintendo
+Console per videogiochi domestica
+Sesta Generazione
+2001
+Mini Disc 1.5 Go
+Controller, Wavebird</text>
+		</text>
+		
+		<text name="sys_description" extra="true">
+<!-- MAX SIZE - DEPENDS OF THE WORDS LENGTH ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------->
+<text>Rilasciato nel 2001, il GC non ha incontrato il successo dei suoi predecessori, affrontando PS2, XBox e Dreamcast. Un cavo ha reso possibile l'utilizzo di GBA come controller con uno schermo remoto per Zelda Four Swords Adv. e nel 2002 ha rilasciato Wavebird, il primo controller wireless per onda radio. Dotato di un processore a 486 Mhz, un chip grafico ATI a 162 Mhz e 40 MB di RAM può calcolare 15 milioni di poligoni. Visualizza 640 × 480 60 Hz o 768x576 50 Hz e offre audio in Dolby Pro Logic 2. Presenta un catalogo di 644 giochi inclusi giochi come Resident Evil 4 e Viewtiful Joe.</text>
+		</text>
+		
+	</view>
+
+</theme>

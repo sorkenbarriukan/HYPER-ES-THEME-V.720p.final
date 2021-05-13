@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="basic, detailed, grid, carousel, gamecarousel">
+<image name="personaje" extra="true">
+</image>
+
+<image name="personaje2" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="personaje3" extra="true">
+<visible>flase</visible>
+</image>
+</view>
+</theme>

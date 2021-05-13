@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="menu">
+<menuText name="menutitle">
+<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
+<fontSize>0.020</fontSize>
+</menuText>
+<menuText name="menufooter">
+<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
+<fontSize>0.02</fontSize>
+</menuText>
+<menuText name="menutext">
+<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
+<fontSize>0.020</fontSize>
+</menuText>
+<menuTextSmall name="menutextsmall">
+<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
+<fontSize>0.03</fontSize>
+</menuTextSmall>
+<menuBackground name="menubg">
+<color>c5bdb2</color>
+<cornerSize>32 32</cornerSize>
+<path>./art/sistemas/fondos/obscuro.png</path>
+</menuBackground>
+<menuIcons name="menuicons">
+<iconKodi>./art/sistemas/icons/Kodi.png</iconKodi>
+<iconSystem>./art/sistemas/icons/System.png</iconSystem>
+<iconUpdates>./art/sistemas/icons/Updates.png</iconUpdates>
+<iconGames>./art/sistemas/icons/Games.png</iconGames>
+<iconControllers>./art/sistemas/icons/Controllers.png</iconControllers>
+<iconUI>./art/sistemas/icons/UI.png</iconUI>
+<iconSound>./art/sistemas/icons/Sound.png</iconSound>
+<iconNetwork>./art/sistemas/icons/Network.png</iconNetwork>
+<iconScraper>./art/sistemas/icons/Scraper.png</iconScraper>
+<iconAdvanced>./art/sistemas/icons/Advanced.png</iconAdvanced>
+<iconQuit>./art/sistemas/icons/Quit.png</iconQuit>
+<iconRestart>./art/sistemas/icons/Restart.png</iconRestart>
+<iconShutdown>./art/sistemas/icons/Shutdown.png</iconShutdown>
+<iconFastShutdown>./art/sistemas/icons/Fastshutdown.png</iconFastShutdown>
+<iconRetroachievements>./art/sistemas/icons/Contest.png</iconRetroachievements>
+</menuIcons>
+<menuTextEdit name="menutextedit">
+<inactive>./art/textinput_ninepatch.png</inactive>
+<active>./art/textinput_ninepatch_active.png</active>
+</menuTextEdit>
+</view>
+
+</theme>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<text name="sys_info" extra="true">
+<!-- MAX SIZE -----------|------>
+<text>Múltiples
+Maquina de Pinball
+Todas
+1980 / 20xx
+Todos los Soportes
+Joypad, Teclado</text>
+		</text>
+		
+		<text name="sys_description" extra="true">
+<!-- MAX SIZE - DEPENDS OF THE WORDS LENGTH ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------->
+<text>La máquina de pinball tiene sus orígenes en el siglo XVIII. Su antepasado es Bagatelle, una vieja mesa de juego inventada en Francia. En 1930, con la invención del mecanismo de monedas, la máquina de pinball adquirió una nueva dimensión, se volvio lucrativo y desperto de nuevo interés. Entre 1950 y 1970, el juego conoció un período espléndido de desarrolló en los Estados Unidos. En la década de 1980, la máquina de pinball perdió cuota de mercado contra los videojuegos. Hoy en día, las maquinas físicas son jugadas principalmente por una clientela de nostálgicos y nuevos coleccionistas.</text>
+		</text>
+		
+	</view>
+
+</theme>

@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<customView name="MANO ALZADA" inherits="gamecarousel" displayName="${gridDetailsViewName}">    
+<image name="background1" extra="true">
+<visible>true</visible>
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/freehandgamelist.png</path>
+<zIndex>30</zIndex>
+</image>  
+
+<gamecarousel name="gamecarousel">
+<type>vertical</type>
+<pos>0.743 0.011</pos>
+<size>0.30 0.993</size>
+<logoScale>2.45</logoScale>
+<logoSize>0.290 0.260</logoSize>
+<color>ffffff</color>
+<maxLogoCount>11</maxLogoCount>
+<logoRotation>8</logoRotation>
+<logoRotationOrigin>-3.0 0.5</logoRotationOrigin>
+<logoAlignment>center</logoAlignment>   
+<imageSource>marquee</imageSource>
+<zIndex>59</zIndex>
+</gamecarousel>  
+
+<text name="gamecarouselLogoText">
+<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
+<color>FFFFFFFF</color>
+<glowColor>000000FF</glowColor>
+<glowSize>4</glowSize>
+<lineSpacing>1.0</lineSpacing>
+</text>
+
+<image name="pointer" extra="true">
+<visible>true</visible>
+<tile>false</tile>
+<pos>0.027 0.50</pos>
+<origin>0.5 0.5</origin>
+<size>0.055 0.155</size>
+<path>./art/sistemas/pointerl/default.png</path>
+<path>./art/sistemas/pointerl/${system.theme}.png</path>
+<zIndex>60</zIndex>
+<storyboard repeat="forever">
+<animation property="x" from="0.027" to="0.033" duration="60" autoreverse="true" begin="4000" repeat="3"/>
+</storyboard>
+<zIndex>90</zIndex>
+</image>
+
+<image name="fondotv" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="background3" extra="true">
+<visible>false</visible>
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/wall/default.png</path>
+<path>./art/sistemas/wall/${system.theme}.png</path>
+<zIndex>25</zIndex>
+</image>
+  
+<image name="background" extra="true">
+<visible>false</visible>
+</image>  
+
+<text name="md_name">
+<visible>false</visible>
+<color>ffffff</color>
+<pos>0.45  0.700</pos>
+<size>0.15 0.05</size>
+<fontSize>0.032</fontSize>
+<fontPath>./art/sistemas/fuentes/Anticlimax.ttf</fontPath>
+<alignment>left</alignment>
+<glowColor>00000060</glowColor>
+<glowSize>2</glowSize>
+</text>
+
+<image name="consola" extra="true">
+<visible>false</visible>
+<path>./art/sistemas/consoles/default.png</path>
+<path>./art/sistemas/consoles/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.09 0.8400</pos>
+<maxSize>0.11 0.11</maxSize>
+<reflexion>0.30 0.0</reflexion>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="4000" repeat="3"/>
+</storyboard>  
+<zIndex>90</zIndex>
+</image>
+
+<image name="personaje" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.580 0.3060</pos>
+<size>0.200 0.665</size>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>92</zIndex>
+</image>
+
+<image name="personaje2" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>2EFE2E</color>
+<origin>0 0</origin>
+<pos>0.580 0.3060</pos>
+<size>0.200 0.665</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>90</zIndex>
+</image>
+
+<image name="personaje3" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<pos>0.580 0.3060</pos>
+<size>0.200 0.665</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>91</zIndex>
+</image>
+
+<helpsystem name="help">
+<visible>false</visible>
+<textColor>000000</textColor>
+<iconColor>000000</iconColor>
+<fontSize>0.020</fontSize>
+<pos>0.9995 0.9992</pos>
+</helpsystem>
+
+<text name="logoText">
+<pos>0.792 0.777</pos>
+<size>0.335 0.142</size>
+<origin>0.5 0.5</origin>
+<alignment>center</alignment>
+<fontSize>0.08</fontSize>
+<fontPath>./art/sistemas/fuentes/Bebas Neue.ttf</fontPath>
+<color>00000000</color>
+</text>
+
+<image name="logo">
+<pos>0.297 0.153</pos>
+<size>0.215 0.112</size>
+<origin>0.5 0.5</origin>
+<zIndex>99</zIndex>
+<storyboard repeat="forever">
+<animation property="opacity" from="0" to="1" begin="350" duration="1000" mode="linear"/>
+<animation property="scale" from="0" to="1" begin="350" duration="1000" mode="bump"/>
+<animation property="scaleOrigin" to="0" begin="9000" duration="0"/>
+</storyboard>
+</image>
+
+<image name="md_marquee">
+<pos>0.297 0.153</pos>
+<size>0.215 0.112</size>
+<origin>0.5 0.5</origin>
+<zIndex>99</zIndex>
+<reflexion>0</reflexion>
+<storyboard repeat="forever">
+<animation property="opacity" from="0" to="1" begin="350" duration="1000" mode="linear"/>
+<animation property="scale" from="0" to="1" begin="350" duration="1000" mode="bump"/>
+<animation property="scaleOrigin" to="0" begin="9000" duration="0"/>
+</storyboard>
+</image>	
+
+<image name="md_thumbnail">
+<pos>0.1390 0.8790</pos>
+<origin>0.5 0.5</origin>
+<size>0.0800 0.190</size>
+<zIndex>97</zIndex>
+<reflexion>0.29 0.0</reflexion>
+<storyboard repeat="forever">
+<animation property="opacity" from="0" to="1" begin="350" duration="1000" mode="linear"/>
+<animation property="scale" from="0" to="1" begin="150" duration="1000" mode="bump"/>
+<animation property="scaleOrigin" to="0" begin="9000" duration="0"/>
+</storyboard>
+</image>	
+
+<image name="md_fanart">
+<pos>0.1890 0.9290</pos>
+<origin>0.5 0.5</origin>
+<maxSize>0.0800 0.440</maxSize>
+<zIndex>97</zIndex>
+<reflexion>0</reflexion>
+<storyboard repeat="forever">
+<animation property="opacity" from="0" to="1" begin="350" duration="1000" mode="linear"/>
+<animation property="scale" from="0" to="1" begin="100" duration="1000" mode="bump"/>
+<animation property="scaleOrigin" to="0" begin="9000" duration="0"/>
+</storyboard>
+</image>	
+
+<image name="md_image">
+<pos>0.3201 0.511</pos>
+<origin>0.5 0.5</origin>
+<size>0.4670 0.470</size>
+<rotation>-0.71</rotation> 
+<roundCorners>0.01.5</roundCorners>  
+<zIndex>27</zIndex>
+</image>	
+
+<image name="predeterminado" extra="true">
+<tile>false</tile>
+<Delay>800</Delay>
+<pos>0.3201 0.511</pos>
+<origin>0.5 0.5</origin>
+<size>0.4670 0.470</size>
+<delay>0</delay>
+<path>./art/sistemas/fondos/default.png</path>
+<roundCorners>0.01.5</roundCorners> 
+<rotation>-0.31</rotation>   
+<zIndex>26</zIndex>
+</image>
+
+<video name="md_video">
+<pos>0.3201 0.511</pos>
+<origin>0.5 0.5</origin>
+<size>0.4670 0.470</size>
+<delay>0</delay>
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+<roundCorners>0</roundCorners>  
+<zIndex>28</zIndex>
+<rotation>-0</rotation>  
+</video>
+
+<text name="md_description">
+<color>00000000</color>
+<glowColor>00000000</glowColor>
+<glowSize>2</glowSize>
+<forceUppercase>0</forceUppercase>
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<fontSize>0.015</fontSize>
+<size>0.307 0.20</size>
+<pos>0.462 0.100</pos>
+<zIndex>90</zIndex>
+<storyboard>     
+<animation property="y" from="0" to="0.03" begin="0" duration="1950" mode="easeOut" repeat="1"/>
+</storyboard>
+<zIndex>38</zIndex>
+</text>
+
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
+</image>
+
+<text name="md_lbl_rating">
+<pos>0.28 0.783</pos>
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<color>000000</color>
+<fontSize>0.02</fontSize>
+<glowColor>ffffff</glowColor>
+<glowSize>2</glowSize>
+</text>
+ <rating name="md_rating">
+ <visible>true</visible>
+<pos>0.38 0.783</pos>
+<size>0.028 0.028</size>
+<color>ffffff</color>
+<unfilledColor>000000</unfilledColor>
+</rating>
+
+<text name="md_lbl_releasedate">
+<pos>0.28 0.815</pos>
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<color>000000</color>
+<fontSize>0.02</fontSize>
+<glowColor>ffffff</glowColor>
+<glowSize>2</glowSize>
+</text>
+<datetime name="md_releasedate">
+<pos>0.38 0.804</pos>
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<color>ffffff</color>
+<fontSize>0.025</fontSize>
+</datetime>
+	
+<text name="md_lbl_developer">
+<pos>0.28 0.835</pos>
+	<size>0.24 0.05</size>
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<color>000000</color>
+<fontSize>0.02</fontSize>
+<glowColor>ffffff</glowColor>
+<glowSize>2</glowSize>
+</text>
+<text name="md_developer">
+<pos>0.38 0.835</pos>
+	<size>0.24 0.05</size>
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<color>ffffff</color>
+<fontSize>0.025</fontSize>
+</text>
+	
+<text name="md_lbl_publisher">
+<pos>0.28 0.872</pos>
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<color>000000</color>
+<fontSize>0.02</fontSize>
+<glowColor>ffffff</glowColor>
+<glowSize>2</glowSize>
+</text>
+<text name="md_publisher">
+<pos>0.38 0.872</pos>
+<size>0.24 0.04</size>
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<color>ffffff</color>
+<fontSize>0.025</fontSize>
+</text>
+	
+<text name="md_lbl_genre">
+<pos>0.28 0.905</pos>
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<color>000000</color>
+<fontSize>0.02</fontSize>
+<glowColor>ffffff</glowColor>
+<glowSize>2</glowSize>
+</text>
+<text name="md_genre">
+<pos>0.38 0.905</pos>
+<size>0.24 0.04</size>
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<color>ffffff</color>
+<fontSize>0.025</fontSize>
+</text>
+	
+<text name="md_lbl_players">
+<pos>0.28 0.936</pos>
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<color>000000</color>
+<fontSize>0.02</fontSize>
+<glowColor>ffffff</glowColor>
+<glowSize>2</glowSize>
+</text>
+<text name="md_players">
+<pos>0.38 0.926</pos>
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<color>ffffff</color>
+<fontSize>0.025</fontSize>
+</text>
+	
+<text name="md_lbl_lastplayed">
+<pos>1 1</pos>
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<color>000000</color>
+<fontSize>0.02</fontSize>
+<glowColor>ffffff</glowColor>
+<glowSize>2</glowSize>
+</text>
+<datetime name="md_lastplayed">
+<pos>1 1</pos>
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<color>33cbfe</color>
+<fontSize>0.02</fontSize>
+</datetime>
+	
+<text name="md_lbl_playcount">
+<pos>1 1</pos>
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<color>000000</color>
+<fontSize>0.02</fontSize>
+</text>
+<text name="md_playcount">
+<pos>1 1</pos>
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<color>33cbfe</color>
+<fontSize>0.02</fontSize>
+</text>
+</customView>
+</theme>

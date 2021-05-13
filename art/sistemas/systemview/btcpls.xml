@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+<image name="background3" extra="true">
+<tile>false</tile>
+<size>0.663 0.765</size>
+<pos>0.168 0.067</pos>
+<origin>0 0</origin>
+<color>FFFFFF</color>
+<path>./art/sistemas/wall/default.png</path>
+<path>./art/sistemas/wall/${system.theme}.png</path>
+<zIndex>27</zIndex>
+</image>
+
+<image name="logo">
+<storyboard event="activate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<storyboard event="deactivate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<linearSmooth>true</linearSmooth>
+<storyboard event="activate">
+<animation property="scale" to="1.2" duration="1000" mode="easeOut" autoreverse="true" repeat="forever"/>
+</storyboard>
+</image>
+
+<image name="background1" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/btcplssys.png</path>
+<zIndex>26</zIndex>
+</image>  
+
+<image name="personaje" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.700 0.0160</pos>
+<size>0.250 0.865</size>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>92</zIndex>
+</image>
+
+<image name="personaje2" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>2EFE2E</color>
+<origin>0 0</origin>
+<pos>0.700 0.0160</pos>
+<size>0.250 0.865</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>90</zIndex>
+</image>
+
+<image name="personaje3" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<pos>0.700 0.0160</pos>
+<size>0.250 0.865</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>91</zIndex>
+</image>
+
+<carousel name="systemcarousel">
+<visible>false</visible>
+<linearSmooth>true</linearSmooth>
+<defaultTransition>instant</defaultTransition>
+<type>horizontal</type>
+<rotation>-05</rotation>
+<pos>-0 0.415</pos>
+<size>1 1</size>
+<logoScale>1.15</logoScale>
+<logoSize>0.25 0.10</logoSize>
+<color>00000000</color>
+<maxLogoCount>5</maxLogoCount>
+<logoRotation>-3</logoRotation>
+<logoRotationOrigin>-5.0 0.5</logoRotationOrigin>
+<logoAlignment>center</logoAlignment>   
+<zIndex>90</zIndex> 
+</carousel>
+
+<text name="systemInfo">
+<systemInfoDelay>300</systemInfoDelay>
+<pos>0.300  0.590</pos>
+<size>0.420 0.35</size>
+<fontSize>0.05</fontSize>
+<fontPath>./art/sistemas/fuentes/Anticlimax.ttf</fontPath>
+<backgroundColor>00000000</backgroundColor>
+<color>ffffff</color>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<rotation>0</rotation> 
+<zIndex>65</zIndex>
+</text>
+
+<helpsystem name="help">
+<visible>false</visible>
+<textColor>1C00ff00</textColor>
+<iconColor>1C00ff00</iconColor>
+<fontSize>0.020</fontSize>
+<pos>0.50 0.03</pos>
+</helpsystem>
+    
+<text name="logoText">
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<color>${baseColor}</color>
+<forceUppercase>true</forceUppercase>
+</text>
+<image name="logo">
+<path>./art/sistemas/ticket/${system.theme}.png</path>
+<path>./${system.theme}/art/system-${lang}.png</path>
+<path>./${system.theme}/art/system-${lang}.svg</path>
+</image>
+</view>
+</theme>

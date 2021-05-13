@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+<systemViewName>ΑΛΛΑΓΗ ΠΡΟΒΟΛΗΣ ΣΤΟ ΣΥΣΤΗΜΑ</systemViewName>
+<mostra-personajesName>ΔΕΙΤΕ ΧΑΡΑΚΤΗΡΑ</mostra-personajesName>
+<opciones-de-personajes-en-sistemaName>ΕΦΑΡΜΟΓΗ ΤΟΥ ΧΑΡΑΚΤΗΡΑ ΣΤΟ ΣΥΣΤΗΜΑ</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>ΕΦΑΡΜΟΓΗ ΤΗΣ ΕΠΙΔΡΑΣΗΣ ΣΤΟ ΧΑΡΑΚΤΗΡΑ ΣΤΟ ΠΑΙΧΝΙΔΙ</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>ΑΛΛΑΓΗ ΛΟΓΟΤΥΠΟ ΣΕ ΚΑΡΟΥΣΕΛ</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>ΑΛΛΑΓΗ ΛΟΓΟΤΥΠΟ ΣΕ ΠΑΙΧΝΙΔΙ</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>ΕΝΕΡΓΟΠΟΙΗΣΤΕ ΤΗ ΖΩΗ ΣΤΟ ΕΝΕΡΓΟ ΛΟΓΟΤΥΠΟ ΚΑΡΟΥΣΕΛ</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>ΕΠΙΛΟΓΕΣ ΕΙΚΟΝΑΣ ΙΣΤΟΡΙΚΟΥ</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>ΕΦΑΡΜΟΓΗ ΗΧΟΥ ΣΕ ΚΑΡΟΥΣΕΛ</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>ΕΦΑΡΜΟΓΗ ΗΧΟΥ ΣΕ ΠΑΙΧΝΙΔΙ</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>ΕΠΙΔΡΑΣΗ ΒΙΝΤΕΟ ΣΥΣΤΗΜΑΤΟΣ</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>ΕΠΙΔΡΑΣΗ ΣΤΟ ΒΙΝΤΕΟ ΣΤΟ ΠΑΙΧΝΙΔΙ</subset.opciones-de-video-gamelist>
+<menuName>ΑΛΛΑΓΗ ΣΤΥΛ ΜΕΝΟΥ</menuName>
+<storylogocarruselsistemaName>ΕΝΕΡΓΟΠΟΙΗΣΗ ΚΙΝΗΣΗΣ ΣΕ ΕΝΕΡΓΟ ΛΟΓΟΤΥΠΟ ΚΑΡΟΥΣΕΛ</storylogocarruselsistemaName>
+<infoName>ΑΛΛΑΓΗ ΓΛΩΣΣΑΣ ΜΟΝΟ ΣΤΗ (Κλασική προβολή)</infoName>
+<MarqueeStyleName>ΑΛΛΑΓΗ ΛΟΓΟΤΥΠΩΝ ΣΕ ΛΙΣΤΑ ΠΑΡΑΓΩΓΗΣ</MarqueeStyleName>
+<systemViewExInfos>SHOW (InfoEx) ΣΤΟ ΣΥΣΤΗΜΑ</systemViewExInfos> 
+<subset.Logosoncarousel>ΑΛΛΑΓΗ ΛΟΓΟΤΥΠΟ ΚΑΡΟΥΣΕΛ ΣΕ ΣΥΣΤΗΜΑ</subset.Logosoncarousel>
+<subset.shader>SHADERS - (Πάνω από όλα)</subset.shader>
+<subset.colorset>ΑΛΛΑΓΗ ΧΡΩΜΑΤΟΣ ΣΥΣΤΗΜΑΤΟΣ (μενού)</subset.colorset>
+</variables>
+</theme>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+<systemViewName>ИЗМЕНИТЬ ВИД В СИСТЕМЕ</systemViewName>
+<mostra-personajesName>ПОКАЗАТЬ ПЕРСОНАЖ</mostra-personajesName>
+<opciones-de-personajes-en-sistemaName>ПРИМЕНИТЬ ВЛИЯНИЕ НА ХАРАКТЕР В СИСТЕМЕ</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>ПРИМЕНЯЙТЕ ЭФФЕКТ К ПЕРСОНАЖУ В ГАМЛИСТЕ</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>ИЗМЕНИТЬ ЛОГОТИПЫ В CAROUSEL</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>ИЗМЕНИТЬ ЛОГОТИП В ИГРОВОМ СПИСКЕ</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>АКТИВИРОВАТЬ АНИМАЦИЮ В ЛОГОТИПЕ ACTIVE CAROUSEL</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>ВАРИАНТЫ ФОНОВОГО ИЗОБРАЖЕНИЯ</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>ПРИМЕНИТЬ ЗВУК НА КАРОУСЕЛЬ</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>ПРИМЕНИТЬ ЗВУК В ГАМЛИСТЕ</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>СИСТЕМНОЕ ВИДЕО ЭФФЕКТ</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>ВЛИЯНИЕ НА ВИДЕО В ГЕЙМЛИСТЕ</subset.opciones-de-video-gamelist>
+<menuName>ИЗМЕНИТЬ СТИЛЬ МЕНЮ</menuName>
+<storylogocarruselsistemaName>АКТИВИРОВАТЬ ДВИЖЕНИЕ В ЛОГОТИПЕ ACTIVE CAROUSEL</storylogocarruselsistemaName>
+<infoName>ИЗМЕНИТЬ ЯЗЫК ТОЛЬКО В (классический вид)</infoName>
+<MarqueeStyleName>ИЗМЕНИТЬ ЛОГОТИПЫ В ПЛЕЙЛИСТЕ (Бегущая строка)</MarqueeStyleName>
+<systemViewExInfos>ПОКАЗАТЬ (InfoEx) В СИСТЕМЕ</systemViewExInfos> 
+<subset.Logosoncarousel>ИЗМЕНИТЬ ЛОГОТИПЫ CAROUSEL В СИСТЕМЕ</subset.Logosoncarousel>
+<subset.shader>ШЕЙДЕРЫ - (ВЫШЕ ВСЕГО)</subset.shader>
+<subset.colorset>ИЗМЕНИТЬ ЦВЕТ СИСТЕМЫ (Меню)</subset.colorset>
+</variables>
+</theme>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+	<view name="splash">
+
+		<splash name="splash">
+			<backgroundColor>ffffff50</backgroundColor>
+		</splash>
+
+		<image name="background">
+	    	<path>./art/carga.png</path>
+		</image>
+				
+ <image name="progressbar">
+      <origin>0 0</origin>
+      <pos>0.465 0.660</pos>
+      <size>0.1 0.011</size>
+      <color>ffffff40</color>
+      <colorEnd>6060607F</colorEnd>
+      <roundCorners>0.03</roundCorners>
+    </image>
+    <image name="progressbar:active">
+      <tile>true</tile>
+      <path>./art/progress.png</path>
+      <color>ffffff90</color>
+      <colorEnd>ffffff40</colorEnd>
+    </image>
+
+		<text name="label">
+			<fontPath>./art/sistemas/fuentes/Anticlimax.ttf</fontPath>
+			<pos>0.010 0.594</pos>			
+			<color>ffffff</color>
+			<fontSize>0.030</fontSize>
+		</text>
+</view>	
+</theme>

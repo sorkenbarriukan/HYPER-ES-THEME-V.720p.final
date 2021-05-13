@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<text name="sys_info" extra="true">
+<!-- MAX SIZE -----------|------>
+<text>VTech
+Home video game console
+Second
+1981
+Cartridge
+Joystick & membrane keypad</text>
+		</text>
+
+		<text name="sys_description" extra="true">
+<!-- MAX SIZE - DEPENDS OF THE WORDS LENGTH ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------->
+<text>The VTech CreatiVision is a second generation computer and video game console hybrid produced by VTech in 1981. Equipped with an 8-bit 2 MHz CPU, 1 KB of RAM and 16 KB of video memory, it displays a resolution Of 256x192 pixels with 16 colors and 32 sprites. It incorporates two membrane controllers which, when placed in a special compartment on top of the console, can be used as a computer keyboard, or as a joystick once detached. The Mark-2 model will be equipped with a module for playing ColecoVision games.</text>
+		</text>
+		
+	</view>
+
+</theme>

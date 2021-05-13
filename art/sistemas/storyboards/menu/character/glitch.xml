@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="basic, detailed, grid, carousel, gamecarousel">
+<image name="personaje" extra="true">
+<visible>true</visible>
+<storyboard repeat="0">
+<animation property="opacity" from="0" to="20" duration="5950" begin="1500" mode="easeIn" repeat="0"/> 
+<animation property="color" from="2EFE2E" to="FFFF00" begin="100" duration="1300" autoreverse="true" mode="EaseOut" repeat="0"/>
+
+</storyboard>
+</image>
+
+<image name="personaje2" extra="true">
+<visible>true</visible>
+<storyboard repeat="0">
+<animation property="opacity" from="0" to="30" duration="3950" mode="easeIn"/> 
+<animation property="color" from="FE2EF7" to="00000000" begin="100" duration="3300" autoreverse="true" mode="EaseOut"/>
+</storyboard>
+</image>
+
+<image name="personaje3" extra="true">
+<visible>true</visible>
+<storyboard repeat="0">
+<animation property="opacity" from="0" to="10" duration="4950" mode="easeIn"/> 
+<animation property="color" from="2EFE2E" to="FFFF00" begin="100" duration="4300" autoreverse="true" mode="EaseOut"/>
+</storyboard>
+</image>
+
+<text name="systemInfo">
+</text>
+</view>
+</theme>

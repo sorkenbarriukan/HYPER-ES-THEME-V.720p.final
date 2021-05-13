@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		
+		<text name="sys_info" extra="true">
+<!-- MAX SIZE -----------|------>
+<text>Magnavox, Philips
+Console de videogame
+Segunda
+1978
+Cartuchos
+Joystick, teclado</text>
+		</text>
+		
+		<text name="sys_description" extra="true">
+<!-- MAX SIZE - DEPENDS OF THE WORDS LENGTH ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------->
+<text>Lançado em 1978, o Odyssey² é o console de segunda geração da Philips, distribuído nos EUA pela Magnavox e nomeado Videopac G7000 em outras partes do mundo. Criado para competir com o Atari 2600, tecnicamente pinta usando um microcontrolador de 1,7Mhz em vez de um micro processador autêntico. Possui 256 bytes de RAM, tela colorida de 128 x 64 x 16 e som de 8 vozes e 1 canal. Em 1983, chega o Videopac+, mas não o Odyssey²+, uma versão aprimorada capaz de exibir cenários de fundo. Não teve sucesso como o Atari 2600 e outros como Mattel Intellivision.</text>
+		</text>
+		
+	</view>
+	
+</theme>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+<systemViewName>AANZICHT IN SYSTEEM VERANDEREN</systemViewName>
+<mostra-personajesName>TOON KARAKTER</mostra-personajesName>
+<opciones-de-personajes-en-sistemaName>VAN TOEPASSING OP HET KARAKTER IN SYSTEEM</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>VAN TOEPASSING OP HET KARAKTER IN DE GAMELIST</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>WIJZIG LOGO'S IN CARROUSEL</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>WIJZIG LOGO'S IN GAMELIST</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>ACTIVEREN ANIMATIE IN ACTIEF CARROUSEL-LOGO</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>ACHTERGROND AFBEELDINGSOPTIES</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>BRENG GELUID AAN OP CARROUSEL</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>GELUID TOEPASSEN IN GAMELIST</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>SYSTEEM VIDEO-EFFECT</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>EFFECT OP DE VIDEO IN GAMELIST</subset.opciones-de-video-gamelist>
+<menuName>WIJZIG MENU STIJL</menuName>
+<storylogocarruselsistemaName>ACTIVEREN BEWEGING IN ACTIEF CARROUSEL-LOGO</storylogocarruselsistemaName>
+<infoName>ALLEEN DE TAAL WIJZIGEN IN (Klassieke weergave)</infoName>
+<MarqueeStyleName>LOGO'S IN AFSPEELLIJST WIJZIGEN (Selectiekader)</MarqueeStyleName>
+<systemViewExInfos>TOON (InfoEx) IN SYSTEEM</systemViewExInfos> 
+<subset.Logosoncarousel>WIJZIG CARROUSEL-LOGO'S IN SYSTEEM</subset.Logosoncarousel>
+<subset.shader>SCHADUWERS - (BOVEN ALLE)</subset.shader>
+<subset.colorset>SYSTEEMKLEUR WIJZIGEN (menu's)</subset.colorset>
+</variables>
+</theme>

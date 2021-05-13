@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system, basic, detailed, grid, carousel, gamecarousel">
+<image name="background3" extra="true">
+<storyboard repeat="0">
+<animation property="color" from="EF05FA" to="FAEC05" begin="100" duration="4300" autoreverse="true" mode="EaseOut"/>
+</storyboard>
+</image>
+</view>
+</theme>

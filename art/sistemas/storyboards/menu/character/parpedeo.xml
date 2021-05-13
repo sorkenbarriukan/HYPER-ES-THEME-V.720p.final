@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="basic, detailed, grid, carousel, gamecarousel">
+<image name="personaje" extra="true">
+<storyboard>
+<animation property="opacity" from="0" to="10" duration="2950" mode="easeIn"/> 
+<animation property="x" from="1.01" begin="0" duration="2250" mode="easeOut"/>
+<animation property="opacity" from="0" to="10" duration="2950" begin="8000" mode="easeIn"/>
+<animation property="opacity" from="0" to="10" duration="2950" begin="16000" mode="easeIn"/>
+<animation property="opacity" from="0" to="10" duration="2950" begin="24000" mode="easeIn"/>
+<animation property="opacity" from="0" to="10" duration="2950" begin="40000" mode="easeIn"/>
+<animation property="opacity" from="0" to="10" duration="2950" begin="48000" mode="easeIn"/>
+<animation property="opacity" from="0" to="10" duration="2950" begin="56000" mode="easeIn"/>
+<animation property="opacity" from="0" to="10" duration="2950" begin="64000" mode="easeIn"/>
+<animation property="opacity" from="0" to="10" duration="2950" begin="72000" mode="easeIn"/>
+<animation property="opacity" from="0" to="10" duration="2950" begin="80000" mode="easeIn"/>
+<animation property="opacity" from="0" to="10" duration="2950" begin="88000" mode="easeIn"/>
+<animation property="opacity" from="0" to="10" duration="2950" begin="96000" mode="easeIn"/>
+</storyboard>
+</image>
+
+<image name="personaje2" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="personaje3" extra="true">
+<visible>flase</visible>
+</image>
+</view>
+</theme>

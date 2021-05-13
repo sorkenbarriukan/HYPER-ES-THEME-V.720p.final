@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system, basic, detailed, grid, carousel, gamecarousel">
+<image name="background3" extra="true">
+<pos>-0.999 0</pos>
+<storyboard repeat="0">  
+<animation property="x" from="-0.999" to="1" duration="22280" begin="0"/>
+</storyboard>
+</image>
+
+<image name="background4" extra="true">
+<storyboard repeat="0">  
+<animation property="x" from="0" to="1" duration="22280" begin="0"/>
+</storyboard>
+</image>
+
+</view>
+</theme>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<text name="sys_info" extra="true">
+<!-- MAX SIZE -----------|------>
+<text>Microsoft & Intel, AMD
+Personnal Computer
+Terza / Quarta Generazione
+1982
+Floppy disk 5¼ 3½, hard disk
+Joystick, tastiera, mouse</text>
+		</text>
+
+		<text name="sys_description" extra="true">
+<!-- MAX SIZE - DEPENDS OF THE WORDS LENGTH ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------->
+<text>Chiamiamo DOS (sistema operativo su disco) il sistema operativo per PC equipaggiato di default con un'interfaccia a riga di comando sviluppata da Microsoft nel 1981. Con il processore da 6 a 20 MHz di Intel 80286 lanciato nel 1982 seguito da i386 in 12 A 40 MHz dal 1985 , questo sistema operativo verrà utilizzato in molti personal computer. Questo potere verrà sfruttato per creare i primi micro giochi in CGA 320x200 a 4 colori e poi dal 1984 in EGA 640x350 a 16 colori. A partire da Rogue o Troll’s Tale, per finire con il primo Leisure Suit Larry, quindi Battle Chess e King’s Quest 4 nel 1988.</text>
+		</text>
+		
+	</view>
+
+</theme>

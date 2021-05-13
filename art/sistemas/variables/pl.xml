@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+<systemViewName>ZMIEŃ WIDOK W SYSTEMIE</systemViewName>
+<mostra-personajesName>POKAŻ CHARAKTER</mostra-personajesName>
+<opciones-de-personajes-en-sistemaName>ZASTOSUJ EFEKT DO CHARAKTERU W SYSTEMIE</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>ZASTOSUJ EFEKT DO POSTACI NA LIŚCIE GRY</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>ZMIEŃ LOGO W KARUZELI</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>ZMIEŃ LOGO NA LIŚCIE GRY</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>AKTYWUJ ANIMACJĘ W LOGO AKTYWNEJ KARUZELI</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>OPCJE TŁA</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>ZASTOSUJ DŹWIĘK NA KARUZELĘ</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>ZASTOSUJ DŹWIĘK NA LIŚCIE GRY</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>SYSTEMOWY EFEKT WIDEO</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>WPŁYW NA WIDEO W LISTIE GIER</subset.opciones-de-video-gamelist>
+<menuName>ZMIEŃ STYL MENU</menuName>
+<storylogocarruselsistemaName>AKTYWUJ RUCH W LOGO AKTYWNEJ KARUZELI</storylogocarruselsistemaName>
+<infoName>ZMIEŃ TYLKO JĘZYK W (Widok klasyczny)</infoName>
+<MarqueeStyleName>ZMIEŃ LOGO NA LIŚCIE ODTWARZANIA (Markiza)</MarqueeStyleName>
+<systemViewExInfos>POKAŻ (InfoEx) W SYSTEMIE</systemViewExInfos> 
+<subset.Logosoncarousel>ZMIANA LOGO KARUZELI W SYSTEMIE</subset.Logosoncarousel>
+<subset.shader>SHADERS - (PRZEDE WSZYSTKIM)</subset.shader>
+<subset.colorset>ZMIANA KOLORU SYSTEMU (menu)</subset.colorset>
+</variables>
+</theme>

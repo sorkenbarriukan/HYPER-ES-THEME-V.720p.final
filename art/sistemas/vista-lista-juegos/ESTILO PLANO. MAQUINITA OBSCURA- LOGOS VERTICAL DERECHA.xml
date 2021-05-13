@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<customView name="ESTILO PLANO. MAQUINITA OBSCURA- LOGOS VERTICAL DERECHA" inherits="grid" displayName="${gridDetailsViewName}">
+<image name="background">
+<tile>false</tile>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<size>1 1</size>
+<path>./art/sistemas/fondos/flatmenu.png</path>
+<zIndex>70</zIndex>
+</image>
+    
+<imagegrid name="gamegrid">
+<logo>13</logo>
+<pos>0.733 0.011</pos>
+<size>0.30 0.993</size>
+<padding>0.08 0 0.08 0</padding>
+<scrollDirection>vertical</scrollDirection>
+<autoLayout>1 9</autoLayout>
+<imageSource>marquee</imageSource>
+<autoLayoutSelectedZoom>1.56</autoLayoutSelectedZoom>
+<margin>0.005 0.02</margin>
+<centerSelection>true</centerSelection>
+<scrollLoop>true</scrollLoop>
+<alignment>left</alignment>
+<folderImage>./art/sistemas/fondos/deffolder.png</folderImage>
+<gameImage>./art/sistemas/fondos/defgame.png</gameImage>
+<zIndex>90</zIndex>
+</imagegrid>
+
+ <image name="gridtile.favorite">
+<path>./art/gridfav.png</path>
+<pos>0.75 0</pos>
+<maxSize>0.25 0.25</maxSize>
+<origin>0 0</origin>
+<color>A0A0A0A0</color>
+</image>  
+    
+<gridtile name="default">
+<padding>1 1</padding>
+<backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+<backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+<imageSizeMode>maxSize</imageSizeMode>
+<imageColor>FFFFFF</imageColor>
+<reflexion>0.09 0.0</reflexion>
+</gridtile>
+
+<gridtile name="selected">
+<backgroundCenterColor>ffffff60</backgroundCenterColor>
+<backgroundEdgeColor>ffffff</backgroundEdgeColor>
+<padding>55 13</padding>
+<imageColor>FFFFFF</imageColor>
+</gridtile>
+
+<text name="gridtile">
+<color>0000000</color>
+<backgroundColor>00000000</backgroundColor>
+<fontSize>0.022</fontSize>
+<alignment>center</alignment>
+<size>1 0.24</size>
+</text>
+<text name="gridtile_selected">
+<color>00000000</color>
+<glowColor>${glowColor}</glowColor>
+<glowSize>0</glowSize>
+</text>
+
+<text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_players, md_lbl_releasedate">
+<color>ffffff</color>
+<forceUppercase>0</forceUppercase>
+<fontPath>./art/sistemas/fuentes/Bebas Neue.ttf</fontPath>
+<fontSize>0.023</fontSize>
+<reflexion>0.20 0.0</reflexion>
+</text>
+<text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer">
+<pos>1 1</pos>
+<fontPath>./art/sistemas/fuentes/Bebas Neue.ttf</fontPath>
+<fontSize>0.023</fontSize>
+<reflexion>0.20 0.0</reflexion>
+</text>
+<datetime name="md_lastplayed, md_releasedate">
+<color>ffffff</color>
+<forceUppercase>0</forceUppercase>
+<fontPath>./art/sistemas/fuentes/Bebas Neue.ttf</fontPath>
+<fontSize>0.023</fontSize>
+<zIndex>90</zIndex>
+</datetime>
+<text name="md_lbl_lastplayed">
+<color>ffffff</color>
+<pos>0.07 0.20</pos>
+<size>0.11 0</size>
+</text>
+<datetime name="md_lastplayed">
+<pos>0.14 0.20</pos>
+<size>0.11 0</size>
+<zIndex>90</zIndex>
+</datetime>
+
+<text name="md_lbl_releasedate">
+<pos>0.07 0.25</pos>
+<size>0.11 0.033</size>
+</text>
+<datetime name="md_releasedate">
+<pos>0.14 0.25</pos>
+<size>0.11 0.033</size>
+<zIndex>90</zIndex>
+</datetime>
+
+<text name="md_lbl_genre">
+<pos>0.07 0.30</pos>
+<size>0.11 0.033</size>
+</text>
+<text name="md_genre">
+<pos>0.14 0.30</pos>
+<size>0.11 0.033</size>
+<zIndex>90</zIndex>
+</text>
+
+<text name="md_lbl_publisher">
+<pos>0.07 0.35</pos>
+<size>0.11 0.033</size>
+</text>
+<text name="md_publisher">
+<pos>0.14 0.35</pos>
+<size>0.11 0.033</size>
+<zIndex>90</zIndex>
+</text>
+
+<text name="md_lbl_players">
+<pos>0.07 0.40</pos>
+<color>ffffff</color>
+<size>0 0</size>
+<zIndex>90</zIndex>
+</text>
+<text name="md_players">
+<pos>0.14 0.40</pos>
+<size>0.02 0</size>
+<zIndex>90</zIndex>
+</text>
+
+<text name="md_lbl_developer">
+<pos>0.07 0.45</pos>
+	<size>0.24 0.05</size>
+	<zIndex>90</zIndex>
+</text>
+<text name="md_developer">
+<pos>0.14 0.45</pos>
+	<size>0.13 0.05</size>
+	<zIndex>90</zIndex>
+</text>
+
+<text name="md_lbl_playcount">
+<pos>0.07 0.50</pos>
+	<size>0.13 0.05</size>
+</text>
+<text name="md_playcount">
+<pos>0.14 0.50</pos>
+	<size>0.13 0.05</size>
+</text>
+
+<rating name="md_rating">
+<pos>0.06 0.880</pos>
+<size>0.05 0.03</size>
+<color>FFFFFF</color>
+<unfilledColor>808080</unfilledColor>
+<zIndex>90</zIndex>
+</rating>
+
+<image name="md_hidden">
+<pos>0.823 0.700</pos>
+<path>./art/hidden.svg</path>
+<maxSize>0.032 0.032</maxSize>
+<origin>0.5 0.5</origin>
+<color>969696</color>
+<zIndex>90</zIndex>
+</image>
+<image name="md_kidgame">
+<pos>0.883 0.700</pos>
+<path>./art/kid.svg</path>
+<maxSize>0.032 0.032</maxSize>
+<origin>0.5 0.5</origin>
+<color>969696</color>
+<zIndex>90</zIndex>
+</image>
+<image name="md_favorite">
+<pos>0.823 0.700</pos>
+<path>./art/favorite.svg</path>
+<maxSize>0.032 0.032</maxSize>
+<origin>0.5 0.5</origin>
+<color>969696</color>
+<zIndex>90</zIndex>
+</image>
+        
+<text name="md_description">
+<color>00000000</color>
+<forceUppercase>0</forceUppercase>
+<fontPath>./art/sistemas/fuentes/Cabin-Regular.ttf</fontPath>
+<fontSize>0.015</fontSize>
+<size>0.207 0.28</size>
+<pos>0.9999 0.9999</pos>
+<zIndex>90</zIndex>
+</text>
+
+<text name="md_name">
+<visible>true</visible>
+<color>ffffff</color>
+<pos>0.02 0.925</pos>
+<size>0.40 0.05</size>
+<fontSize>0.042</fontSize>
+<fontPath>./art/sistemas/fuentes/Bebas Neue.ttf</fontPath>
+<alignment>left</alignment>
+<glowColor>00000060</glowColor>
+<glowSize>2</glowSize>
+<zIndex>90</zIndex>
+<storyboard>       
+       <animation property="x" from="-0" begin="0" duration="1250" mode="easeOut"/>    
+</storyboard>
+</text>
+
+<image name="background3" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/wall/default.png</path>
+<path>./art/sistemas/wall/${system.theme}.png</path>
+<zIndex>10</zIndex>
+</image>
+
+<image name="md_image">
+<visible>true</visible>
+<pos>0.4995 0.489</pos>
+<size>0.2458 0.4520</size>
+<origin>0.5 0.5</origin>
+<zIndex>19</zIndex>
+</image>
+
+<image name="backgroundcabin2" extra="true">
+<tile>false</tile>
+<pos>0.498 0.220</pos>
+<size>0.252 0.107</size>
+<origin>0.5 1</origin>
+<path>./art/fondo cabin marquee.png</path>
+<color>ffffff</color>
+<zIndex>19</zIndex>
+</image>
+
+<image name="predeterminado" extra="true">
+<tile>false</tile>
+<Delay>800</Delay>
+<pos>0.4995 0.489</pos>
+<size>0.2448 0.4520</size>
+<origin>0.5 0.5</origin>
+<path>./art/sistemas/fondos/default.png</path>
+<zIndex>18</zIndex>
+<storyboard>
+        <animation property="y" from="0.05" begin="0" duration="350" mode="easeOut"/>
+        <animation property="opacity" from="0" to="1" duration="2950" mode="easeIn"/>
+        <animation property="scale" from="0" to="1" duration="350" mode="easeOut"/>
+      </storyboard>
+</image>
+
+<image name="personaje" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.180 0.2860</pos>
+<size>0.2095 0.7055</size>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>92</zIndex>
+</image>
+
+<image name="personaje2" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<origin>0 0</origin>
+<pos>0.180 0.2860</pos>
+<size>0.2095 0.7055</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>90</zIndex>
+</image>
+
+<image name="personaje3" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<pos>0.180 0.2860</pos>
+<size>0.2095 0.7055</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>91</zIndex>
+</image>
+
+<video name="md_video">
+<pos>0.4995 0.489</pos>
+<size>0.2458 0.4520</size>
+<origin>0.5 0.5</origin>
+<delay>0</delay>
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+<zIndex>20</zIndex>
+</video>
+
+<helpsystem name="help">
+<visible>true</visible>
+<textColor>000000</textColor>
+<iconColor>000000</iconColor>
+<fontSize>0.020</fontSize>
+<pos>0.01 0.01</pos>
+</helpsystem>
+
+ <text name="logoText">
+<pos>0.498 0.217</pos>
+<size>0.250 0.105</size>
+<origin>0.5 0.5</origin>
+<alignment>center</alignment>
+<fontSize>0.08</fontSize>
+<fontPath>./art/sistemas/fuentes/Bebas Neue.ttf</fontPath>
+<color>00000000</color>
+<zIndex>90</zIndex>
+<storyboard>       
+<animation property="x" from="0" begin="0" duration="1250" mode="easeOut"/>  
+</storyboard>
+</text>
+
+<image name="md_marquee">
+<pos>0.498 0.167</pos>
+<size>0.250 0.105</size>
+<origin>0.5 0.5</origin>
+<zIndex>69</zIndex>
+</image>	
+
+<image name="logo">
+<pos>0.498 0.217</pos>
+<size>0.250 0.105</size>
+<origin>0.5 1</origin>
+<zIndex>20</zIndex>
+<storyboard>       
+<animation property="x" from="0" begin="0" duration="1250" mode="easeOut"/>  
+</storyboard>
+</image>
+
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
+</image>
+
+ <rating name="md_rating">
+ <visible>false</visible>
+<pos>0.06 0.800</pos>
+<size>0.05 0.03</size>
+<color>FFFFFF</color>
+<unfilledColor>808080</unfilledColor>
+</rating>
+</customView>
+</theme>

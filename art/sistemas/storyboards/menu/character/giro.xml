@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="basic, detailed, grid, carousel, gamecarousel">
+<image name="personaje" extra="true">
+ <storyboard repeat="1">
+   <animation property="rotation" from="0" to="720" begin="1000" duration="1000" mode="easeOut"/>
+    <animation property="rotation" from="0" to="720" begin="8000" duration="1000" mode="easeOut"/>
+     <animation property="rotation" from="0" to="720" begin="12000" duration="1000" mode="easeOut"/>
+      <animation property="rotation" from="0" to="720" begin="15000" duration="1000" mode="easeOut"/>
+       <animation property="rotation" from="0" to="720" begin="20000" duration="1000" mode="easeOut"/>
+        <animation property="rotation" from="0" to="720" begin="24000" duration="1000" mode="easeOut"/>
+         <animation property="rotation" from="0" to="720" begin="28000" duration="1000" mode="easeOut"/>
+          <animation property="rotation" from="0" to="720" begin="32000" duration="1000" mode="easeOut"/>
+           <animation property="rotation" from="0" to="720" begin="36000" duration="1000" mode="easeOut"/>
+            <animation property="rotation" from="0" to="720" begin="40000" duration="1000" mode="easeOut"/>
+            
+   </storyboard>
+</image>
+
+<image name="personaje2" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="personaje3" extra="true">
+<visible>flase</visible>
+</image>
+</view>
+</theme>

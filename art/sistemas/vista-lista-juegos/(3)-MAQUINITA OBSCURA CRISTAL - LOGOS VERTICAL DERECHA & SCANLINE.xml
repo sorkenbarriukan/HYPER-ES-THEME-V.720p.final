@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<customView name="(3)-MAQUINITA OBSCURA CRISTAL - LOGOS VERTICAL DERECHA & SCANLINE" inherits="grid" displayName="${gridDetailsViewName}">
+<image name="background">
+<tile>false</tile>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<size>1 1</size>
+<path>./art/sistemas/fondos/menu scanline.png</path>
+<zIndex>70</zIndex>
+</image>
+    
+<imagegrid name="gamegrid">
+<pos>0.743 0.011</pos>
+<size>0.30 0.993</size>
+<padding>0.08 0 0.08 0</padding>
+<scrollDirection>vertical</scrollDirection>
+<autoLayout>1 9</autoLayout>
+<imageSource>marquee</imageSource>
+<autoLayoutSelectedZoom>1.56</autoLayoutSelectedZoom>
+<margin>0.005 0.02</margin>
+<centerSelection>true</centerSelection>
+<scrollLoop>true</scrollLoop>
+<alignment>left</alignment>
+<folderImage>./art/sistemas/fondos/deffolder.png</folderImage>
+<gameImage>./art/sistemas/fondos/defgame.png</gameImage>
+<zIndex>90</zIndex>
+</imagegrid>
+
+ <image name="gridtile.favorite">
+<path>./art/gridfav.png</path>
+<pos>0.75 0</pos>
+<maxSize>0.25 0.25</maxSize>
+<origin>0 0</origin>
+<color>A0A0A0A0</color>
+</image>  
+    
+<gridtile name="default">
+<padding>1 1</padding>
+<backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+<backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+<imageSizeMode>maxSize</imageSizeMode>
+<imageColor>FFFFFF</imageColor>
+<reflexion>0.09 0.0</reflexion>
+</gridtile>
+
+<gridtile name="selected">
+<backgroundCenterColor>ffffff60</backgroundCenterColor>
+<backgroundEdgeColor>ffffff</backgroundEdgeColor>
+<padding>55 13</padding>
+<imageColor>FFFFFF</imageColor>
+</gridtile>
+
+<text name="gridtile">
+<color>1C00ff00</color>
+<backgroundColor>00000000</backgroundColor>
+<fontSize>0.022</fontSize>
+<alignment>center</alignment>
+<size>1 0.24</size>
+</text>
+<text name="gridtile_selected">
+<color>1C00ff00</color>
+<glowColor>${glowColor}</glowColor>
+<glowSize>0</glowSize>
+</text>
+
+<text name="md_name">
+<visible>false</visible>
+<color>ffffff</color>
+<pos>0.26 0.790</pos>
+<size>0.30 0.05</size>
+<fontSize>0.042</fontSize>
+<fontPath>./art/sistemas/fuentes/Bebas Neue.ttf</fontPath>
+<alignment>left</alignment>
+<glowColor>00000060</glowColor>
+<glowSize>2</glowSize>
+</text>
+
+<image name="md_image">
+<visible>true</visible>
+<pos>0.2215 0.610</pos>
+<size>0.2478 0.5210</size>
+<origin>0.5 0.5</origin>
+<zIndex>19</zIndex>
+</image>
+
+<image name="predeterminado" extra="true">
+<tile>false</tile>
+<Delay>800</Delay>
+<pos>0.2215 0.610</pos>
+<size>0.2468 0.5210</size>
+<origin>0.5 0.5</origin>
+<path>./art/sistemas/fondos/default.png</path>
+<zIndex>18</zIndex>
+<storyboard>
+        <animation property="y" from="0.05" begin="0" duration="350" mode="easeOut"/>
+        <animation property="opacity" from="0" to="1" duration="2950" mode="easeIn"/>
+        <animation property="scale" from="0" to="1" duration="350" mode="easeOut"/>
+      </storyboard>
+</image>
+
+<image name="personaje" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.450 0.2860</pos>
+<size>0.2095 0.7055</size>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>62</zIndex>
+</image>
+
+<image name="personaje2" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<origin>0 0</origin>
+<pos>0.450 0.2860</pos>
+<size>0.2095 0.7055</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>60</zIndex>
+</image>
+
+<image name="personaje3" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<pos>0.450 0.2860</pos>
+<size>0.2095 0.7055</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>61</zIndex>
+</image>
+
+<video name="md_video">
+<pos>0.2215 0.610</pos>
+<size>0.2478 0.5210</size>
+<origin>0.5 0.5</origin>
+<delay>0</delay>
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+<zIndex>20</zIndex>
+</video>
+
+<helpsystem name="help">
+<visible>false</visible>
+<textColor>000000</textColor>
+<iconColor>000000</iconColor>
+<fontSize>0.020</fontSize>
+<pos>0.9995 0.9992</pos>
+</helpsystem>
+
+<text name="logoText">
+<pos>0.219 0.237</pos>
+<size>0.339 0.132</size>
+<origin>0.5 0.5</origin>
+<alignment>center</alignment>
+<fontSize>0.08</fontSize>
+<fontPath>./art/sistemas/fuentes/Bebas Neue.ttf</fontPath>
+<color>00000000</color>
+<storyboard>  
+        <animation property="x" from="-0" begin="0" duration="1250" mode="easeOut"/>  
+</storyboard>
+</text>
+
+<image name="md_marquee">
+<pos>0.225 0.237</pos>
+<size>0.300 0.130</size>
+<origin>0.5 0.5</origin>
+<zIndex>69</zIndex>
+</image>	
+
+<image name="neon" extra="true">
+<path>./art/sistemas/fondos/neonlights.png</path>
+<pos>0.225 0.237</pos>
+<size>0.300 0.130</size>
+<origin>0.5 0.5</origin>
+<zIndex>68</zIndex>
+</image>
+
+<image name="logo">
+<pos>0.225 0.237</pos>
+<size>0.300 0.130</size>
+<origin>0.5 0.5</origin>
+<storyboard>  
+        <animation property="x" from="-0" begin="0" duration="1250" mode="easeOut"/>  
+</storyboard>
+</image>
+
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
+</image>
+
+ <rating name="md_rating">
+ <visible>false</visible>
+<pos>0.06 0.800</pos>
+<size>0.05 0.03</size>
+<color>FFFFFF</color>
+<unfilledColor>808080</unfilledColor>
+</rating>
+</customView>
+</theme>

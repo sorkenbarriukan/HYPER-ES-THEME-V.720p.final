@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+<systemViewName>GOLWG NEWID YN Y SYSTEM</systemViewName>
+<mostra-personajesName>DANGOS CYMERIAD</mostra-personajesName>
+<opciones-de-personajes-en-sistemaName>YMGEISIO EFFEITHIO I'R CYMERIAD MEWN SYSTEM</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>YMGEISIO EFFEITHIO I'R CYMERIAD MEWN GAMELIST</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>NEWID LOGOS YN CAROUSEL</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>NEWID LOGOS MEWN GAMELIST</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>ANIFEILIAID GWEITHREDOL YN LOGO CAROUSEL GWEITHREDOL</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>OPSIYNAU DELWEDD CEFNDIR</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>YMGEISIO SAIN AR CAROUSEL</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>YMGEISIO SAIN YN Y GAMEMYDD</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>EFFAITH FIDEO SYSTEM</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>EFFEITHIO I'R FIDEO YN GAMELIST</subset.opciones-de-video-gamelist>
+<menuName>NEWID ARIAN MENU</menuName>
+<storylogocarruselsistemaName>SYMUDIAD GWEITHREDOL YN LOGO CAROUSEL GWEITHREDOL</storylogocarruselsistemaName>
+<infoName>IAITH NEWID YN UNIG YN (Golwg Clasurol)</infoName>
+<MarqueeStyleName>NEWID LOGOS MEWN CHWARAEWR (Pabell)</MarqueeStyleName>
+<systemViewExInfos>SIOE (InfoEx) YN Y SYSTEM</systemViewExInfos> 
+<subset.Logosoncarousel>NEWID LOGOS CAROUSEL YN Y SYSTEM</subset.Logosoncarousel>
+<subset.shader>RHANNAU - (UCHOD POB UN)</subset.shader>
+<subset.colorset>LLIW SYSTEM NEWID (Bwydlenni)</subset.colorset>
+</variables>
+</theme>

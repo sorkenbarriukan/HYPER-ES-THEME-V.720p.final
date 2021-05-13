@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="gamecarousel">
+<gamecarousel name="gamecarousel">
+<zIndex>43</zIndex>	      
+<type>vertical_wheel</type>
+<pos>0.294 0</pos>
+<size>1 1</size>
+<logoScale>1.45</logoScale>
+<logoSize>0.150 0.260</logoSize>
+<color>00000000</color>
+<maxLogoCount>30</maxLogoCount>
+<logoRotation>8</logoRotation>
+<logoRotationOrigin>3.0 0.5</logoRotationOrigin>
+<logoAlignment>center</logoAlignment>   
+<imageSource>marquee</imageSource>
+</gamecarousel> 
+    
+<text name="gamecarouselLogoText">
+<color>FFFFFFFF</color>
+<glowColor>000000FF</glowColor>
+<glowSize>4</glowSize>
+<lineSpacing>1.0</lineSpacing>
+</text>
+
+<image name="background">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/bg.png</path>
+<path>./art/sistemas/fondos/systemcarousel.png</path>
+<zIndex>10</zIndex>      
+</image>
+    
+<image name="background3" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/wall/default.png</path>
+<path>./art/sistemas/wall/${system.theme}.png</path>
+<zIndex>9</zIndex>
+</image>
+ 
+ <image name="fondotv" extra="true">
+<tile>false</tile>
+<pos>0.3086 0.513</pos>
+<origin>0.5 0.5</origin>
+<size>0.4930 0.535</size>
+<path>./art/sistemas/fondos/marco video hyp.png</path>
+<zIndex>25</zIndex>
+</image>
+   
+<image name="pointer" extra="true">
+<tile>false</tile>
+<pos>0.963 0.50</pos>
+<origin>0.5 0.5</origin>
+<size>0.075 0.175</size>
+<path>./art/sistemas/pointer/default.png</path>
+<path>./art/sistemas/pointer/${system.theme}.png</path>
+<zIndex>90</zIndex> 
+<storyboard repeat="forever">
+<animation property="x" from="0.963" to="0.940" duration="60" autoreverse="true" begin="4000" repeat="3"/>
+</storyboard>
+</image>
+     
+<image name="predeterminado" extra="true">
+<tile>false</tile>
+<Delay>800</Delay>
+<pos>0.3086 0.508</pos>
+<origin>0.5 0.5</origin>
+<size>0.4470 0.449</size>
+<path>./art/sistemas/fondos/default.png</path>
+<zIndex>20</zIndex>
+<storyboard>
+<animation property="y" from="0.05" begin="0" duration="350" mode="easeOut"/>
+<animation property="opacity" from="0" to="1" duration="2950" mode="easeIn"/>
+<animation property="scale" from="0" to="1" duration="350" mode="easeOut"/>
+</storyboard>
+</image>
+   
+<video name="md_video">
+<pos>0.3086 0.508</pos>
+<origin>0.5 0.5</origin>
+<size>0.4470 0.449</size>
+<delay>0</delay>
+<showSnapshotNoVideo>true</showSnapshotNoVideo>
+<showSnapshotDelay>true</showSnapshotDelay>
+<loops>1</loops>
+<roundCorners>0</roundCorners>
+</video>
+    
+<image name="consola" extra="true">
+<path>./art/sistemas/consoles/default.png</path>
+<path>./art/sistemas/consoles/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.1150 0.7430</pos>
+<maxSize>0.14 0.14</maxSize>
+<reflexion>0.30 0.0</reflexion>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="4000" repeat="3"/>
+</storyboard>  
+<zIndex>90</zIndex>
+</image>
+
+
+<image name="personaje" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.4850 0.2567</pos>
+<size>0.2295 0.7155</size>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>82</zIndex>
+</image>
+
+<image name="personaje2" extra="true">
+<visible>false</visible>
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>2EFE2E</color>
+<origin>0 0</origin>
+<pos>0.4850 0.2567</pos>
+<size>0.2295 0.7155</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>80</zIndex>
+</image>
+
+<image name="personaje3" extra="true">
+<visible>false</visible>
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<pos>0.4850 0.2567</pos>
+<size>0.2295 0.7155</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>81</zIndex>
+</image>
+
+<helpsystem name="help">
+<visible>false</visible>
+<textColor>000000</textColor>
+<iconColor>000000</iconColor>
+<fontSize>0.020</fontSize>
+<pos>0.9995 0.9992</pos>
+</helpsystem>
+
+<text name="logoText">
+<pos>0.315 0.170</pos>
+<size>0.200 0.130</size>
+<origin>0.5 0.5</origin>
+<alignment>center</alignment>
+<fontSize>0.08</fontSize>
+<fontPath>./art/sistemas/fuentes/Bebas Neue.ttf</fontPath>
+<color>00000000</color>
+</text>
+
+<image name="md_marquee">
+<pos>0.315 0.170</pos>
+<size>0.200 0.130</size>
+<origin>0.5 0.5</origin>
+<zIndex>90</zIndex>
+</image>	
+
+<image name="logo">
+<pos>0.315 0.170</pos>
+<size>0.200 0.130</size>
+<origin>0.5 0.5</origin>
+</image>
+</view>  
+</theme>

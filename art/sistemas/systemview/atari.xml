@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+<image name="background1" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/atari.png</path>
+<zIndex>26</zIndex>
+</image>  
+
+<image name="logo">
+<storyboard event="activate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<storyboard event="deactivate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<linearSmooth>true</linearSmooth>
+<storyboard event="activate">
+<animation property="scale" to="1.2" duration="1000" mode="easeOut" autoreverse="true" repeat="forever"/>
+</storyboard>
+</image>
+
+<video name="backgroundvideo" extra="true">
+<visible>true</visible>
+<path>{random}</path>
+<path>./art/sistemas/videos/${system.theme}.mp4</path>    
+<roundCorners>0</roundCorners>       
+<rotation>0</rotation>                 
+<pos>0.3811 0.539</pos>
+<origin>0.5 0.5</origin>
+<size>0.3410 0.497</size>
+<effect>loop</effect>
+<delay>0</delay>
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+<color>FFFFFF</color>   
+<zIndex>54</zIndex>
+</video>
+
+<image name="predeterminado" extra="true">
+<tile>false</tile>
+<Delay>800</Delay>
+<pos>0.3811 0.539</pos>
+<origin>0.5 0.5</origin>
+<size>0.3410 0.497</size>
+<rotation>0</rotation>  
+<path>./art/sistemas/fondos/default.png</path>
+<zIndex>53</zIndex>
+<storyboard>
+<animation property="y" from="0.05" begin="0" duration="350" mode="easeOut"/>
+<animation property="opacity" from="0" to="1" duration="2950" mode="easeIn"/>
+<animation property="scale" from="0" to="1" duration="350" mode="easeOut"/>
+</storyboard>
+</image>
+
+<image name="consola" extra="true">
+<path>./art/sistemas/consoles/default.png</path>
+<path>./art/sistemas/consoles/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.5250 0.140</pos>
+<maxSize>0.07 0.07</maxSize>
+<reflexion>0.30 0.0</reflexion>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="4000" repeat="3"/>
+</storyboard>  
+<zIndex>90</zIndex>
+</image>
+
+<image name="personaje" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.030 0.130</pos>
+<size>0.250 0.865</size>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>92</zIndex>
+</image>
+
+<image name="personaje2" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>2EFE2E</color>
+<origin>0 0</origin>
+<pos>0.030 0.130</pos>
+<size>0.250 0.865</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>90</zIndex>
+</image>
+
+<image name="personaje3" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<pos>0.030 0.130</pos>
+<size>0.250 0.865</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>91</zIndex>
+</image>
+
+<image name="box2" extra="true">
+<origin>0.5 0.5</origin>
+<pos>0.424 0.20</pos>
+<maxSize>0.04 0.20</maxSize>
+<zIndex>40</zIndex>
+<path>{random:thumbnail}</path>
+<color>FFFFFFFF</color>
+<roundCorners>0.05</roundCorners>
+<visible>true</visible>
+<reflexion>0</reflexion>
+<opacity>0</opacity>
+<scale>0</scale>
+<scaleOrigin>0 0.5</scaleOrigin>
+<storyboard repeat="forever">
+<animation property="opacity" from="0" to="1" begin="350" duration="700" mode="linear"/>
+<animation property="scale" from="0" to="1" begin="350" duration="800"/>
+<animation property="scaleOrigin" to="0" begin="6000" duration="0"/>
+<animation property="y" from="0.079"  to="0.109" begin="0" duration="1780" autoreverse="true" begin="2000" repeat="5"/>
+</storyboard>
+</image>
+
+<carousel name="systemcarousel">
+<zIndex>93</zIndex>	      
+<type>vertical</type>
+<pos>0.213 0.120</pos>
+<size>1 0.738</size>
+<logoScale>1.13</logoScale>
+<logoSize>0.077 0.120</logoSize>
+<color>00000000</color>
+<maxLogoCount>9</maxLogoCount>
+<logoRotation>54</logoRotation>
+<logoRotationOrigin>3.0 0.5</logoRotationOrigin>
+<logoAlignment>center</logoAlignment>   
+<zIndex>90</zIndex>  
+</carousel>
+
+<text name="systemInfo">
+<systemInfoDelay>300</systemInfoDelay>
+<pos>0.180  0.650</pos>
+<size>0.420 0.35</size>
+<fontSize>0.04</fontSize>
+<fontPath>./art/sistemas/fuentes/Anticlimax.ttf</fontPath>
+<backgroundColor>00000000</backgroundColor>
+<color>ffffff</color>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<rotation>0</rotation> 
+<zIndex>65</zIndex>
+</text>
+
+<helpsystem name="help">
+<visible>false</visible>
+<textColor>1C00ff00</textColor>
+<iconColor>1C00ff00</iconColor>
+<fontSize>0.020</fontSize>
+<pos>0.50 0.03</pos>
+</helpsystem>
+    
+<text name="logoText">
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<color>${baseColor}</color>
+<forceUppercase>true</forceUppercase>
+</text>
+<image name="logo">
+<path>./art/sistemas/ticket/${system.theme}.png</path>
+<path>./${system.theme}/art/system-${lang}.png</path>
+<path>./${system.theme}/art/system-${lang}.svg</path>
+</image>
+</view>
+</theme>

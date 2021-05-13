@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+<systemViewName>CAMBIAR VISTA EN SISTEMA</systemViewName>
+<mostra-personajesName>MOSTRAR PERSONATGE</mostra-personajesName>
+<opciones-de-personajes-en-sistemaName>APLICAR EFECTE A EL PERSONATGE EN SISTEMA</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>APLICAR EFECTE A EL PERSONATGE A GAMELIST</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>CANVIAR LOGOS A CARRUSEL</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>CANVIAR LOGOS A GAMELIST</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>ACTIVAR ANIMACIÓ A LOGO ACTIU DEL CARRUSEL</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>OPCIONS D'IMATGE DE FONS</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>APLICAR SO A CARRUSEL</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>APLICAR SO A GAMELIST</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>EFECTE A EL VÍDEO EN SISTEMA</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>EFECTE A EL VÍDEO A GAMELIST</subset.opciones-de-video-gamelist>
+<menuName>CANVIAR ESTIL DEL MENU</menuName>
+<storylogocarruselsistemaName>ACTIVAR MOVIMENT EN LOGO ACTIU DEL CARRUSEL</storylogocarruselsistemaName>
+<infoName>CANVIAR LLENGUATGE NOMÉS A (Classic View)</infoName>
+<MarqueeStyleName>CANVIAR LOGOS EN LLISTA DE JOCS (Marquee)</MarqueeStyleName>
+<systemViewExInfos>MOSTRAR (INFOEX) A SISTEMA</systemViewExInfos> 
+<subset.Logosoncarousel>CANVIAR LOGOS DEL CARRUSEL A SISTEMA</subset.Logosoncarousel>
+<subset.shader>Shaders - (PER SOBRE DE TOT)</subset.shader>
+<subset.colorset>CANVIAR COLOR DEL SISTEMA (Menús)</subset.colorset>
+</variables>
+</theme>

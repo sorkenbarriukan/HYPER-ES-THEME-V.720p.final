@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+<image name="background3" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/wall/default.png</path>
+<path>./art/sistemas/wall/${system.theme}.png</path>
+<zIndex>25</zIndex>
+</image>
+ 
+<image name="logo">
+<storyboard event="activate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<storyboard event="deactivate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<linearSmooth>true</linearSmooth>
+<storyboard event="activate">
+<animation property="scale" to="1.2" duration="1000" mode="easeOut" autoreverse="true" repeat="forever"/>
+</storyboard>
+</image>
+ 
+<image name="background1" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/comic H2.png</path>
+<zIndex>30</zIndex>
+</image>  
+ 
+<image name="image log0" extra="true">
+<path>./art/sistemas/fondos/log emulation.png</path>
+<color>FFFFFFFF</color>
+<origin>0.5 0.5</origin>
+<pos>0.243 0.08</pos>
+<maxsize>0.390 0.144</maxsize>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.00 0.0</reflexion>
+<storyboard repeat="0">  
+<animation property="opacity" from="0" to="10" duration="3950" begin="2000" mode="easeIn"/>
+</storyboard>
+<rotation>0</rotation>
+<zIndex>78</zIndex>
+</image>
+
+<image name="image log2" extra="true">
+<path>./art/sistemas/fondos/log station.png</path>
+<color>FFFFFFFF</color>
+<origin>0.5 0.5</origin>
+<pos>0.710 0.15</pos>
+<maxsize>0.390 0.144</maxsize>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.00 0.0</reflexion>
+<storyboard repeat="0">  
+<animation property="opacity" from="0" to="10" duration="3950" begin="100" mode="easeIn"/>
+</storyboard>
+<rotation>0</rotation>
+<zIndex>78</zIndex>
+</image>
+
+<image name="image log3" extra="true">
+<path>./art/sistemas/fondos/log magazine.png</path>
+<color>FFFFFFFF</color>
+<origin>0.5 0.5</origin>
+<pos>0.108 0.22</pos>
+<maxsize>0.390 0.144</maxsize>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.00 0.0</reflexion>
+<rotation>0</rotation>
+<storyboard repeat="0">  
+<animation property="opacity" from="0" to="10" duration="3950" mode="easeIn"/> 
+<animation property="opacity" from="0" to="10" duration="3950" begin="5000" mode="easeIn"/>
+</storyboard>
+<zIndex>78</zIndex>
+</image>
+
+<image name="personaje" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.680 0.3060</pos>
+<size>0.200 0.665</size>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>92</zIndex>
+</image>
+
+<image name="personaje2" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>2EFE2E</color>
+<origin>0 0</origin>
+<pos>0.680 0.3060</pos>
+<size>0.200 0.665</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>90</zIndex>
+</image>
+
+<image name="personaje3" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<pos>0.680 0.3060</pos>
+<size>0.200 0.665</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>91</zIndex>
+</image>
+
+<video name="backgroundvideo" extra="true">
+<visible>true</visible>
+<path>{random}</path>                  
+<pos>0.1400 0.8790</pos>
+<origin>0.5 0.5</origin>
+<size>0.2300 0.190</size>
+<delay>0</delay>
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+<color>FFFFFF</color> 
+<roundCorners>0.01.5</roundCorners>  
+<zIndex>28</zIndex>
+<rotation>+0.71</rotation> 
+</video>
+
+<video name="backgroundvideo1" extra="true">
+<visible>true</visible>
+<path>{random}</path>                  
+<pos>0.6550 0.3940</pos>
+<origin>0.5 0.5</origin>
+<size>0.6400 0.286</size>
+<delay>0</delay>
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+<color>FFFFFF</color> 
+<roundCorners>0.01.2</roundCorners>  
+<zIndex>28</zIndex>
+<rotation>+0.50</rotation> 
+</video>
+
+<carousel name="systemcarousel">
+<color>1C00ff00</color>
+<colorEnd>1C00ff00</colorEnd>
+<systemInfoDelay>700</systemInfoDelay>
+<logoScale>1.25</logoScale>
+<logoSize>0.18 0.11</logoSize>
+ <maxLogoCount>4</maxLogoCount>
+<pos>0.030 0.5237</pos>
+<size>0.9425 0.2325</size>
+</carousel>
+
+<text name="systemInfo">
+<systemInfoDelay>300</systemInfoDelay>
+<pos>0.215  0.680</pos>
+<size>0.420 0.35</size>
+<fontSize>0.05</fontSize>
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<backgroundColor>00000000</backgroundColor>
+<color>ffffff</color>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<rotation>0</rotation> 
+<zIndex>65</zIndex>
+</text>
+
+<image name="box1" extra="true">
+<origin>0.5 0.5</origin>
+<pos>0.183 0.380</pos>
+<size>0.316 0.270</size>
+<zIndex>27</zIndex>
+<path>{random:image}</path>
+<color>FFFFFFFF</color>
+<roundCorners>0.01.5</roundCorners> 
+<rotation>+0.71</rotation> 
+<visible>true</visible>
+<reflexion>0</reflexion>
+<opacity>0</opacity>
+<scale>0</scale>
+<scaleOrigin>0 0.5</scaleOrigin>
+<storyboard repeat="1">
+<animation property="opacity" from="1" to="1" begin="350" duration="700" mode="linear"/>
+<animation property="scale" from="1" to="1" begin="350" duration="800"/>
+</storyboard>
+</image>
+
+<image name="box2" extra="true">
+<origin>0.5 0.5</origin>
+<pos>0.780 0.875</pos>
+<size>0.390 0.210</size>
+<zIndex>27</zIndex>
+<path>{random:thumbnail}</path>
+<color>FFFFFFFF</color>
+<roundCorners>0.01.5</roundCorners> 
+<rotation>-0.71</rotation> 
+<visible>true</visible>
+<reflexion>0</reflexion>
+<opacity>0</opacity>
+<scale>0</scale>
+<scaleOrigin>0 0.5</scaleOrigin>
+<storyboard repeat="1">
+<animation property="opacity" from="1" to="1" begin="350" duration="700" mode="linear"/>
+<animation property="scale" from="1" to="1" begin="350" duration="800"/>
+</storyboard>
+</image>
+
+<helpsystem name="help">
+<visible>false</visible>
+<textColor>1C00ff00</textColor>
+<iconColor>1C00ff00</iconColor>
+<fontSize>0.020</fontSize>
+<pos>0.50 0.03</pos>
+</helpsystem>
+    
+<text name="logoText">
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<color>${baseColor}</color>
+<forceUppercase>true</forceUppercase>
+</text>
+<image name="logo">
+<path>./art/sistemas/comic/${system.theme}.png</path>
+<path>./art/sistemas/silverring/${system.theme}.png</path>
+</image>
+</view>
+</theme>

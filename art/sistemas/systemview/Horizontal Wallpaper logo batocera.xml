@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+<image name="background1" extra="true">
+<color>000000FF</color>
+</image>
+ 
+<image name="logo">
+<storyboard event="activate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<storyboard event="deactivate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<linearSmooth>true</linearSmooth>
+<storyboard event="activate">
+<animation property="scale" to="1.2" duration="1000" mode="easeOut" autoreverse="true" repeat="forever"/>
+</storyboard>
+</image>
+ 
+<image name="background3" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/wall/default.png</path>
+<path>./art/sistemas/wall/${system.theme}.png</path>
+</image>
+
+<image name="background4" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/logo.png</path>
+<zIndex>90</zIndex>
+</image>
+    
+<video name="backgroundvideo" extra="true" ifHelpPrompts="false">
+<pos>0.5 0.5</pos>
+<minSize>1 1</minSize>
+</video>
+<image name="ControllerOverlay" extra="true">
+<visible>false</visible>
+</image>
+<image name="CenterFade" extra="true">
+<color>000000A0</color>
+</image>    
+ 
+<carousel name="systemcarousel">
+<color>1C00ff00</color>
+<colorEnd>1C00ff00</colorEnd>
+<systemInfoDelay>700</systemInfoDelay>
+<logoScale>1.15</logoScale>
+<pos>0 0.7237</pos>
+<size>1 0.2625</size>
+ <maxLogoCount>6</maxLogoCount>
+</carousel>
+
+<text name="systemInfo">
+<systemInfoDelay>300</systemInfoDelay>
+<pos>0.290  0.470</pos>
+<size>0.420 0.35</size>
+<fontSize>0.06</fontSize>
+<fontPath>./art/sistemas/fuentes/Anticlimax.ttf</fontPath>
+<backgroundColor>00000000</backgroundColor>
+<color>ffffff</color>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.10 0.0</reflexion>
+</text>
+        
+<helpsystem name="help">
+<visible>false</visible>
+<textColor>1C00ff00</textColor>
+<iconColor>1C00ff00</iconColor>
+<fontSize>0.020</fontSize>
+<pos>0.50 0.03</pos>
+</helpsystem>
+       
+<text name="sys_info" extra="true">
+<visible>false</visible>
+</text>
+<text name="sys_description" extra="true">
+<visible>false</visible>
+</text>
+    
+<text name="logoText">
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<color>${baseColor}</color>
+<forceUppercase>true</forceUppercase>
+</text>
+<image name="logo">
+<path>./art/sistemas/silverring/${system.theme}.png</path>
+<path>./${system.theme}/art/system-${lang}.png</path>
+<path>./${system.theme}/art/system-${lang}.svg</path>
+</image>
+
+<!-- images -->
+ <image name="box1" extra="true">
+      <origin>0.5 0.5</origin>
+      <pos>0.92 0.12</pos>
+      <maxSize>0.11 0.24</maxSize>
+      <zIndex>99</zIndex>
+      <path>{random:image}</path>
+      <color>FFFFFFFF</color>
+      <origin>0.5 0.5</origin>
+      <roundCorners>0.05</roundCorners>
+      <visible>true</visible>
+      <opacity>0</opacity>
+      <scale>0</scale>
+      <scaleOrigin>0 0.5</scaleOrigin>
+      <storyboard repeat="forever">
+        <animation property="opacity" from="0" to="1" begin="350" duration="1000" mode="linear"/>
+        <animation property="scale" from="0" to="1" begin="350" duration="1000" mode="bump"/>
+        <animation property="scaleOrigin" to="0" begin="9000" duration="0"/>
+        <animation property="scale" from="1" to="0" begin="9000" duration="1000" mode="easeOut"/>
+        <animation property="opacity" from="1" to="0" begin="9000" duration="1000" mode="easeOut"/>
+        <animation property="rotation" from="0" to="720" begin="9000" duration="1000" mode="easeOut"/>
+      </storyboard>
+    </image>
+    
+    <image name="box2" extra="true">
+      <pos>0.8 0.12</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.11 0.24</maxSize>
+      <zIndex>98</zIndex>
+      <path>{random:image}</path>
+      <color>FFFFFFFF</color>
+      <origin>0.5 0.5</origin>
+      <roundCorners>0.05</roundCorners>
+      <visible>true</visible>
+      <opacity>0</opacity>
+      <scaleOrigin>0 0.5</scaleOrigin>
+      <storyboard repeat="forever">
+        <animation property="opacity" from="0" to="1" begin="700" duration="1000" mode="linear"/>
+        <animation property="scale" from="0" to="1" begin="700" duration="1000" mode="bump"/>
+        <animation property="scaleOrigin" to="0" begin="9000" duration="0"/>
+        <animation property="scale" from="1" to="0" begin="9000" duration="1000" mode="easeOut"/>
+        <animation property="opacity" from="1" to="0" begin="9000" duration="1000" mode="easeOut"/>
+        <animation property="rotation" from="0" to="720" begin="9000" duration="1000" mode="easeOut"/>
+      </storyboard>
+    </image>
+    
+    <image name="box3" extra="true">
+      <pos>0.68 0.12</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.11 0.24</maxSize>
+      <zIndex>97</zIndex>
+      <path>{random:image}</path>
+      <color>FFFFFFFF</color>
+      <origin>0.5 0.5</origin>
+      <roundCorners>0.05</roundCorners>
+      <opacity>0</opacity>
+      <scaleOrigin>0 0.5</scaleOrigin>
+      <storyboard repeat="forever">
+        <animation property="opacity" from="0" to="1" begin="1050" duration="1000" mode="linear"/>
+        <animation property="scale" from="0" to="1" begin="1050" duration="1000" mode="bump"/>
+        <animation property="scaleOrigin" to="0" begin="9000" duration="0"/>
+        <animation property="scale" from="1" to="0" begin="9000" duration="1000" mode="easeOut"/>
+        <animation property="opacity" from="1" to="0" begin="9000" duration="1000" mode="easeOut"/>
+        <animation property="rotation" from="0" to="720" begin="9000" duration="1000" mode="easeOut"/>
+      </storyboard>
+    </image>
+    
+    <image name="box4" extra="true">
+      <pos>0.56 0.12</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.11 0.24</maxSize>
+      <zIndex>96</zIndex>
+      <path>{random:image}</path>
+      <color>FFFFFFFF</color>
+      <origin>0.5 0.5</origin>
+      <roundCorners>0.05</roundCorners>
+      <opacity>0</opacity>
+      <scaleOrigin>0 0.5</scaleOrigin>
+      <storyboard repeat="forever">
+        <animation property="opacity" from="0" to="1" begin="1400" duration="1000" mode="linear"/>
+        <animation property="scale" from="0" to="1" begin="1400" duration="1000" mode="bump"/>
+        <animation property="scaleOrigin" to="0" begin="9000" duration="0"/>
+        <animation property="scale" from="1" to="0" begin="9000" duration="1000" mode="easeOut"/>
+        <animation property="opacity" from="1" to="0" begin="9000" duration="1000" mode="easeOut"/>
+        <animation property="rotation" from="0" to="720" begin="9000" duration="1000" mode="easeOut"/>
+      </storyboard>
+    </image>
+    
+    <image name="box5" extra="true">
+      <pos>0.44 0.12</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.11 0.24</maxSize>
+      <zIndex>95</zIndex>
+      <path>{random:image}</path>
+      <color>FFFFFFFF</color>
+      <origin>0.5 0.5</origin>
+      <roundCorners>0.05</roundCorners>
+      <opacity>0</opacity>
+      <scaleOrigin>0 0.5</scaleOrigin>
+      <storyboard repeat="forever">
+        <animation property="opacity" from="0" to="1" begin="1750" duration="1000" mode="linear"/>
+        <animation property="scale" from="0" to="1" begin="1750" duration="1000" mode="bump"/>
+        <animation property="scaleOrigin" to="0" begin="9000" duration="0"/>
+        <animation property="scale" from="1" to="0" begin="9000" duration="1000" mode="easeOut"/>
+        <animation property="opacity" from="1" to="0" begin="9000" duration="1000" mode="easeOut"/>
+        <animation property="rotation" from="0" to="720" begin="9000" duration="1000" mode="easeOut"/>
+      </storyboard>
+    </image>
+    
+    <image name="box6" extra="true">
+      <pos>0.32 0.12</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.11 0.24</maxSize>
+      <zIndex>94</zIndex>
+      <path>{random:image}</path>
+      <color>FFFFFFFF</color>
+      <origin>0.5 0.5</origin>
+      <roundCorners>0.05</roundCorners>
+      <opacity>0</opacity>
+      <scaleOrigin>0 0.5</scaleOrigin>
+      <storyboard repeat="forever">
+        <animation property="opacity" from="0" to="1" begin="2200" duration="1000" mode="linear"/>
+        <animation property="scale" from="0" to="1" begin="2200" duration="1000" mode="bump"/>
+        <animation property="scaleOrigin" to="0" begin="9000" duration="0"/>
+        <animation property="scale" from="1" to="0" begin="9000" duration="1000" mode="easeOut"/>
+        <animation property="opacity" from="1" to="0" begin="9000" duration="1000" mode="easeOut"/>
+        <animation property="rotation" from="0" to="720" begin="9000" duration="1000" mode="easeOut"/>
+      </storyboard>
+      
+    </image>
+    <image name="box7" extra="true">
+      <pos>0.20 0.12</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.11 0.24</maxSize>
+      <zIndex>93</zIndex>
+      <path>{random:image}</path>
+      <color>FFFFFFFF</color>
+      <origin>0.5 0.5</origin>
+      <roundCorners>0.05</roundCorners>
+      <opacity>0</opacity>
+      <scaleOrigin>0 0.5</scaleOrigin>
+      <storyboard repeat="forever">
+        <animation property="opacity" from="0" to="1" begin="2550" duration="1000" mode="linear"/>
+        <animation property="scale" from="0" to="1" begin="2550" duration="1000" mode="bump"/>
+        <animation property="scaleOrigin" to="0" begin="9000" duration="0"/>
+        <animation property="scale" from="1" to="0" begin="9000" duration="1000" mode="easeOut"/>
+        <animation property="opacity" from="1" to="0" begin="9000" duration="1000" mode="easeOut"/>
+        <animation property="rotation" from="0" to="720" begin="9000" duration="1000" mode="easeOut"/>
+      </storyboard>
+      
+    </image>
+    <image name="box8" extra="true">
+      <pos>0.08 0.12</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.11 0.24</maxSize>
+      <zIndex>92</zIndex>
+      <path>{random:image}</path>
+      <color>FFFFFFFF</color>
+      <origin>0.5 0.5</origin>
+      <roundCorners>0.05</roundCorners>
+      <opacity>0</opacity>
+      <scaleOrigin>0.5 0.5</scaleOrigin>
+      <storyboard repeat="forever">
+        <animation property="opacity" from="0" to="1" begin="2900" duration="1000" mode="linear"/>
+        <animation property="scale" from="0" to="1" begin="2900" duration="1000" mode="bump"/>
+        <animation property="scaleOrigin" to="0" begin="9000" duration="0"/>
+        <animation property="scale" from="1" to="0" begin="9000" duration="1000" mode="easeOut"/>
+        <animation property="opacity" from="1" to="0" begin="9000" duration="1000" mode="easeOut"/>
+        <animation property="rotation" from="0" to="720" begin="9000" duration="1000" mode="easeOut"/>
+      </storyboard>
+    </image>
+</view> 
+</theme>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+<systemViewName>CAMBIAR VISTA EN SISTEMA</systemViewName>
+<mostra-personajesName>MOSTRAR PERSONAJE</mostra-personajesName>
+<opciones-de-personajes-en-sistemaName>APLICAR EFECTO AL PERSONAJE EN SISTEMA</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>APLICAR EFECTO AL PERSONAJE EN GAMELIST</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>CAMBIAR LOGOS EN CARRUSEL</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>CAMBIAR LOGOS EN GAMELIST</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>ACTIVAR ANIMACION EN LOGO ACTIVO DEL CARRUSEL</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>OPCIONES DE IMAGEN DE FONDO</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>APLICAR SONIDO EN CARRUSEL</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>APLICAR SONIDO EN GAMELIST</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>EFECTO AL VIDEO EN SISTEMA</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>EFECTO AL VIDEO EN GAMELIST</subset.opciones-de-video-gamelist>
+<menuName>CAMBIAR ESTILO DEL MENU</menuName>
+<storylogocarruselsistemaName>ACTIVAR MOVIMIENTO EN LOGO ACTIVO DEL CARRUSEL</storylogocarruselsistemaName>
+<infoName>CAMBIAR LENGUAJE SOLO EN (Classic View)</infoName>
+<MarqueeStyleName>CAMBIAR LOGOS EN LISTA DE JUEGOS (Marquee)</MarqueeStyleName>
+<systemViewExInfos>MOSTRAR (InfoEx) EN SISTEMA</systemViewExInfos> 
+<subset.Logosoncarousel>CAMBIAR LOGOS DEL CARRUSEL EN SISTEMA</subset.Logosoncarousel>
+<subset.shader>SHADERS - (POR ENCIMA DE TODO)</subset.shader>
+<subset.colorset>CAMBIAR COLOR DEL SISTEMA (Menus)</subset.colorset>
+</variables>
+</theme>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+<systemViewName>ANSICHT IM SYSTEM ÄNDERN</systemViewName>
+<mostra-personajesName>ZEICHEN ZEIGEN</mostra-personajesName>
+<opciones-de-personajes-en-sistemaName>EFFEKT AUF DEN CHARAKTER IM SYSTEM ANWENDEN</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>EFFEKT AUF DEN CHARAKTER IN DER SPIELELISTE ANWENDEN</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>LOGOS IN CAROUSEL ÄNDERN</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>LOGOS IN DER SPIELLISTE ÄNDERN</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>AKTIVIERTE ANIMATION IM AKTIVEN KARUSSELL-LOGO</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>HINTERGRUNDBILDOPTIONEN</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>SOUND AUF CAROUSEL ANWENDEN</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>SOUND IN GAMELIST ANWENDEN</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>SYSTEM-VIDEO-EFFEKT</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>WIRKUNG AUF DAS VIDEO IN DER GAMELIST</subset.opciones-de-video-gamelist>
+<menuName>MENÜSTIL ÄNDERN</menuName>
+<storylogocarruselsistemaName>AKTIVIERTE BEWEGUNG IM AKTIVEN KARUSSELL-LOGO</storylogocarruselsistemaName>
+<infoName>SPRACHE NUR IN ÄNDERN (klassische Ansicht)</infoName>
+<MarqueeStyleName>LOGOS IN DER PLAYLIST ÄNDERN (Festzelt)</MarqueeStyleName>
+<systemViewExInfos>SHOW (InfoEx) IM SYSTEM</systemViewExInfos> 
+<subset.Logosoncarousel>KAROUSEL-LOGOS IM SYSTEM ÄNDERN</subset.Logosoncarousel>
+<subset.shader>SHADERS - (ÜBER ALLEN)</subset.shader>
+<subset.colorset>SYSTEMFARBE ÄNDERN (Menüs)</subset.colorset>
+</variables>
+</theme>

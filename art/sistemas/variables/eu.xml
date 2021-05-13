@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+<systemViewName>ALDAKETA IKUSPEGIA SISTEMAN</systemViewName>
+<mostra-personajesName>ERAKUTSI PERTSONAIA</mostra-personajesName>
+<opciones-de-personajes-en-sistemaName>SISTEMAKO PERTSONAIAREN ERAGINA APLIKATUA</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>JOKALARITZEKO PERTSONAIAREN ERAGINA APLIKATU</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>ALDATU LOGOAK CAROUSELEN</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>ALDATU LOGOAK JOLAS-LISTAN</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>ANIMAZIOA AKTIBATU KARRUSELA LOGO AKTIBOAN</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>AURREKARIAK IRUDI AUKERAK</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>APLIKATU SOINUA CAROUSELEN</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>APLIKATU SOINUA JOKALARI-LISTAN</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>SISTEMAREN BIDEO EFEKTUA</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>JOKALARIEN BIDEOAREN ERAGINA</subset.opciones-de-video-gamelist>
+<menuName>MENU ALDAKETA ESTILOA</menuName>
+<storylogocarruselsistemaName>MUGIMENDUA AKTIBATU KARRUSELA LOGO AKTIBOAN</storylogocarruselsistemaName>
+<infoName>ALDAKETA HIZKUNTZA BAKARRIK (ikuspegi klasikoa)</infoName>
+<MarqueeStyleName>ALDATU LOGOAK PLAYLIST (Markesina)</MarqueeStyleName>
+<systemViewExInfos>IKUSI (InfoEx) SISTEMAN</systemViewExInfos> 
+<subset.Logosoncarousel>ALDATU KARRUSELAREN LOGOAK SISTEMAN</subset.Logosoncarousel>
+<subset.shader>SHADERS - (GUZTIEN GAINEZ)</subset.shader>
+<subset.colorset>SISTEMAREN KOLORE ALDAKETA (Menuak)</subset.colorset>
+</variables>
+</theme>

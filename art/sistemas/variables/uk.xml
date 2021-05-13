@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+<systemViewName>ЗМІНИТИ ПЕРЕГЛЯД СИСТЕМИ</systemViewName>
+<mostra-personajesName>ПОКАЗИТИ ХАРАКТЕР</mostra-personajesName>
+<opciones-de-personajes-en-sistemaName>ЗАСТОСУЙТЕ ЕФЕКТ ДО ХАРАКТЕРУ В СИСТЕМІ</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>ЗАСТОСУЙТЕ ЕФЕКТ ДО ХАРАКТЕРУ В ГАМЕЛІСТІ</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>ЗМІНИ ЛОГОТИПИ В КАРУСЕЛІ</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>ЗМІНИ ЛОГОТИПИ В ГАМЕЛІСТІ</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>АКТИВУЙТЕ АНІМАЦІЮ В АКТИВНОМУ ЛОГОТИКІ КАРУСЕЛЬ</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>ВАРІАНТИ ФОНОВОГО ЗОБРАЖЕННЯ</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>ЗАСТОСУЙТЕ ЗВУК НА КАРУСЕЛІ</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>ЗАСТОСУЙТЕ ЗВУК У ГАМЕЛІСТІ</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>ВІДЕО ЕФЕКТ СИСТЕМИ</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>ВПЛИВ ВІДЕО В ГАМЕЛІСТІ</subset.opciones-de-video-gamelist>
+<menuName>ЗМІНИТИ СТИЛЬ МЕНЮ</menuName>
+<storylogocarruselsistemaName>АКТИВУЙТЕ РУХ В АКТИВНОМУ ЛОГОТИКІ КАРУСЕЛУ</storylogocarruselsistemaName>
+<infoName>ЗМІНИТИ ТІЛЬКИ МОВУ (класичний вигляд)</infoName>
+<MarqueeStyleName>ЗМІНИТИ ЛОГОТИПИ У ПЛЕЙЛИСТІ (Marquee)</MarqueeStyleName>
+<systemViewExInfos>ПОКАЗАТИ (InfoEx) В СИСТЕМІ</systemViewExInfos> 
+<subset.Logosoncarousel>ЗМІНИТИ ЛОГОТИКИ КАРУСЕЛЬУ В СИСТЕМІ</subset.Logosoncarousel>
+<subset.shader>ШАЙДЕРИ - (НАД ВСІМ)</subset.shader>
+<subset.colorset>ЗМІНИТИ КОЛІР СИСТЕМИ (Меню)</subset.colorset>
+</variables>
+</theme>

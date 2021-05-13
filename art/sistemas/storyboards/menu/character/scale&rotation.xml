@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="basic, detailed, grid, carousel, gamecarousel">
+<image name="personaje" extra="true">
+<storyboard repeat="1">
+<animation property="scale" from="0" to="1" duration="3800" mode="ease-in-out"/>  
+<animation property="x" from="1.01" begin="0" duration="5250" mode="easeOut"/>
+</storyboard>  
+</image>
+
+<image name="personaje2" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="personaje3" extra="true">
+<visible>flase</visible>
+</image>
+</view>
+</theme>

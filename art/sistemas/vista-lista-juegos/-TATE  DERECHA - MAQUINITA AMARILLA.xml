@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<customView name="-TATE  DERECHA - MAQUINITA AMARILLA" inherits="gamecarousel" displayName="${gridDetailsViewName}">    
+<image name="background1" extra="true">
+<visible>true</visible>
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/vertical Bigcabin YLW.png</path>
+<zIndex>30</zIndex>
+<rotation>+180</rotation>
+</image>  
+  
+<gamecarousel name="gamecarousel">
+<zIndex>63</zIndex>	      
+<type>vertical_wheel</type>
+<pos>0.9994 0</pos>
+<size>1 1</size>
+<logoScale>1.45</logoScale>
+<logoSize>0.150 0.260</logoSize>
+<color>ffffff</color>
+<maxLogoCount>30</maxLogoCount>
+<logoRotation>10</logoRotation>
+<logoRotationOrigin>2.5 0.5</logoRotationOrigin>
+<logoAlignment>center</logoAlignment>   
+<imageSource>marquee</imageSource>
+</gamecarousel> 
+
+<text name="gamecarouselLogoText">
+<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
+<color>FFFFFFFF</color>
+<glowColor>000000FF</glowColor>
+<glowSize>4</glowSize>
+<lineSpacing>1.0</lineSpacing>
+</text>
+
+<image name="pointer" extra="true">
+<visible>false</visible>
+<tile>false</tile>
+<pos>0.972 0.50</pos>
+<origin>0.5 0.5</origin>
+<size>0.055 0.155</size>
+<path>./art/sistemas/pointer/default.png</path>
+<path>./art/sistemas/pointer/${system.theme}.png</path>
+<zIndex>60</zIndex>
+<storyboard repeat="forever">
+<animation property="x" from="0.963" to="0.940" duration="60" autoreverse="true" begin="4000" repeat="3"/>
+</storyboard>
+<zIndex>90</zIndex>
+</image>
+
+<image name="fondotv" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="background3" extra="true">
+<tile>false</tile>
+<pos>0.22 -0.40</pos>
+<size>0.560 1.79990</size>
+<origin>0 0</origin>
+<rotation>-90</rotation>
+<path>./art/sistemas/wall/default.png</path>
+<path>./art/sistemas/wall/${system.theme}.png</path>
+<zIndex>25</zIndex>
+<rotation>+90</rotation>
+</image>
+  
+<image name="background" extra="true">
+<visible>false</visible>
+</image>  
+
+<text name="md_name">
+<visible>false</visible>
+<color>ffffff</color>
+<pos>0.45  0.700</pos>
+<size>0.15 0.05</size>
+<fontSize>0.032</fontSize>
+<fontPath>./art/sistemas/fuentes/Anticlimax.ttf</fontPath>
+<alignment>left</alignment>
+<glowColor>00000060</glowColor>
+<glowSize>2</glowSize>
+</text>
+
+<image name="consola" extra="true">
+<visible>false</visible>
+<path>./art/sistemas/consoles/default.png</path>
+<path>./art/sistemas/consoles/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.09 0.8400</pos>
+<maxSize>0.11 0.11</maxSize>
+<reflexion>0.30 0.0</reflexion>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="4000" repeat="3"/>
+</storyboard>  
+<zIndex>90</zIndex>
+<rotation>-90</rotation> 
+</image>
+
+<image name="personaje" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.740 0.1000</pos>
+<size>0.075 0.2255</size>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.0 0.0</reflexion>
+<zIndex>92</zIndex>
+<rotation>+90</rotation>
+</image>
+
+<image name="personaje2" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>2EFE2E</color>
+<origin>0 0</origin>
+<pos>0.740 0.1000</pos>
+<size>0.075 0.2255</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.0 0.0</reflexion>
+<zIndex>90</zIndex>
+<rotation>+90</rotation>
+</image>
+
+<image name="personaje3" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<pos>0.740 0.1000</pos>
+<size>0.075 0.2255</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.0 0.0</reflexion>
+<zIndex>91</zIndex>
+<rotation>+90</rotation>
+</image>
+
+<helpsystem name="help">
+<visible>false</visible>
+<textColor>000000</textColor>
+<iconColor>000000</iconColor>
+<fontSize>0.020</fontSize>
+<pos>0.9995 0.9992</pos>
+</helpsystem>
+
+<text name="logoText">
+<pos>0.780 0.500</pos>
+<size>0.445 0.225</size>
+<origin>0.5 0.5</origin>
+<alignment>center</alignment>
+<fontSize>0.08</fontSize>
+<fontPath>./art/sistemas/fuentes/Bebas Neue.ttf</fontPath>
+<color>00000000</color>
+</text>
+
+<image name="logo">
+<pos>0.776 0.500</pos>
+<size>0.445 0.225</size>
+<origin>0.5 0.5</origin>
+<zIndex>99</zIndex>
+<rotation>+90</rotation>
+</image>
+
+<image name="md_marquee">
+<pos>0.780 0.500</pos>
+<size>0.445 0.225</size>
+<origin>0.5 0.5</origin>
+<zIndex>49</zIndex>
+<reflexion>0.0 0.0</reflexion>
+<rotation>+90</rotation>
+</image>	
+
+<image name="md_image">
+<pos>0.4065 0.517</pos>
+<size>0.3958 0.9420</size>
+<origin>0.5 0.5</origin>
+<zIndex>27</zIndex>
+<rotation>+90</rotation>
+</image>	
+
+<image name="predeterminado" extra="true">
+<tile>false</tile>
+<Delay>800</Delay>
+<pos>0.4065 0.517</pos>
+<size>0.3958 0.9420</size>
+<origin>0.5 0.5</origin>
+<delay>0</delay>
+<path>./art/sistemas/fondos/default.png</path>
+<zIndex>26</zIndex>
+<rotation>+90</rotation>
+</image>
+
+ <video name="backgroundvideo2" extra="true">
+<path>./art/logcarou.mp4</path>                 
+<pos>0.778 0.501</pos>
+<size>0.469 0.240</size>
+<origin>0.5 0.5</origin>
+<delay>0</delay>
+<rotation>+90</rotation>
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+<color>FFFFFF</color>
+<zIndex>29</zIndex>      
+</video>
+
+<video name="md_video">
+<pos>0.4065 0.517</pos>
+<size>0.3958 0.9420</size>
+<origin>0.5 0.5</origin>
+<delay>0</delay>
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+<roundCorners>0</roundCorners>
+<zIndex>29</zIndex>
+<rotation>+90</rotation>
+</video>
+
+<image name="logo3" extra="true">
+<path>./art/sistemas/ticket/${system.theme}.png</path>
+<color>ffffff</color>
+<pos>0.921 0.515</pos>
+<size>0.235 0.152</size>
+<origin>0.5 0.5</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.0 0.0</reflexion>
+<zIndex>90</zIndex>
+<rotation>+90</rotation>
+<storyboard repeat="0">
+<animation property="opacity" from="0" duration="80" begin="1800" autoreverse="true" repeat="3"/>
+</storyboard>
+</image>
+
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="1">
+<animation property="rotation"  to="+90" duration="100"  begin="0" repeat="1"/>
+</storyboard> 
+</image>
+
+ <rating name="md_rating">
+ <visible>false</visible>
+<pos>0.06 0.800</pos>
+<size>0.05 0.03</size>
+<color>FFFFFF</color>
+<unfilledColor>808080</unfilledColor>
+</rating>
+</customView>
+</theme>

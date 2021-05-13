@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+<systemViewName>CAMBIA DI VISTA IN SISTEMA</systemViewName>
+<mostra-personajesName>MOSTRA CARATTERU</mostra-personajesName>
+<opciones-de-personajes-en-sistemaName>APPLICATE EFFETU À U CARATTERU IN SISTEMA</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>APPLICATE EFFETU À U PERSONAGGU IN GAMELIST</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>CAMBIA LOGHI IN GIOSTRA</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>CAMBIA LOGHI IN GAMELIST</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>ATTIVA L'ANIMAZIONE CON LOGO GIOSTRA ATTIVA</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>OPZIONI DI IMAGINE DI FONDU</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>APPLICATE U SONU IN CAROUSEL</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>APPLICATE U SONU IN GAMELIST</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>EFFETU VIDEO DI U SISTEMA</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>EFFETU À U VIDEO IN GAMELIST</subset.opciones-de-video-gamelist>
+<menuName>CAMBIA STILE DI MENU</menuName>
+<storylogocarruselsistemaName>ATTIVA U MOVIMENTU IN LOGO CAROUSEL ATTIVU</storylogocarruselsistemaName>
+<infoName>CAMBIA DI LINGUA SOLU IN (Vista classica)</infoName>
+<MarqueeStyleName>CAMBIA DI LOGOS IN PLAYLIST (Marquee)</MarqueeStyleName>
+<systemViewExInfos>MOSTRA (InfoEx) IN SISTEMA</systemViewExInfos> 
+<subset.Logosoncarousel>CAMBIA DI LOGOS CAROUSEL IN SISTEMA</subset.Logosoncarousel>
+<subset.shader>SHADERS - (SOBRE TUTTI)</subset.shader>
+<subset.colorset>CAMBIA COLORE DI U SISTEMA (Menu)</subset.colorset>
+</variables>
+</theme>

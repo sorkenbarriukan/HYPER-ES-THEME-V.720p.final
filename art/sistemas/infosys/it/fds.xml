@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+	
+		<text name="sys_info" extra="true">
+<!-- MAX SIZE -----------|------>
+<text>Nintendo
+Componente aggiuntivo console
+Terza Generazione
+1986
+Floppy disks
+Joypad a 2 bottoni</text>
+		</text>
+		
+		<text name="sys_description" extra="true">
+<!-- MAX SIZE - DEPENDS OF THE WORDS LENGTH ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------->
+<text>l? FDS (nome completo  Family Computer Disk System) è un dispositivo aggiuntivo della console per videogiochi Famicom rilasciato il 21 febbraio 1986 solo in Giappone. Questo dispositivo si trova sotto la console e consente di utilizzare un formato floppy proprietario che consente di archiviare giochi più grandi rispetto a una cartuccia, nonché di salvare giochi. Incorpora anche un sintetizzatore FM che consente ai giochi di avere musica più ricca. The Legend of Zelda è stato originariamente creato per questo sistema, tra i giochi che hanno avuto molto successo ricordiamo Shin Onigashima.</text>
+		</text>
+		
+	</view>
+
+</theme>

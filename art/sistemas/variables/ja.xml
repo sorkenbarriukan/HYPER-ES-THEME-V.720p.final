@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+<systemViewName>システムのビューを変更する</systemViewName>
+<mostra-personajesName>キャラクターを表示</mostra-personajesName>
+<opciones-de-personajes-en-sistemaName>システム内のキャラクターに効果を適用する</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>ゲームリストのキャラクターに効果を適用する</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>CAROUSELのロゴを変更する</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>ゲームリストのロゴを変更する</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>アクティブなカルーセルロゴでアニメーションをアクティブ化する</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>背景画像のオプション</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>カルーセルにサウンドを適用する</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>ゲームリストにサウンドを適用する</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>システムビデオ効果</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>ゲームリストのビデオへの影響</subset.opciones-de-video-gamelist>
+<menuName>メニュースタイルの変更</menuName>
+<storylogocarruselsistemaName>アクティブなカルーセルロゴで動きをアクティブにする</storylogocarruselsistemaName>
+<infoName>言語の変更のみ（クラシックビュー）</infoName>
+<MarqueeStyleName>プレイリストのロゴを変更する（マーキー）</MarqueeStyleName>
+<systemViewExInfos>システム内のSHOW（InfoEx）</systemViewExInfos> 
+<subset.Logosoncarousel>システム内のカルーセルロゴを変更する</subset.Logosoncarousel>
+<subset.shader>シェーダー-（すべての上）</subset.shader>
+<subset.colorset>システムカラーの変更（メニュー）</subset.colorset>
+</variables>
+</theme>

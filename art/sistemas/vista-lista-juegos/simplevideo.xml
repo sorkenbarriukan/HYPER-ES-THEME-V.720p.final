@@ -37,13 +37,6 @@
 
 <image name="background3" extra="true">
 <visible>false</visible>
-<tile>false</tile>
-<size>1 1</size>
-<pos>0 0</pos>
-<origin>0 0</origin>
-<path>./art/sistemas/wall/default.png</path>
-<path>./art/sistemas/wall/${system.theme}.png</path>
-<zIndex>0</zIndex>
 </image>
  
 <image name="pointer" extra="true">
@@ -160,13 +153,13 @@
 </video> 
 
 <image name="md_image">
-<visible>false</visible>
+<visible>true</visible>
 <color>ffffff</color>
-<size>0.5720 0.743</size>
-<origin>0.5 0.5</origin>
-<pos>0.649 0.484</pos>
-<roundCorners>0.03.1</roundCorners>  
-<zIndex>18</zIndex>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<roundCorners>0</roundCorners>  
+<zIndex>30</zIndex>
 </image>
 	
 <text name="md_name">
@@ -174,7 +167,7 @@
 </text>
 
 <text name="logoText">
-<pos>0.62 0.134</pos>
+<pos>0.40 0.090</pos>
 <size>0.143 0.119</size>
 <origin>0.5 0.5</origin>
 <fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
@@ -193,7 +186,7 @@
 </text>
 
 <image name="md_marquee">
-<pos>0.62 0.134</pos>
+<pos>0.40 0.090</pos>
 <size>0.143 0.119</size>
 <origin>0.5 0.5</origin>
 <linearSmooth>true</linearSmooth>
@@ -207,7 +200,7 @@
 </image>
 
 <image name="logo">
-<pos>0.62 0.134</pos>
+<pos>0.40 0.090</pos>
 <size>0.143 0.119</size>
 <origin>0.5 0.5</origin>
 <zIndex>90</zIndex> 

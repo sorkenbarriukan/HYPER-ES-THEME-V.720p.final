@@ -4,8 +4,104 @@
  <view name="system">
 <text name="systemInfoEx" extra="true">
  <visible>true</visible>
-<text>
-Ultimo Jugado : {binding:lastPlayedDate}
+
+<text lang="es"> <!--español-->
+Última partida : {binding:lastPlayedDate}
+</text>
+
+ <text lang="es_MX"> <!--español mx-->
+Última partida : {binding:lastPlayedDate}
+</text>
+
+<text lang="fr"> <!--frances-->
+Dernier match : {binding:lastPlayedDate}
+</text>
+
+<text lang="en"> <!--ingles-->
+Last game : {binding:lastPlayedDate}
+</text>
+
+<text lang="ar"> <!--arabe-->
+أخر لعبة : {binding:lastPlayedDate}
+</text>
+
+<text lang="ca"> <!--catalan-->
+darrera partida : {binding:lastPlayedDate}
+</text>
+
+<text lang="cy"> <!--gales-->
+Gêm olaf : {binding:lastPlayedDate}
+</text>
+
+<text lang="de"> <!--aleman-->
+Letztes Spiel : {binding:lastPlayedDate}
+</text>
+
+<text lang="el"> <!--griego-->
+Τελευταίο παιχνίδι : {binding:lastPlayedDate}
+</text>
+
+<text lang="eu"> <!--euskera-->
+Azken partida : {binding:lastPlayedDate}
+</text>
+
+<text lang="hu"> <!--hungaro-->
+Utolsó játék : {binding:lastPlayedDate}
+</text>
+
+<text lang="it"> <!--italiano-->
+Ultimo gioco : {binding:lastPlayedDate}
+</text>
+<text lang="oc"> <!--italiano-->
+Ultimo gioco : {binding:lastPlayedDate}
+</text>
+
+<text lang="ja"> <!--japones-->
+最後の試合 : {binding:lastPlayedDate}
+</text>
+
+<text lang="ko"> <!--coreano-->
+마지막 게임 : {binding:lastPlayedDate}
+</text>
+
+<text lang="nl"> <!--neerlandes-->
+Laatste spel : {binding:lastPlayedDate}
+</text>
+
+<text lang="nn"> <!--noruego-->
+Siste spill : {binding:lastPlayedDate}
+</text>
+
+<text lang="se"> <!--noruego-->
+Siste spill : {binding:lastPlayedDate}
+</text>
+
+<text lang="pl"> <!--polaco-->
+Ostatnia gra : {binding:lastPlayedDate}
+</text>
+
+<text lang="pr"> <!--portuges-->
+Ultimo jogo : {binding:lastPlayedDate}
+</text>
+
+<text lang="pt_BR"> <!--portuges brasil-->
+Ultimo jogo : {binding:lastPlayedDate}
+</text>
+
+<text lang="ru"> <!--ruso-->
+Последняя игра : {binding:lastPlayedDate}
+</text>
+
+<text lang="tr"> <!--turko-->
+Son Oyun : {binding:lastPlayedDate}
+</text>
+
+<text lang="uk"> <!--ucraniano-->
+Остання гра : {binding:lastPlayedDate}
+</text>
+
+<text lang="zh"> <!--chino-->
+最后一盘游戏 : {binding:lastPlayedDate}
 </text>
 <verticalAlignment>center</verticalAlignment>
           <fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>

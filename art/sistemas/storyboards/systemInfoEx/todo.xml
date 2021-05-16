@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+ <view name="system">
+<text name="systemInfoEx" extra="true">
+ <visible>true</visible>
+  <text lang="es"> <!--español-->
+Jugados : {binding:gamesPlayed}
+Última partida : {binding:lastPlayedDate}
+Mas Jugado : {binding:mostPlayed}
+Favoritos : {binding:favorites}
+Veces Jugados : {binding:played}
+Ocultos : {binding:hidden}
+Total De Juegos : {binding:total}
+</text>
+ <text lang="es_MX"> <!--español mx-->
+Jugados : {binding:gamesPlayed}
+Última partida : {binding:lastPlayedDate}
+Mas Jugado : {binding:mostPlayed}
+Favoritos : {binding:favorites}
+Veces Jugados : {binding:played}
+Ocultos : {binding:hidden}
+Total De Juegos : {binding:total}
+</text>
+<text lang="fr"> <!--frances-->
+Joué : {binding:gamesPlayed}
+Dernier match : {binding:lastPlayedDate}
+Le plus joué : {binding:mostPlayed}
+Favoris : {binding:favorites}
+Fois jouées : {binding:played}
+Caché : {binding:hidden}
+Total de jeux : {binding:total}
+</text>
+<text lang="en"> <!--ingles-->
+Played : {binding:gamesPlayed}
+Last game : {binding:lastPlayedDate}
+Most Played : {binding:mostPlayed}
+Favorites : {binding:favorites}
+Times Played : {binding:played}
+Hidden : {binding:hidden}
+Total Games : {binding:total}
+</text>
+<text lang="ar"> <!--arabe-->
+لعب : {binding:gamesPlayed}
+أخر لعبة : {binding:lastPlayedDate}
+الأكثر لعبا : {binding:mostPlayed}
+فافوريتوس : {binding:favorites}
+مرات اللعب  : {binding:played}
+مختفي : {binding:hidden}
+إجمالي الألعاب : {binding:total}
+</text>
+<text lang="ca"> <!--catalan-->
+jugats : {binding:gamesPlayed}
+darrera partida : {binding:lastPlayedDate}
+Mas Jugat : {binding:mostPlayed}
+Favorits : {binding:favorites}
+vegades Jugats : {binding:played}
+ocults : {binding:hidden}
+Total D'Jocs : {binding:total}
+</text>
+<text lang="cy"> <!--gales-->
+Wedi chwarae fwyaf : {binding:gamesPlayed}
+Gêm olaf : {binding:lastPlayedDate}
+Cudd : {binding:mostPlayed}
+Hoff : {binding:favorites}
+Amseroedd Chwarae : {binding:played}
+Cudd : {binding:hidden}
+Cyfanswm y Gemau : {binding:total}
+</text>
+<text lang="de"> <!--aleman-->
+Gespielt : {binding:gamesPlayed}
+Letztes Spiel : {binding:lastPlayedDate}
+Meist gespielt : {binding:mostPlayed}
+Favoritos : {binding:favorites}
+Mal gespielt : {binding:played}
+Versteckt : {binding:hidden}
+Gesamtspiele : {binding:total}
+</text>
+<text lang="el"> <!--griego-->
+Έπαιξε : {binding:gamesPlayed}
+Τελευταίο παιχνίδι : {binding:lastPlayedDate}
+Τα περισσότερα παίζονται : {binding:mostPlayed}
+Αγαπημένα : {binding:favorites}
+Χρόνοι που παίζονται : {binding:played}
+Κρυμμένος : {binding:hidden}
+Σύνολο παιχνιδιών : {binding:total}
+</text>
+<text lang="eu"> <!--euskera-->
+Jokatu : {binding:gamesPlayed}
+Azken partida : {binding:lastPlayedDate}
+Jokatu Gehienak : {binding:mostPlayed}
+Gogokoak : {binding:favorites}
+Aldiz jokatu zen : {binding:played}
+Ezkutatuta : {binding:hidden}
+Total Games : {binding:total}
+</text>
+<text lang="hu"> <!--hungaro-->
+Játszott : {binding:gamesPlayed}
+Utolsó játék : {binding:lastPlayedDate}
+Jokatu Gehienak : {binding:mostPlayed}
+Kedvencek : {binding:favorites}
+Times Played : {binding:played}
+Rejtett : {binding:hidden}
+Összes játék : {binding:total}
+</text>
+<text lang="it"> <!--italiano-->
+Più giocato : {binding:mostPlayed} : {binding:gamesPlayed}
+Ultimo gioco : {binding:lastPlayedDate}
+Più giocato : {binding:mostPlayed}
+Preferiti : {binding:favorites}
+Volte giocate : {binding:played}
+Nascosto : {binding:hidden}
+Giochi totali : {binding:total}
+</text>
+<text lang="oc"> <!--italiano-->
+Giocato : {binding:gamesPlayed}
+Ultimo gioco : {binding:lastPlayedDate}
+Più giocato : {binding:mostPlayed}
+Preferiti : {binding:favorites}
+Volte giocate : {binding:played}
+Nascosto : {binding:hidden}
+Giochi totali : {binding:total}
+</text>
+<text lang="ja"> <!--japones-->
+プレイした : {binding:gamesPlayed}
+最後の試合 : {binding:lastPlayedDate}
+最もプレイされた : {binding:mostPlayed}
+お気に入り : {binding:favorites}
+プレイした時間 : {binding:played}
+隠し : {binding:hidden}
+トータルゲーム : {binding:total}
+</text>
+<text lang="ko"> <!--coreano-->
+플레이 : {binding:gamesPlayed}
+마지막 게임 : {binding:lastPlayedDate}
+대부분의 플레이 : {binding:mostPlayed}
+즐겨 찾기 : {binding:favorites}
+플레이 횟수 : {binding:played}
+숨겨진 : {binding:hidden}
+총 게임 : {binding:total}
+</text>
+<text lang="nl"> <!--neerlandes-->
+Gespeeld : {binding:gamesPlayed}
+Laatste spel : {binding:lastPlayedDate}
+Meest gespeeld : {binding:mostPlayed}
+Favorieten : {binding:favorites}
+Keer gespeeld : {binding:played}
+Verborgen : {binding:hidden}
+Totaal aantal spellen : {binding:total}
+</text>
+<text lang="nn"> <!--noruego-->
+Spilt : {binding:gamesPlayed}
+Siste spill : {binding:lastPlayedDate}
+Mest spilt : {binding:mostPlayed}
+Favoritter : {binding:favorites}
+Times Spilt : {binding:played}
+Skjult : {binding:hidden}
+Totalt antall spill : {binding:total}
+</text>
+<text lang="se"> <!--noruego-->
+Spilt : {binding:gamesPlayed}
+Siste spill : {binding:lastPlayedDate}
+Mest spilt : {binding:mostPlayed}
+Favoritter : {binding:favorites}
+Times Spilt : {binding:played}
+Skjult : {binding:hidden}
+Totalt antall spill : {binding:total}
+</text>
+<text lang="pl"> <!--polaco-->
+Grał : {binding:gamesPlayed}
+Ostatnia gra : {binding:lastPlayedDate}
+Najczęściej grane : {binding:mostPlayed}
+Ulubione : {binding:favorites}
+Zagrane razy : {binding:played}
+Ukryty : {binding:hidden}
+Total Games : {binding:total}
+</text>
+<text lang="pr"> <!--portuges-->
+Reproduziu : {binding:gamesPlayed}
+Ultimo jogo : {binding:lastPlayedDate}
+Mais tocado : {binding:mostPlayed}
+Favoritos : {binding:favorites}
+Vezes Jogadas : {binding:played}
+Escondido : {binding:hidden}
+Total de jogos : {binding:total}
+</text>
+<text lang="pt_BR"> <!--portuges brasil-->
+Reproduziu : {binding:gamesPlayed}
+Ultimo jogo : {binding:lastPlayedDate}
+Mais tocado : {binding:mostPlayed}
+Favoritos : {binding:favorites}
+Vezes Jogadas : {binding:played}
+Escondido : {binding:hidden}
+Total de jogos : {binding:total}
+</text>
+<text lang="ru"> <!--ruso-->
+Играл : {binding:gamesPlayed}
+Последняя игра : {binding:lastPlayedDate}
+Самая популярная : {binding:mostPlayed}
+Избранное : {binding:favorites}
+Раз сыграно : {binding:played}
+Скрытый : {binding:hidden}
+Всего игр : {binding:total}
+</text>
+<text lang="tr"> <!--turko-->
+Oynandı : {binding:gamesPlayed}
+Son Oyun : {binding:lastPlayedDate}
+En çok oynanan : {binding:mostPlayed}
+Favoriler : {binding:favorites}
+Oynanan Kere : {binding:played}
+Gizli : {binding:hidden}
+Toplam Oyun : {binding:total}
+</text>
+<text lang="uk"> <!--ucraniano-->
+Грали : {binding:gamesPlayed}
+Остання гра : {binding:lastPlayedDate}
+Найіграніші : {binding:mostPlayed}
+Вибране : {binding:favorites}
+Відіграно разів : {binding:played}
+Прихований : {binding:hidden}
+Всього ігор : {binding:total}
+</text>
+<text lang="zh"> <!--chino-->
+玩过: {binding:gamesPlayed}
+最后一盘游戏 : {binding:lastPlayedDate}
+播放次数最多: {binding:mostPlayed}
+收藏夹: {binding:favorites}
+播放次数 : {binding:played}
+隐: {binding:hidden}
+游戏总数: {binding:total}
+</text>
+<verticalAlignment>center</verticalAlignment>
+        <fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
+        <fontSize>0.013</fontSize>
+        <pos>0.32 0.776</pos>
+        <size>0.48 0.28</size>
+        <zIndex>50</zIndex>
+        <color>ffffff</color>
+        <glowColor>000000</glowColor>
+        <glowSize>1</glowSize>
+        <zIndex>125</zIndex>
+      </text>
+  </view>
+</theme>

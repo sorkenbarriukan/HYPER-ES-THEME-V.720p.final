@@ -4,8 +4,104 @@
   <view name="system">
 <text name="systemInfoEx" extra="true">
  <visible>true</visible>
-<text>
-Total : {binding:total}
+
+<text lang="es"> <!--español-->
+Total De Juegos : {binding:total}
+</text>
+
+ <text lang="es_MX"> <!--español mx-->
+Total De Juegos : {binding:total}
+</text>
+
+<text lang="fr"> <!--frances-->
+Total de jeux : {binding:total}
+</text>
+
+<text lang="en"> <!--ingles-->
+Total Games : {binding:total}
+</text>
+
+<text lang="ar"> <!--arabe-->
+إجمالي الألعاب : {binding:total}
+</text>
+
+<text lang="ca"> <!--catalan-->
+Total D'Jocs : {binding:total}
+</text>
+
+<text lang="cy"> <!--gales-->
+Cyfanswm y Gemau : {binding:total}
+</text>
+
+<text lang="de"> <!--aleman-->
+Gesamtspiele : {binding:total}
+</text>
+
+<text lang="el"> <!--griego-->
+Σύνολο παιχνιδιών : {binding:total}
+</text>
+
+<text lang="eu"> <!--euskera-->
+Total Games : {binding:total}
+</text>
+
+<text lang="hu"> <!--hungaro-->
+Összes játék : {binding:total}
+</text>
+
+<text lang="it"> <!--italiano-->
+Giochi totali : {binding:total}
+</text>
+<text lang="oc"> <!--italiano-->
+Giochi totali : {binding:total}
+</text>
+
+<text lang="ja"> <!--japones-->
+トータルゲーム : {binding:total}
+</text>
+
+<text lang="ko"> <!--coreano-->
+총 게임 : {binding:total}
+</text>
+
+<text lang="nl"> <!--neerlandes-->
+Totaal aantal spellen : {binding:total}
+</text>
+
+<text lang="nn"> <!--noruego-->
+Totalt antall spill : {binding:total}
+</text>
+
+<text lang="se"> <!--noruego-->
+Totalt antall spill : {binding:total}
+</text>
+
+<text lang="pl"> <!--polaco-->
+Total Games : {binding:total}
+</text>
+
+<text lang="pr"> <!--portuges-->
+Total de jogos : {binding:total}
+</text>
+
+<text lang="pt_BR"> <!--portuges brasil-->
+Total de jogos : {binding:total}
+</text>
+
+<text lang="ru"> <!--ruso-->
+Всего игр : {binding:total}
+</text>
+
+<text lang="tr"> <!--turko-->
+Toplam Oyun : {binding:total}
+</text>
+
+<text lang="uk"> <!--ucraniano-->
+Всього ігор : {binding:total}
+</text>
+
+<text lang="zh"> <!--chino-->
+游戏总数: {binding:total}
 </text>
 <verticalAlignment>center</verticalAlignment>
           <fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>

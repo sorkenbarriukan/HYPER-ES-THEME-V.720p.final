@@ -4,8 +4,105 @@
 <view name="system">
 <text name="systemInfoEx" extra="true">
  <visible>true</visible>
-<text>
-Mas Jugados : {binding:mostPlayed}
+
+
+<text lang="es"> <!--español-->
+Mas Jugado : {binding:mostPlayed}
+</text>
+
+ <text lang="es_MX"> <!--español mx-->
+Mas Jugado : {binding:mostPlayed}
+</text>
+
+<text lang="fr"> <!--frances-->
+Le plus joué : {binding:mostPlayed}
+</text>
+
+<text lang="en"> <!--ingles-->
+Most Played : {binding:mostPlayed}
+</text>
+
+<text lang="ar"> <!--arabe-->
+الأكثر لعبا  : {binding:mostPlayed}
+</text>
+
+<text lang="ca"> <!--catalan-->
+Mas Jugat : {binding:mostPlayed}
+</text>
+
+<text lang="cy"> <!--gales-->
+Wedi chwarae fwyaf : {binding:mostPlayed}
+</text>
+
+<text lang="de"> <!--aleman-->
+Meist gespielt : {binding:mostPlayed}
+</text>
+
+<text lang="el"> <!--griego-->
+Τα περισσότερα παίζονται : {binding:mostPlayed}
+</text>
+
+<text lang="eu"> <!--euskera-->
+Jokatu Gehienak : {binding:mostPlayed}
+</text>
+
+<text lang="hu"> <!--hungaro-->
+Legtöbbet játszott : {binding:mostPlayed}
+</text>
+
+<text lang="it"> <!--italiano-->
+Più giocato : {binding:mostPlayed}
+</text>
+<text lang="oc"> <!--italiano-->
+Più giocato : {binding:mostPlayed}
+</text>
+
+<text lang="ja"> <!--japones-->
+最もプレイされた : {binding:mostPlayed}
+</text>
+
+<text lang="ko"> <!--coreano-->
+대부분의 플레이 : {binding:mostPlayed}
+</text>
+
+<text lang="nl"> <!--neerlandes-->
+Meest gespeeld : {binding:mostPlayed}
+</text>
+
+<text lang="nn"> <!--noruego-->
+Mest spilt : {binding:mostPlayed}
+</text>
+
+<text lang="se"> <!--noruego-->
+Mest spilt : {binding:mostPlayed}
+</text>
+
+<text lang="pl"> <!--polaco-->
+Najczęściej grane : {binding:mostPlayed}
+</text>
+
+<text lang="pr"> <!--portuges-->
+Mais tocado : {binding:mostPlayed}
+</text>
+
+<text lang="pt_BR"> <!--portuges brasil-->
+Mais tocado : {binding:mostPlayed}
+</text>
+
+<text lang="ru"> <!--ruso-->
+Самая популярная : {binding:mostPlayed}
+</text>
+
+<text lang="tr"> <!--turko-->
+En çok oynanan : {binding:mostPlayed}
+</text>
+
+<text lang="uk"> <!--ucraniano-->
+Найіграніші : {binding:mostPlayed}
+</text>
+
+<text lang="zh"> <!--chino-->
+播放次数最多: {binding:mostPlayed}
 </text>
 <verticalAlignment>center</verticalAlignment>
           <fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>

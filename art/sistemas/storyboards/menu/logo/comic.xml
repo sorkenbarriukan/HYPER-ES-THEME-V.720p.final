@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="basic, detailed, grid, Carousel, gamecarousel">
+
+<image name="logo">
+<visible>true</visible>
+<path>./art/sistemas/comic/default.png</path>
+<path>./art/sistemas/comic/${system.theme}.png</path>
+<zIndex>69</zIndex>
+</image>
+
+<image name="neonlight" extra="true">
+<zIndex>68</zIndex>
+</image>
+
+<image name="md_marquee">
+<visible>false</visible>
+</image>
+</view>
+</theme>

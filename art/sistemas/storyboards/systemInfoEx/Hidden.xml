@@ -4,8 +4,104 @@
  <view name="system">
 <text name="systemInfoEx" extra="true">
  <visible>true</visible>
-<text>
+
+<text lang="es"> <!--español-->
 Ocultos : {binding:hidden}
+</text>
+
+ <text lang="es_MX"> <!--español mx-->
+Ocultos : {binding:hidden}
+</text>
+
+<text lang="fr"> <!--frances-->
+Caché : {binding:hidden}
+</text>
+
+<text lang="en"> <!--ingles-->
+Hidden : {binding:hidden}
+</text>
+
+<text lang="ar"> <!--arabe-->
+مختفي : {binding:hidden}
+</text>
+
+<text lang="ca"> <!--catalan-->
+ocults : {binding:hidden}
+</text>
+
+<text lang="cy"> <!--gales-->
+Cudd : {binding:hidden}
+</text>
+
+<text lang="de"> <!--aleman-->
+Versteckt : {binding:hidden}
+</text>
+
+<text lang="el"> <!--griego-->
+Κρυμμένος : {binding:hidden}
+</text>
+
+<text lang="eu"> <!--euskera-->
+Ezkutatuta : {binding:hidden}
+</text>
+
+<text lang="hu"> <!--hungaro-->
+Rejtett : {binding:hidden}
+</text>
+
+<text lang="it"> <!--italiano-->
+Nascosto : {binding:hidden}
+</text>
+<text lang="oc"> <!--italiano-->
+Nascosto : {binding:hidden}
+</text>
+
+<text lang="ja"> <!--japones-->
+隠し : {binding:hidden}
+</text>
+
+<text lang="ko"> <!--coreano-->
+숨겨진 : {binding:hidden}
+</text>
+
+<text lang="nl"> <!--neerlandes-->
+Verborgen : {binding:hidden}
+</text>
+
+<text lang="nn"> <!--noruego-->
+Skjult : {binding:hidden}
+</text>
+
+<text lang="se"> <!--noruego-->
+Skjult : {binding:hidden}
+</text>
+
+<text lang="pl"> <!--polaco-->
+Ukryty : {binding:hidden}
+</text>
+
+<text lang="pr"> <!--portuges-->
+Escondido : {binding:hidden}
+</text>
+
+<text lang="pt_BR"> <!--portuges brasil-->
+Escondido : {binding:hidden}
+</text>
+
+<text lang="ru"> <!--ruso-->
+Скрытый : {binding:hidden}
+</text>
+
+<text lang="tr"> <!--turko-->
+Gizli : {binding:hidden}
+</text>
+
+<text lang="uk"> <!--ucraniano-->
+Прихований : {binding:hidden}
+</text>
+
+<text lang="zh"> <!--chino-->
+隐: {binding:hidden}
 </text>
 <verticalAlignment>center</verticalAlignment>
           <fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>tPath>

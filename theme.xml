@@ -250,6 +250,8 @@ RetroBat for windows:  kaylh...  ( http://www.retrobat.ovh/ )
 <include name=" ˙Marquee">./art/sistemas/storyboards/menu/logo/marquee.xml</include>
 <include name=" ˙Silverring">./art/sistemas/storyboards/menu/logo/silverring.xml</include>
 <include name=" ˙Ticket">./art/sistemas/storyboards/menu/logo/ticket.xml</include>
+<include name=" ˙Logos Simples">./art/sistemas/storyboards/menu/logo/simples.xml</include>
+<include name=" ˙COMIC">./art/sistemas/storyboards/menu/logo/comic.xml</include>
 </subset>
 
 <!-- MOVIMIENTO EN LOGO SELECCIONADO DEL CARRUSEL EN SISTEMA-->
@@ -437,14 +439,15 @@ RetroBat for windows:  kaylh...  ( http://www.retrobat.ovh/ )
 
 <!--  systemInfoEx-->
 <subset name="ShowsystemInfoEx" displayName="${systemViewExInfos}" tinyScreen="false">
-<include name="No" displayName="${no}"/>
+<include name="No Mostrar" displayName="${no}"/>
 <include name="Juegos Jugados" displayName="${yes}">./art/sistemas/storyboards/systemInfoEx/Games played.xml</include>
 <include name="Juegos Totales" displayName="${yes}">./art/sistemas/storyboards/systemInfoEx/Total.xml</include>
 <include name="Favoritos" displayName="${yes}">./art/sistemas/storyboards/systemInfoEx/Favorites.xml</include>
 <include name="Juegos Mas Jugados" displayName="${yes}">./art/sistemas/storyboards/systemInfoEx/Most played.xml</include>
-<include name="Jugados" displayName="${yes}">./art/sistemas/storyboards/systemInfoEx/Played.xml</include>
+<include name="Veces Jugados" displayName="${yes}">./art/sistemas/storyboards/systemInfoEx/Played.xml</include>
 <include name="Ocultos" displayName="${yes}">./art/sistemas/storyboards/systemInfoEx/Hidden.xml</include>
-<include name="Ultimos Jugados" displayName="${yes}">./art/sistemas/storyboards/systemInfoEx/Last played.xml</include>
+<include name="Última partida" displayName="${yes}">./art/sistemas/storyboards/systemInfoEx/Last played.xml</include>
+<include name="Mostrar Todo" displayName="${yes}">./art/sistemas/storyboards/systemInfoEx/todo.xml</include>
 </subset>
 
 

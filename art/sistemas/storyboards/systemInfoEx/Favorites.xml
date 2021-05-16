@@ -1,16 +1,112 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿ <!--español--><?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
 <view name="system">
 <text name="systemInfoEx" extra="true">
  <visible>true</visible>
-<text>
+ <text lang="es"> <!--español-->
 Favoritos : {binding:favorites}
+</text>
+
+ <text lang="es_MX"> <!--español mx-->
+Favoritos : {binding:favorites}
+</text>
+
+<text lang="fr"> <!--frances-->
+Favoris : {binding:favorites}
+</text>
+
+<text lang="en"> <!--ingles-->
+Favorites : {binding:favorites}
+</text>
+
+<text lang="ar"> <!--arabe-->
+فافوريتوس : {binding:favorites}
+</text>
+
+<text lang="ca"> <!--catalan-->
+Favorits : {binding:favorites}
+</text>
+
+<text lang="cy"> <!--gales-->
+Hoff : {binding:favorites}
+</text>
+
+<text lang="de"> <!--aleman-->
+Favoritos : {binding:favorites}
+</text>
+
+<text lang="el"> <!--griego-->
+Αγαπημένα : {binding:favorites}
+</text>
+
+<text lang="eu"> <!--euskera-->
+Gogokoak : {binding:favorites}
+</text>
+
+<text lang="hu"> <!--hungaro-->
+Kedvencek : {binding:favorites}
+</text>
+
+<text lang="it"> <!--italiano-->
+Preferiti : {binding:favorites}
+</text>
+
+<text lang="oc"> <!--italiano-->
+Preferiti : {binding:favorites}
+</text>
+
+<text lang="ja"> <!--japones-->
+お気に入り : {binding:favorites}
+</text>
+
+<text lang="ko"> <!--coreano-->
+즐겨 찾기 : {binding:favorites}
+</text>
+
+<text lang="nl"> <!--neerlandes-->
+Favorieten : {binding:favorites}
+</text>
+
+<text lang="nn"> <!--noruego-->
+Favoritter : {binding:favorites}
+</text>
+
+<text lang="se"> <!--noruego-->
+Favoritter : {binding:favorites}
+</text>
+
+<text lang="pl"> <!--polaco-->
+Ulubione : {binding:favorites}
+</text>
+
+<text lang="pr"> <!--portuges-->
+Favoritos : {binding:favorites}
+</text>
+
+<text lang="pt_BR"> <!--portuges brasil-->
+Favoritos : {binding:favorites}
+</text>
+
+<text lang="ru"> <!--ruso-->
+Избранное : {binding:favorites}
+</text>
+
+<text lang="tr"> <!--turko-->
+Favoriler : {binding:favorites}
+</text>
+
+<text lang="uk"> <!--ucraniano-->
+Вибране : {binding:favorites}
+</text>
+
+<text lang="zh"> <!--chino-->
+收藏夹: {binding:favorites}
 </text>
 <verticalAlignment>center</verticalAlignment>
         <fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
         <fontSize>0.020</fontSize>
-        <pos>0.12 0.842</pos>
+        <pos>0.12 0.846</pos>
         <size>0.48 0.28</size>
         <zIndex>50</zIndex>
         <color>ffffff</color>

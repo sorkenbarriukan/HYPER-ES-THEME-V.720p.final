@@ -4,13 +4,109 @@
  <view name="system">
 <text name="systemInfoEx" extra="true">
  <visible>true</visible>
-<text>
+ 
+ <text lang="es"> <!--español-->
 Jugados : {binding:gamesPlayed}
+</text>
+
+ <text lang="es_MX"> <!--español mx-->
+Jugados : {binding:gamesPlayed}
+</text>
+
+<text lang="fr"> <!--frances-->
+Joué : {binding:gamesPlayed}
+</text>
+
+<text lang="en"> <!--ingles-->
+Played : {binding:gamesPlayed}
+</text>
+
+<text lang="ar"> <!--arabe-->
+لعب : {binding:gamesPlayed}
+</text>
+
+<text lang="ca"> <!--catalan-->
+jugats : {binding:gamesPlayed}
+</text>
+
+<text lang="cy"> <!--gales-->
+Wedi chwarae : {binding:gamesPlayed}
+</text>
+
+<text lang="de"> <!--aleman-->
+Gespielt : {binding:gamesPlayed}
+</text>
+
+<text lang="el"> <!--griego-->
+Έπαιξε : {binding:gamesPlayed}
+</text>
+
+<text lang="eu"> <!--euskera-->
+Jokatu : {binding:gamesPlayed}
+</text>
+
+<text lang="hu"> <!--hungaro-->
+Játszott : {binding:gamesPlayed}
+</text>
+
+<text lang="it"> <!--italiano-->
+Giocato : {binding:gamesPlayed}
+</text>
+<text lang="oc"> <!--italiano-->
+Giocato : {binding:gamesPlayed}
+</text>
+
+<text lang="ja"> <!--japones-->
+プレイした : {binding:gamesPlayed}
+</text>
+
+<text lang="ko"> <!--coreano-->
+플레이 : {binding:gamesPlayed}
+</text>
+
+<text lang="nl"> <!--neerlandes-->
+Gespeeld : {binding:gamesPlayed}
+</text>
+
+<text lang="nn"> <!--noruego-->
+Spilt : {binding:gamesPlayed}
+</text>
+
+<text lang="se"> <!--noruego-->
+Spilt : {binding:gamesPlayed}
+</text>
+
+<text lang="pl"> <!--polaco-->
+Grał : {binding:gamesPlayed}
+</text>
+
+<text lang="pr"> <!--portuges-->
+Reproduziu : {binding:gamesPlayed}
+</text>
+
+<text lang="pt_BR"> <!--portuges brasil-->
+Reproduziu : {binding:gamesPlayed}
+</text>
+
+<text lang="ru"> <!--ruso-->
+Играл : {binding:gamesPlayed}
+</text>
+
+<text lang="tr"> <!--turko-->
+Oynandı : {binding:gamesPlayed}
+</text>
+
+<text lang="uk"> <!--ucraniano-->
+Грали : {binding:gamesPlayed}
+</text>
+
+<text lang="zh"> <!--chino-->
+玩过: {binding:gamesPlayed}
 </text>
 <verticalAlignment>center</verticalAlignment>
         <fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
         <fontSize>0.020</fontSize>
-        <pos>0.12 0.842</pos>
+        <pos>0.12 0.846</pos>
         <size>0.48 0.28</size>
         <zIndex>50</zIndex>
         <color>ffffff</color>

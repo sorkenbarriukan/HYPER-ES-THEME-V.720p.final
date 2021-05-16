@@ -4,8 +4,104 @@
 <view name="system">
 <text name="systemInfoEx" extra="true">
  <visible>true</visible>
-<text>
-Jugados : {binding:played}
+
+<text lang="es"> <!--español-->
+Veces Jugados : {binding:played}
+</text>
+
+ <text lang="es_MX"> <!--español mx-->
+Veces Jugados : {binding:played}
+</text>
+
+<text lang="fr"> <!--frances-->
+Fois jouées : {binding:played}
+</text>
+
+<text lang="en"> <!--ingles-->
+Times Played : {binding:played}
+</text>
+
+<text lang="ar"> <!--arabe-->
+مرات اللعب  : {binding:played}
+</text>
+
+<text lang="ca"> <!--catalan-->
+vegades Jugats : {binding:played}
+</text>
+
+<text lang="cy"> <!--gales-->
+Amseroedd Chwarae : {binding:played}
+</text>
+
+<text lang="de"> <!--aleman-->
+Mal gespielt : {binding:played}
+</text>
+
+<text lang="el"> <!--griego-->
+Χρόνοι που παίζονται : {binding:played}
+</text>
+
+<text lang="eu"> <!--euskera-->
+Aldiz jokatu zen : {binding:played}
+</text>
+
+<text lang="hu"> <!--hungaro-->
+Times Played : {binding:played}
+</text>
+
+<text lang="it"> <!--italiano-->
+Volte giocate : {binding:played}
+</text>
+<text lang="oc"> <!--italiano-->
+Volte giocate : {binding:played}
+</text>
+
+<text lang="ja"> <!--japones-->
+プレイした時間 : {binding:played}
+</text>
+
+<text lang="ko"> <!--coreano-->
+플레이 횟수 : {binding:played}
+</text>
+
+<text lang="nl"> <!--neerlandes-->
+Keer gespeeld : {binding:played}
+</text>
+
+<text lang="nn"> <!--noruego-->
+Times Spilt : {binding:played}
+</text>
+
+<text lang="se"> <!--noruego-->
+Times Spilt : {binding:played}
+</text>
+
+<text lang="pl"> <!--polaco-->
+Zagrane razy : {binding:played}
+</text>
+
+<text lang="pr"> <!--portuges-->
+Vezes Jogadas : {binding:played}
+</text>
+
+<text lang="pt_BR"> <!--portuges brasil-->
+Vezes Jogadas : {binding:played}
+</text>
+
+<text lang="ru"> <!--ruso-->
+Раз сыграно : {binding:played}
+</text>
+
+<text lang="tr"> <!--turko-->
+Oynanan Kere : {binding:played}
+</text>
+
+<text lang="uk"> <!--ucraniano-->
+Відіграно разів : {binding:played}
+</text>
+
+<text lang="zh"> <!--chino-->
+播放次数 : {binding:played}
 </text>
 <verticalAlignment>center</verticalAlignment>
           <fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>

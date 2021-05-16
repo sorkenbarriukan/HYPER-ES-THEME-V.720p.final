@@ -246,7 +246,7 @@ RetroBat for windows:  kaylh...  ( http://www.retrobat.ovh/ )
 
 <!--  tipo de marquesina -->
 <subset name="cambiar-logos-en-gamelist" displayName="${cambiar-logos-en-gamelistName}">
-<include name=" ˙Logos">./art/sistemas/storyboards/menu/logo/silverring.xml</include>
+<include name=" ˙Logos">./art/sistemas/storyboards/menu/logo/logo.xml</include>
 <include name=" ˙Marquee">./art/sistemas/storyboards/menu/logo/marquee.xml</include>
 <include name=" ˙Silverring">./art/sistemas/storyboards/menu/logo/silverring.xml</include>
 <include name=" ˙Ticket">./art/sistemas/storyboards/menu/logo/ticket.xml</include>

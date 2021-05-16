@@ -6,6 +6,7 @@
 <image name="logo">
 <visible>true</visible>
 <path>./art/sistemas/comic/default.png</path>
+<path>./art/sistemas/logosimples/${system.theme}.png</path>
 <path>./art/sistemas/comic/${system.theme}.png</path>
 <zIndex>69</zIndex>
 </image>

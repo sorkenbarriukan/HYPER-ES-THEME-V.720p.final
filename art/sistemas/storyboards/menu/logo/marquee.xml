@@ -7,7 +7,6 @@
 <visible>true</visible>
 <path>./art/sistemas/marquee/default.png</path>
 <path>./art/sistemas/marquee/${system.theme}.png</path>
-<zIndex>69</zIndex>
 </image>
 
 <image name="neonlight" extra="true">

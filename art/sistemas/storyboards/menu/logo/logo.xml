@@ -3,10 +3,13 @@
 <formatVersion>7</formatVersion>
 <view name="basic, detailed, grid, Carousel, gamecarousel">
 
+<image name="logo">
+<visible>false</visible>
+</image>
+
 <image name="md_marquee">
 <visible>true</visible>
-</image>	
-
+</image>
 
 </view>
 </theme>

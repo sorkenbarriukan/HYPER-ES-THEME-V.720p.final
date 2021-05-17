@@ -3,6 +3,7 @@
 <formatVersion>7</formatVersion>
 <variables>
 <systemViewName>MUDAR VISUALIZAÇÃO NO SISTEMA</systemViewName>
+<banderasName>MOSTRAR IDIOMA DA BANDEIRA</banderasName>
 <mostra-personajesName>MOSTRAR PERSONAGEM</mostra-personajesName>
 <opciones-de-personajes-en-sistemaName>APLICAR EFEITO AO PERSONAGEM NO SISTEMA</opciones-de-personajes-en-sistemaName>
 <opciones-de-personajes-en-gamelistName>APLICAR EFEITO AO PERSONAGEM NO GAMELIST</opciones-de-personajes-en-gamelistName>

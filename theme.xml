@@ -13,6 +13,7 @@ RetroBat for windows:  kaylh...  ( http://www.retrobat.ovh/ )
 <variables>
 <systemViewName>CAMBIAR VISTA EN SISTEMA</systemViewName>
 <mostra-personajesName>MOSTRAR PERSONAJE</mostra-personajesName>
+<banderasName>MOSTRAR BANDERA IDIOMA</banderasName>
 <opciones-de-personajes-en-sistemaName>APLICAR EFECTO AL PERSONAJE EN SISTEMA</opciones-de-personajes-en-sistemaName>
 <opciones-de-personajes-en-gamelistName>APLICAR EFECTO AL PERSONAJE EN GAMELIST</opciones-de-personajes-en-gamelistName>
 <cambiar-logos-en-carruselName>CAMBIAR LOGOS EN CARRUSEL</cambiar-logos-en-carruselName>
@@ -105,9 +106,8 @@ RetroBat for windows:  kaylh...  ( http://www.retrobat.ovh/ )
 <include name="Alterno">./art/sistemas/systemview/alterno.xml</include>
 <include name="SIMPLE VIDEO">./art/sistemas/systemview/simplevideo.xml</include>
 <include name="SIMPLE WALLPAPER">./art/sistemas/systemview/simplewallpaper.xml</include>
-
 <include name="HYPERMAX">./art/sistemas/systemview/hyper.xml</include>
-
+<include name="GLITCH">./art/sistemas/systemview/glitch.xml</include>
 
 <include name="-TATE- IZQUIERDA 1">./art/sistemas/systemview/verticalleft.xml</include>
 <include name="-TATE- IZQUIERDA 2">./art/sistemas/systemview/verticalleft4.xml</include>
@@ -153,6 +153,11 @@ RetroBat for windows:  kaylh...  ( http://www.retrobat.ovh/ )
 <include name="WII">./art/sistemas/systemview/wii.xml</include>
 </subset>
 
+<!------------------------ BANDERAS DE IDIOMAS-------------------------->
+<subset name="banderas" displayName="${banderasName}">
+<include name="Si Mostrar">./art/sistemas/banderas/si mostrar.xml</include>
+<include name="No Mostrar">./art/sistemas/banderas/no mostrar.xml</include>
+</subset>
 
 <!------------------------ MENU-------------------------->
   <subset name="menu" displayName="${menuName}">
@@ -489,6 +494,19 @@ RetroBat for windows:  kaylh...  ( http://www.retrobat.ovh/ )
 <path>./${system.theme}/art/system-${lang}.png</path>
 <path>./${system.theme}/art/system-${lang}.svg</path>
 </image>
+
+<image name="banderaslogos" extra="true">
+<pos>0.75225 0.9451</pos>
+<maxSize>0.215 0.0408</maxSize>
+<color>ffffff</color>
+<rotation>0</rotation>  
+<path>./art/sistemas/banderas/${lang}.jpg</path>
+ <linearSmooth>true</linearSmooth>
+<zIndex>198</zIndex>
+<storyboard>  
+<animation property="x" from="-0" begin="0" duration="2800" mode="easeOut"/>  
+</storyboard>
+</image>
 </view>
   
   
@@ -576,6 +594,7 @@ RetroBat for windows:  kaylh...  ( http://www.retrobat.ovh/ )
 <include name="Alterno">./art/sistemas/vista-lista-juegos/alterno.xml</include>
 <include name="SIMPLE VIDEO">./art/sistemas/vista-lista-juegos/simplevideo.xml</include>
 <include name="HYPERMAX">./art/sistemas/vista-lista-juegos/hyper.xml</include>
+<include name="GLITCH">./art/sistemas/vista-lista-juegos/glitch.xml</include>
 <include name="-TATE  IZQUIERDA - MAQUINITA OBSCURA">./art/sistemas/vista-lista-juegos/-TATE  IZQUIERDA - MAQUINITA OBSCURA.xml</include>
 <include name="-TATE  IZQUIERDA - MAQUINITA AMARILLA">./art/sistemas/vista-lista-juegos/-TATE  IZQUIERDA - MAQUINITA AMARILLA.xml</include>
 <include name="-TATE  DERECHA - MAQUINITA OBSCURA">./art/sistemas/vista-lista-juegos/-TATE  DERECHA - MAQUINITA OBSCURA.xml</include>

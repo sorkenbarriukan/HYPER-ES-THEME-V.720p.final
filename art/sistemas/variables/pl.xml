@@ -3,6 +3,7 @@
 <formatVersion>7</formatVersion>
 <variables>
 <systemViewName>ZMIEŃ WIDOK W SYSTEMIE</systemViewName>
+<banderasName>POKAŻ JĘZYK FLAGI</banderasName>
 <mostra-personajesName>POKAŻ CHARAKTER</mostra-personajesName>
 <opciones-de-personajes-en-sistemaName>ZASTOSUJ EFEKT DO CHARAKTERU W SYSTEMIE</opciones-de-personajes-en-sistemaName>
 <opciones-de-personajes-en-gamelistName>ZASTOSUJ EFEKT DO POSTACI NA LIŚCIE GRY</opciones-de-personajes-en-gamelistName>

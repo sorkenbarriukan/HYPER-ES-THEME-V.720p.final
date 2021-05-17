@@ -3,6 +3,7 @@
 <formatVersion>7</formatVersion>
 <variables>
 <systemViewName>시스템에서보기 변경</systemViewName>
+<banderasName>플래그 언어 표시</banderasName>
 <mostra-personajesName>캐릭터보기</mostra-personajesName>
 <opciones-de-personajes-en-sistemaName>시스템의 캐릭터에 효과 적용</opciones-de-personajes-en-sistemaName>
 <opciones-de-personajes-en-gamelistName>게임 목록의 캐릭터에 효과 적용</opciones-de-personajes-en-gamelistName>

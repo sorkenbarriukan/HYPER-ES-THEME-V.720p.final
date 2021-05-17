@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<customView name="GLITCH" inherits="gamecarousel" displayName="${gridDetailsViewName}">
+
+<gamecarousel name="gamecarousel">
+<zIndex>43</zIndex>	      
+<type>vertical_wheel</type>
+<pos>-0.080 0</pos>
+<size>1 1</size>
+<logoScale>1.35</logoScale>
+<logoSize>0.130 0.260</logoSize>
+<color>ffffff</color>
+<maxLogoCount>30</maxLogoCount>
+<logoRotation>9</logoRotation>
+<logoRotationOrigin>3.7 0.5</logoRotationOrigin>
+<logoAlignment>right</logoAlignment>   
+<imageSource>marquee</imageSource>
+</gamecarousel>  
+
+<text name="gamecarouselLogoText">
+<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
+<color>FFFFFFFF</color>
+<glowColor>000000FF</glowColor>
+<glowSize>4</glowSize>
+<lineSpacing>1.0</lineSpacing>
+</text>
+
+
+<image name="background" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="background3" extra="true">
+<tile>false</tile>
+</image>
+ 
+ <image name="glitchB" extra="true">
+<visible>true</visible>
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<color>ffffff</color>
+<path>./art/sistemas/fondos/gb.png</path>
+ <linearSmooth>true</linearSmooth>
+<zIndex>32</zIndex>
+<storyboard repeat="forever">
+<animation property="x" from="0" to="-0.01" duration="60" autoreverse="true" begin="2000" repeat="3"/>
+<animation property="x" from="0" to="+0.01" duration="60" autoreverse="true" begin="2440" repeat="3"/>
+</storyboard>
+</image>
+
+<image name="glitchA" extra="true">
+<visible>true</visible>
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<color>ffffff</color>
+<path>./art/sistemas/fondos/ga.png</path>
+ <linearSmooth>true</linearSmooth>
+<zIndex>31</zIndex>
+<storyboard repeat="forever">
+<animation property="opacity" from="0" to="10" begin="1000" duration="2950" mode="easeIn"/> 
+<animation property="opacity" from="0" to="10" duration="2950" begin="8000" mode="easeIn"/>
+<animation property="x" from="0" to="-0.02" duration="60" autoreverse="true" begin="4000" repeat="3"/>
+<animation property="x" from="0" to="+0.02" duration="60" autoreverse="true" begin="4440" repeat="3"/>
+</storyboard>
+</image>
+
+<image name="glitchF" extra="true">
+<visible>true</visible>
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<color>ffffff</color>
+<path>./art/sistemas/fondos/gf.png</path>
+ <linearSmooth>true</linearSmooth>
+<zIndex>30</zIndex>
+<storyboard repeat="forever">
+<animation property="opacity" from="0" to="10" begin="2000" duration="2950" mode="easeIn"/> 
+<animation property="opacity" from="0" to="10" duration="2950" begin="8000" mode="easeIn"/>
+<animation property="x" from="0" to="0.02" duration="60" autoreverse="true" begin="4000" repeat="3"/>
+<animation property="x" from="0" to="0.02" duration="60" autoreverse="true" begin="4440" repeat="3"/>
+</storyboard>
+</image>
+
+<image name="background3" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/wall/default.png</path>
+<path>./art/sistemas/wall/${system.theme}.png</path>
+<zIndex>9</zIndex>
+</image>
+    
+<image name="pointer" extra="true">
+<tile>false</tile>
+<pos>0.973 0.50</pos>
+<origin>0.5 0.5</origin>
+<size>0.055 0.175</size>
+<path>./art/sistemas/pointer/default.png</path>
+<path>./art/sistemas/pointer/${system.theme}.png</path>
+<zIndex>93</zIndex> 
+<storyboard repeat="forever">
+<animation property="x" from="0.973" to="0.965" duration="60" autoreverse="true" begin="2000" repeat="3"/>
+<animation property="x" from="0.973" to="0.983" duration="660" autoreverse="true" begin="2440" repeat="1"/>
+</storyboard>
+</image>
+<image name="pointerA" extra="true">
+<tile>false</tile>
+<color>08e5f5</color>
+<pos>0.973 0.50</pos>
+<origin>0.5 0.5</origin>
+<size>0.067 0.235</size>
+<path>./art/sistemas/pointer/default.png</path>
+<path>./art/sistemas/pointer/${system.theme}.png</path>
+<zIndex>92</zIndex> 
+<storyboard repeat="forever">
+<animation property="opacity" from="0" to="10" begin="1000" duration="2950" mode="easeIn"/> 
+<animation property="opacity" from="0" to="10" duration="2950" begin="8000" mode="easeIn"/>
+<animation property="x" from="0.973" to="-0.973" duration="60" autoreverse="true" begin="4000" repeat="3"/>
+<animation property="x" from="0.973" to="+0.973" duration="60" autoreverse="true" begin="4440" repeat="3"/>
+</storyboard>
+</image>
+<image name="pointerF" extra="true">
+<tile>false</tile>
+<color>f42fcb</color>
+<pos>0.973 0.50</pos>
+<origin>0.5 0.5</origin>
+<size>0.074 0.285</size>
+<path>./art/sistemas/pointer/default.png</path>
+<path>./art/sistemas/pointer/${system.theme}.png</path>
+<zIndex>91</zIndex> 
+<storyboard repeat="forever">
+<animation property="opacity" from="0" to="10" begin="2000" duration="2950" mode="easeIn"/> 
+<animation property="opacity" from="0" to="10" duration="2950" begin="8000" mode="easeIn"/>
+<animation property="x" from="0.973" to="0.963" duration="60" autoreverse="true" begin="4000" repeat="3"/>
+<animation property="x" from="0.973" to="0.983" duration="60" autoreverse="true" begin="4440" repeat="3"/>
+</storyboard>
+</image>
+ 
+ <image name="md_thumbnail">
+ <visible>false</visible>
+</image>
+   
+<helpsystem name="help">
+<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
+<fontSize>0.025</fontSize>
+<origin>0.5 0.5</origin>
+<pos>0.5 0.98</pos>  
+<textColor>ffffff</textColor>
+<iconColor>ffffff</iconColor>
+</helpsystem>
+
+<image name="consola" extra="true">
+<path>./art/sistemas/consoles/default.png</path>
+<path>./art/sistemas/consoles/${system.theme}.png</path>
+<pos>0.48 0.66</pos>
+<maxSize>0.20 0.20</maxSize>
+<color>ffffff</color>
+<reflexion>0.30 0.0</reflexion>
+<storyboard> 
+<animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
+<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+</storyboard>  
+<zIndex>90</zIndex>
+</image>
+
+<image name="personajeB" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.01 0.01</pos>
+<maxSize>1 1</maxSize>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>62</zIndex>
+<storyboard repeat="forever">
+<animation property="opacity" from="0" to="10" begin="2000" duration="2950" mode="easeIn"/> 
+<animation property="opacity" from="0" to="10" duration="2950" begin="8000" mode="easeIn"/>
+<animation property="x" from="0" to="-0.01" duration="60" autoreverse="true" begin="2000" repeat="3"/>
+<animation property="x" from="0" to="+0.01" duration="60" autoreverse="true" begin="2440" repeat="3"/>
+</storyboard>
+</image>
+
+<image name="personajeA" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>05f70b</color>
+<origin>0 0</origin>
+<pos>0.01 0.01</pos>
+<maxSize>1 1</maxSize>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>61</zIndex>
+<storyboard repeat="forever">
+<animation property="opacity" from="0" to="10" begin="1000" duration="2950" mode="easeIn"/> 
+<animation property="opacity" from="0" to="10" duration="2950" begin="8000" mode="easeIn"/>
+<animation property="x" from="0" to="-0.04" duration="60" autoreverse="true" begin="4000" repeat="3"/>
+<animation property="x" from="0" to="+0.04" duration="60" autoreverse="true" begin="4440" repeat="3"/>
+</storyboard>
+</image>
+
+<image name="personajeF" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>fb05c8</color>
+<origin>0 0</origin>
+<pos>0.01 0.01</pos>
+<maxSize>1 1</maxSize>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>60</zIndex>
+<storyboard repeat="forever">
+<animation property="opacity" from="0" to="10" begin="2000" duration="2950" mode="easeIn"/> 
+<animation property="opacity" from="0" to="10" duration="2950" begin="8000" mode="easeIn"/>
+<animation property="x" from="0" to="0.02" duration="60" autoreverse="true" begin="4000" repeat="3"/>
+<animation property="x" from="0" to="0.02" duration="60" autoreverse="true" begin="4440" repeat="3"/>
+</storyboard>
+</image>
+
+<image name="personaje" extra="true">
+<visible>false</visible>
+</image>
+<image name="personaje2" extra="true">
+<visible>false</visible>
+</image>
+<image name="personaje3" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="predeterminado" extra="true">
+<visible>false</visible>
+</image>
+	
+<video name="md_video">
+<visible>true</visible>
+<color>ffffff</color>
+<roundCorners>0.0540</roundCorners>             
+<pos>0.419 0.488</pos>
+<origin>0.5 0.5</origin>
+<size>0.4060 0.576</size>  
+<delay>0</delay>
+<effect>none</effect>    		 
+<showSnapshotNoVideo>true</showSnapshotNoVideo>
+<showSnapshotDelay>true</showSnapshotDelay>
+<zIndex>25</zIndex>
+<storyboard repeat="forever">
+<animation property="x" from="0.419" to="0.433" duration="60" autoreverse="true" begin="2000" repeat="3"/>
+<animation property="x" from="0.419" to="0.400" duration="60" autoreverse="true" begin="2440" repeat="3"/>
+</storyboard>
+</video> 
+
+<image name="md_image">
+<visible>true</visible>
+<roundCorners>0</roundCorners>             
+<pos>0.419 0.488</pos>
+<origin>0.5 0.5</origin>
+<size>0.4060 0.576</size>  
+<zIndex>18</zIndex>
+</image>
+	
+<text name="md_name">
+<visible>false</visible>	
+</text>
+
+
+	
+<text name="logoText">
+<pos>0.46 0.130</pos>
+<size>0.143 0.119</size>
+<origin>0.5 0.5</origin>
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<size>0.57 0.1</size>
+<alignment>center</alignment>
+<color>00000000</color>
+<forceUppercase>1</forceUppercase>
+<storyboard>
+<animation property="opacity" from="0" to="0" begin="0" duration="300" mode="linear"/> 
+<animation property="opacity" from="0" to="1" begin="300" duration="150" mode="linear"/> 
+<animation property="w" from="0" begin="150" duration="300" mode="easyOut"/>
+<animation property="scale" from="0.9" to="1.0" begin="300" duration="1400" mode="EaseInQuint" autoreverse="true" repeat="forever"/> 
+</storyboard>
+<rotation>-90</rotation>   
+<zIndex>999</zIndex>
+</text>
+
+<image name="md_marquee">
+<pos>0.46 0.130</pos>
+<size>0.143 0.119</size>
+<origin>0.5 0.5</origin>
+<linearSmooth>true</linearSmooth>
+<storyboard>
+<animation property="reflexion" from="0 0" begin="350" duration="350" mode="easeOut"/>
+<animation property="scale" to="1.05" begin="0" duration="200" autoreverse="true" repeat="forever" mode="easeOut"/>
+<animation property="opacity" from="0" to="0" duration="300" mode="linear"/>
+<animation property="opacity" from="0" to="1" begin="300" duration="350" mode="linear"/>
+</storyboard>
+<zIndex>900</zIndex> 
+</image>
+
+<image name="logo">
+<pos>0.46 0.130</pos>
+<size>0.143 0.119</size>
+<origin>0.5 0.5</origin>
+<origin>0.5 0.5</origin>
+</image>
+
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.040 0.0203</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
+</image>
+
+ <rating name="md_rating">
+ <visible>false</visible>
+<pos>0.06 0.800</pos>
+<size>0.05 0.03</size>
+<color>FFFFFF</color>
+<unfilledColor>808080</unfilledColor>
+</rating>
+</customView>
+</theme>

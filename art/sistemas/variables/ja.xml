@@ -3,6 +3,7 @@
 <formatVersion>7</formatVersion>
 <variables>
 <systemViewName>システムのビューを変更する</systemViewName>
+<banderasName>旗の言語を表示する</banderasName>
 <mostra-personajesName>キャラクターを表示</mostra-personajesName>
 <opciones-de-personajes-en-sistemaName>システム内のキャラクターに効果を適用する</opciones-de-personajes-en-sistemaName>
 <opciones-de-personajes-en-gamelistName>ゲームリストのキャラクターに効果を適用する</opciones-de-personajes-en-gamelistName>

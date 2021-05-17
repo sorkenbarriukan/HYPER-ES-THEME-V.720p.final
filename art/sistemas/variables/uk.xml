@@ -3,6 +3,7 @@
 <formatVersion>7</formatVersion>
 <variables>
 <systemViewName>ЗМІНИТИ ПЕРЕГЛЯД СИСТЕМИ</systemViewName>
+<banderasName>ПОКАЗАТИ МОВУ ПРАПОРІВ</banderasName>
 <mostra-personajesName>ПОКАЗИТИ ХАРАКТЕР</mostra-personajesName>
 <opciones-de-personajes-en-sistemaName>ЗАСТОСУЙТЕ ЕФЕКТ ДО ХАРАКТЕРУ В СИСТЕМІ</opciones-de-personajes-en-sistemaName>
 <opciones-de-personajes-en-gamelistName>ЗАСТОСУЙТЕ ЕФЕКТ ДО ХАРАКТЕРУ В ГАМЕЛІСТІ</opciones-de-personajes-en-gamelistName>

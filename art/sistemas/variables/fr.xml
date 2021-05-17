@@ -3,6 +3,7 @@
 <formatVersion>7</formatVersion>
 <variables>
 <systemViewName>CHANGER DE VUE DANS LE SYSTÈME</systemViewName>
+<banderasName>AFFICHER LA LANGUE DU DRAPEAU</banderasName>
 <mostra-personajesName>MONTRER LE PERSONNAGE</mostra-personajesName>
 <opciones-de-personajes-en-sistemaName>APPLIQUER L'EFFET AU PERSONNAGE DANS LE SYSTÈME</opciones-de-personajes-en-sistemaName>
 <opciones-de-personajes-en-gamelistName>APPLIQUER L'EFFET AU PERSONNAGE DANS GAMELIST</opciones-de-personajes-en-gamelistName>

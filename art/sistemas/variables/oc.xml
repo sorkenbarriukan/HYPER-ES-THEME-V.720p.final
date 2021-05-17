@@ -3,6 +3,7 @@
 <formatVersion>7</formatVersion>
 <variables>
 <systemViewName>CAMBIA DI VISTA IN SISTEMA</systemViewName>
+<banderasName>MOSTRA LA LINGUA DELLA BANDIERA</banderasName>
 <mostra-personajesName>MOSTRA CARATTERU</mostra-personajesName>
 <opciones-de-personajes-en-sistemaName>APPLICATE EFFETU À U CARATTERU IN SISTEMA</opciones-de-personajes-en-sistemaName>
 <opciones-de-personajes-en-gamelistName>APPLICATE EFFETU À U PERSONAGGU IN GAMELIST</opciones-de-personajes-en-gamelistName>

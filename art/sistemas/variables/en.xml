@@ -3,6 +3,7 @@
 <formatVersion>7</formatVersion>
 <variables>
 <systemViewName>CHANGE VIEW IN SYSTEM</systemViewName>
+<banderasName>SHOW FLAG LANGUAGE</banderasName>
 <mostra-personajesName>SHOW CHARACTER</mostra-personajesName>
 <opciones-de-personajes-en-sistemaName>APPLY EFFECT TO THE CHARACTER IN SYSTEM</opciones-de-personajes-en-sistemaName>
 <opciones-de-personajes-en-gamelistName>APPLY EFFECT TO THE CHARACTER IN GAMELIST</opciones-de-personajes-en-gamelistName>

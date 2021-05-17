@@ -3,6 +3,7 @@
 <formatVersion>7</formatVersion>
 <variables>
 <systemViewName>ИЗМЕНИТЬ ВИД В СИСТЕМЕ</systemViewName>
+<banderasName>ПОКАЗАТЬ ЯЗЫК ФЛАГА</banderasName>
 <mostra-personajesName>ПОКАЗАТЬ ПЕРСОНАЖ</mostra-personajesName>
 <opciones-de-personajes-en-sistemaName>ПРИМЕНИТЬ ВЛИЯНИЕ НА ХАРАКТЕР В СИСТЕМЕ</opciones-de-personajes-en-sistemaName>
 <opciones-de-personajes-en-gamelistName>ПРИМЕНЯЙТЕ ЭФФЕКТ К ПЕРСОНАЖУ В ГАМЛИСТЕ</opciones-de-personajes-en-gamelistName>

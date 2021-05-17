@@ -3,6 +3,7 @@
 <formatVersion>7</formatVersion>
 <variables>
 <systemViewName>在系統中更改視圖</systemViewName>
+<banderasName>显示标志语言</banderasName>
 <mostra-personajesName>顯示字符</mostra-personajesName>
 <opciones-de-personajes-en-sistemaName>在系統中的角色上應用效果</opciones-de-personajes-en-sistemaName>
 <opciones-de-personajes-en-gamelistName>將效果應用於遊戲列表中的角色</opciones-de-personajes-en-gamelistName>

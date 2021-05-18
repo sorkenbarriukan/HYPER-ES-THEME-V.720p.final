@@ -2,15 +2,6 @@
 <theme>
 <formatVersion>7</formatVersion>
 <view name="system">
-<image name="fondovideo1" extra="true">
-<tile>false</tile>
-<size>1 1</size>
-<pos>0 0</pos>
-<origin>0 0</origin>
-<path>./art/sistemas/fondos/ruleta left scanline video rotation.png</path>
-<zIndex>22</zIndex>
-</image>
-
 <image name="logo">
 <storyboard event="activate">
 <animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
@@ -22,6 +13,15 @@
 <storyboard event="activate">
 <animation property="scale" to="1.2" duration="1000" mode="easeOut" autoreverse="true" repeat="forever"/>
 </storyboard>
+</image>
+
+<image name="fondovideo" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/ruleta left scanline video rotation no scnl.png</path>
+<zIndex>22</zIndex>
 </image>
 
 <image name="background3" extra="true">
@@ -54,6 +54,7 @@
 <origin>0.5 0.5</origin>
 <size>0.4860 0.682</size>
 <rotation>-10</rotation>  
+<roundCorners>0.0248</roundCorners>  
 <path>./art/sistemas/fondos/default.png</path>
 <roundCorners>0.04.9</roundCorners>
 <zIndex>19</zIndex>
@@ -68,7 +69,7 @@
 <visible>true</visible>
 <path>{random}</path>  
 <rotation>-10</rotation>  
-<roundCorners>0.04.9</roundCorners>             
+<roundCorners>0.0248</roundCorners>               
 <pos>0.6500 0.485</pos>
 <origin>0.5 0.5</origin>
 <size>0.4860 0.682</size>
@@ -159,7 +160,14 @@
 <glowSize>2</glowSize>
 <reflexion>0.50 0.0</reflexion>
 <zIndex>61</zIndex>
-</image>    
+</image>     
+
+<image name="pointer" extra="true">
+<visible>false</visible>
+</image>
+<image name="pointerl" extra="true">
+<visible>false</visible>
+</image>
         
 <helpsystem name="help">
 <visible>false</visible>

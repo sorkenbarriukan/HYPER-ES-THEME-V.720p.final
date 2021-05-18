@@ -9,6 +9,16 @@
 <path>./art/sistemas/marquee/${system.theme}.png</path>
 </image>
 
+<image name="logo" region="eu">
+<path>./art/sistemas/marquee/${system.theme}.png</path>
+</image>
+<image name="logo" region="jp">
+<path>./art/sistemas/marquee/jp/${system.theme}.png</path>
+</image>
+<image name="logo" region="us">
+<path>./art/sistemas/marquee/us/${system.theme}.png</path>
+</image>
+
 <image name="neonlight" extra="true">
 <zIndex>68</zIndex>
 </image>

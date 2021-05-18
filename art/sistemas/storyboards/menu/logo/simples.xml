@@ -10,6 +10,16 @@
 <zIndex>69</zIndex>
 </image>
 
+<image name="logo" region="eu">
+<path>./art/sistemas/logosimples/${system.theme}.png</path>
+</image>
+<image name="logo" region="jp">
+<path>./art/sistemas/logosimples/jp/${system.theme}.png</path>
+</image>
+<image name="logo" region="us">
+<path>./art/sistemas/logosimples/us/${system.theme}.png</path>
+</image>
+
 <image name="neonlight" extra="true">
 <zIndex>68</zIndex>
 </image>

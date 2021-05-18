@@ -8,6 +8,36 @@
 <path>./${system.theme}/art/system-${lang}.png</path>
 <path>./${system.theme}/art/system-${lang}.svg</path>
 </image>
+
+<image name="logo" region="eu">
+<path>./art/sistemas/logosimples/${system.theme}.png</path>
+</image>
+<image name="logo" region="jp">
+<path>./art/sistemas/logosimples/jp/${system.theme}.png</path>
+</image>
+<image name="logo" region="us">
+<path>./art/sistemas/logosimples/us/${system.theme}.png</path>
+</image>
+
+<image name="pointer" extra="true" region="eu">
+<path>./art/sistemas/pointer/${system.theme}.png</path>
+</image>
+<image name="pointer" extra="true" region="jp">
+<path>./art/sistemas/pointer/jp/${system.theme}.png</path>
+</image>
+<image name="pointer" extra="true" region="us">
+<path>./art/sistemas/pointer/us/${system.theme}.png</path>
+</image>
+
+<image name="pointerl" extra="true" region="eu">
+<path>./art/sistemas/pointerl/${system.theme}.png</path>
+</image>
+<image name="pointerl" extra="true" region="jp">
+<path>./art/sistemas/pointerl/jp/${system.theme}.png</path>
+</image>
+<image name="pointerl" extra="true" region="us">
+<path>./art/sistemas/pointerl/us/${system.theme}.png</path>
+</image>
 </view>
 </theme>
 

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="basic, detailed, grid, Carousel, gamecarousel">
+
+<image name="logo">
+<visible>true</visible>
+<path>./art/sistemas/marquee2/default.png</path>
+<path>./art/sistemas/marquee2/${system.theme}.png</path>
+</image>
+
+<image name="logo" region="eu">
+<path>./art/sistemas/marquee2/${system.theme}.png</path>
+</image>
+<image name="logo" region="jp">
+<path>./art/sistemas/marquee2/jp/${system.theme}.png</path>
+</image>
+<image name="logo" region="us">
+<path>./art/sistemas/marquee2/us/${system.theme}.png</path>
+</image>
+
+<image name="neonlight" extra="true">
+<zIndex>68</zIndex>
+</image>
+
+<image name="md_marquee">
+<visible>false</visible>
+</image>
+</view>
+</theme>

@@ -240,8 +240,11 @@ RetroBat for windows:  kaylh...  ( http://www.retrobat.ovh/ )
 <!-- --------------------------------------- ((( OPCIONES DE LOGOS ))) -------------------------------- -->
 <subset name="cambiar-logos-en-carrusel" displayName="${cambiar-logos-en-carruselName}">
 <include name="˙Ticket" displayName="${no}">./art/sistemas/storyboards/logos/ticket.xml</include>  
-<include name="˙Silverring" displayName="${no}">./art/sistemas/storyboards/logos/silverring.xml</include>  
+<include name="˙Silverring" displayName="${no}">./art/sistemas/storyboards/logos/silverring.xml</include> 
+<include name="˙Carbon" displayName="${no}">./art/sistemas/storyboards/logos/carbonrring.xml</include>  
+<include name="˙Carbon Black Background" displayName="${no}">./art/sistemas/storyboards/logos/carbon2.xml</include> 
 <include name="˙Marquee" displayName="${no}">./art/sistemas/storyboards/logos/marquee.xml</include> 
+<include name="˙Marquee 2" displayName="${no}">./art/sistemas/storyboards/logos/marquee2.xml</include>
 <include name="˙Cartucho Nes" displayName="${no}">./art/sistemas/storyboards/logos/nes.xml</include> 
 <include name="˙Comic" displayName="${no}">./art/sistemas/storyboards/logos/comics.xml</include> 
 <include name="˙Consolas" displayName="${no}">./art/sistemas/storyboards/logos/consoles.xml</include>
@@ -253,7 +256,10 @@ RetroBat for windows:  kaylh...  ( http://www.retrobat.ovh/ )
 <subset name="cambiar-logos-en-gamelist" displayName="${cambiar-logos-en-gamelistName}">
 <include name=" ˙Logos">./art/sistemas/storyboards/menu/logo/logo.xml</include>
 <include name=" ˙Marquee">./art/sistemas/storyboards/menu/logo/marquee.xml</include>
+<include name=" ˙Marquee 2">./art/sistemas/storyboards/menu/logo/marquee2.xml</include>
 <include name=" ˙Silverring">./art/sistemas/storyboards/menu/logo/silverring.xml</include>
+<include name=" ˙Carbon">./art/sistemas/storyboards/menu/logo/carbonrring.xml</include>
+<include name=" ˙Carbon Black Background">./art/sistemas/storyboards/menu/logo/carbon2.xml</include>
 <include name=" ˙Ticket">./art/sistemas/storyboards/menu/logo/ticket.xml</include>
 <include name=" ˙Logos Simples">./art/sistemas/storyboards/menu/logo/simples.xml</include>
 <include name=" ˙COMIC">./art/sistemas/storyboards/menu/logo/comic.xml</include>

@@ -6,15 +6,15 @@
 <gamecarousel name="gamecarousel">
 <zIndex>43</zIndex>	      
 <type>vertical_wheel</type>
-<pos>-0.080 0</pos>
+<pos>0.345 0</pos>
 <size>1 1</size>
-<logoScale>1.35</logoScale>
+<logoScale>1.45</logoScale>
 <logoSize>0.130 0.260</logoSize>
 <color>ffffff</color>
 <maxLogoCount>30</maxLogoCount>
 <logoRotation>9</logoRotation>
 <logoRotationOrigin>3.7 0.5</logoRotationOrigin>
-<logoAlignment>right</logoAlignment>   
+<logoAlignment>center</logoAlignment>   
 <imageSource>marquee</imageSource>
 </gamecarousel>  
 

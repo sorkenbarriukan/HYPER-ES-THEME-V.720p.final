@@ -2,16 +2,6 @@
 <theme>
   <formatVersion>7</formatVersion>
   <view name="system">
-
-<image name="background1" extra="true">
-<tile>false</tile>
-<size>1 1</size>
-<pos>0 0</pos>
-<origin>0 0</origin>
-<path>./art/sistemas/fondos/horizontal&cabin&Scanline.png</path>
-<zIndex>30</zIndex>
-</image>
-
 <image name="logo">
 <storyboard event="activate">
 <animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
@@ -23,6 +13,15 @@
 <storyboard event="activate">
 <animation property="scale" to="1.2" duration="1000" mode="easeOut" autoreverse="true" repeat="forever"/>
 </storyboard>
+</image>
+
+<image name="background1" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/horizontal&cabin&Scanline.png</path>
+<zIndex>30</zIndex>
 </image>
   
 <image name="background3" extra="true">
@@ -99,6 +98,21 @@
 <color>000000A0</color>
 </image>    
   
+  <image name="logo">
+<storyboard event="activate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<storyboard event="deactivate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<linearSmooth>true</linearSmooth>
+<storyboard event="activate" repeatAt="1">
+<animation property="opacity" to="1" begin="0" duration="0" mode="linear"/>
+<animation property="scale" from="1.50" to="1.08" begin="0" duration="1000" mode="easeOut" autoreverse="true"/>
+<animation property="scale" from="1.05" to="1" begin="1000" duration="1000" mode="easeOut"/>
+</storyboard>
+</image>
+
 <carousel name="systemcarousel">
 <color>00000000</color>
 <colorEnd>00000000</colorEnd>
@@ -122,8 +136,15 @@
 <reflexion>0.0 0.0</reflexion>
 <zIndex>60</zIndex>
 </text>
+
+<image name="pointer" extra="true">
+<visible>false</visible>
+</image>
+<image name="pointerl" extra="true">
+<visible>false</visible>
+</image>
     
-   <helpsystem name="help">
+<helpsystem name="help">
 <visible>false</visible>
 <textColor>1C00ff00</textColor>
 <iconColor>1C00ff00</iconColor>

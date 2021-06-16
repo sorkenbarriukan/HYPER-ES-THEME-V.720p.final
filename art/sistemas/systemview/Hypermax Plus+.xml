@@ -16,45 +16,14 @@
 </storyboard>
 </image>
 
-<carousel name="systemcarousel">
-<zIndex>43</zIndex>	      
-<type>vertical_wheel</type>
-<pos>0.344 0</pos>
-<size>1 1</size>
-<logoScale>1.05</logoScale>
-<logoSize>0.130 0.260</logoSize>
-<color>00000000</color>
-<maxLogoCount>30</maxLogoCount>
-<logoRotation>8</logoRotation>
-<logoRotationOrigin>3.50 0.5</logoRotationOrigin>
-<logoAlignment>center</logoAlignment>       
-</carousel>
-
-<text name="systemInfo">
-<glowColor>000000</glowColor>
-<pos>-0.15 0.84</pos>
-<backgroundColor>00000000</backgroundColor>
-<color>ffffff</color>
-<rotation>0</rotation> 
-<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
-<fontSize>0.040</fontSize>
-<zIndex>999</zIndex>
-<storyboard>
-<animation property="y" from="0.7" begin="1300" duration="350" mode="easeOutQuint"/>
-<animation property="reflexion" from="0 0" begin="350" duration="350" mode="easeOut"/>
-<animation property="scale" to="1.05" begin="0" duration="200" autoreverse="true" repeat="forever" mode="easeOut"/>
-<animation property="opacity" from="0" to="0" duration="1300" mode="linear"/>
-<animation property="opacity" from="0" to="1" begin="1300" duration="350" mode="linear"/>
-</storyboard>
-</text> 
-
 <image name="background1" extra="true">
 <tile>false</tile>
 <size>1 1</size>
 <pos>0 0</pos>
 <origin>0 0</origin>
 <color>ffffff</color>
-<path>./art/sistemas/fondos/hypersys.png</path>
+<path>./art/sistemas/fondos/Hypermax Plus+sistema.png</path>
+ <linearSmooth>true</linearSmooth>
 <zIndex>30</zIndex>
 </image>
 
@@ -66,6 +35,10 @@
 <path>./art/sistemas/wall/default.png</path>
 <path>./art/sistemas/wall/${system.theme}.png</path>
 <zIndex>9</zIndex>
+</image>
+
+<image name="pointerl" extra="true">
+<visible>false</visible>
 </image>
     
 <image name="pointer" extra="true">
@@ -82,7 +55,7 @@
 </image>
      
 <image name="predeterminado" extra="true">
-<visible>true</visible>
+<visible>false</visible>
 <tile>false</tile>
 <Delay>800</Delay>
 <rotation>0</rotation>  
@@ -91,6 +64,7 @@
 <origin>0.5 0.5</origin>
 <size>0.5090 0.648</size>
 <path>./art/sistemas/wall/${system.theme}.png</path>
+ <linearSmooth>true</linearSmooth>
 <zIndex>19</zIndex>
 <storyboard>
 <animation property="y" from="0.05" begin="0" duration="350" mode="easeOut"/>
@@ -103,13 +77,14 @@
 <visible>true</visible>
 <path>{random}</path>  
 <rotation>0</rotation>  
-<roundCorners>0.03</roundCorners>             
-<pos>0.443 0.490</pos>
+<roundCorners>0.0548</roundCorners>             
+<pos>0.442 0.490</pos>
 <origin>0.5 0.5</origin>
-<size>0.5090 0.648</size>
+<size>0.5070 0.646</size>
 <delay>0</delay>
 <showSnapshotNoVideo>false</showSnapshotNoVideo>
 <showSnapshotDelay>false</showSnapshotDelay>
+ <linearSmooth>true</linearSmooth>
 <color>FFFFFF</color>
 <zIndex>25</zIndex>
 </video>
@@ -176,6 +151,39 @@
 <iconColor>ffffff</iconColor>
 </helpsystem>
 
+<carousel name="systemcarousel">
+<zIndex>43</zIndex>	      
+<type>vertical_wheel</type>
+<pos>0.344 0</pos>
+<size>1 1</size>
+<logoScale>1.05</logoScale>
+<logoSize>0.130 0.260</logoSize>
+<color>00000000</color>
+<maxLogoCount>30</maxLogoCount>
+<logoRotation>8</logoRotation>
+<logoRotationOrigin>3.50 0.5</logoRotationOrigin>
+<logoAlignment>center</logoAlignment>       
+</carousel>
+
+<text name="systemInfo">
+<glowColor>000000</glowColor>
+<pos>-0.15 0.84</pos>
+<backgroundColor>00000000</backgroundColor>
+<color>ffffff</color>
+<rotation>0</rotation> 
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+ <linearSmooth>true</linearSmooth>
+<fontSize>0.040</fontSize>
+<zIndex>999</zIndex>
+<storyboard>
+<animation property="y" from="0.7" begin="1300" duration="350" mode="easeOutQuint"/>
+<animation property="reflexion" from="0 0" begin="350" duration="350" mode="easeOut"/>
+<animation property="scale" to="1.05" begin="0" duration="200" autoreverse="true" repeat="forever" mode="easeOut"/>
+<animation property="opacity" from="0" to="0" duration="1300" mode="linear"/>
+<animation property="opacity" from="0" to="1" begin="1300" duration="350" mode="linear"/>
+</storyboard>
+</text> 
+
 <image name="logotemax" extra="true">
 <pos>0.25 0.01</pos>
 <maxSize>0.35 0.35</maxSize>
@@ -183,6 +191,7 @@
 <rotation>0</rotation>  
 <path>./art/sistemas/logosimples/default.png</path>
 <path>./art/sistemas/logosimples/${system.theme}.png</path>
+ <linearSmooth>true</linearSmooth>
 <zIndex>998</zIndex>
 <storyboard>
 <animation property="x" from="0" begin="0" duration="500" mode="easyOut"/>
@@ -195,11 +204,13 @@
 <fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
 <color>${baseColor}</color>
 <forceUppercase>true</forceUppercase>
+ <linearSmooth>true</linearSmooth>
 </text>
 <image name="logo">
 <path>./art/sistemas/silverring/${system.theme}.png</path>
 <path>./${system.theme}/art/system-${lang}.png</path>
 <path>./${system.theme}/art/system-${lang}.svg</path>
+ <linearSmooth>true</linearSmooth>
 </image>
 
 <text name="sys_info" extra="true">

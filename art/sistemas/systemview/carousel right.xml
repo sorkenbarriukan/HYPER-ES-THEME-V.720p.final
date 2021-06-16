@@ -1,17 +1,8 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 <formatVersion>7</formatVersion>
   
 <view name="system">
-<image name="background1" extra="true">
-<tile>false</tile>
-<size>1 1</size>
-<pos>0 0</pos>
-<origin>0 0</origin>
-<path>./art/sistemas/fondos/systemcarousel.png</path>
-<zIndex>10</zIndex>
-</image>
-
 <image name="logo">
 <storyboard event="activate">
 <animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
@@ -25,6 +16,15 @@
 </storyboard>
 </image>
 
+<image name="background1" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/systemcarousel.png</path>
+<zIndex>10</zIndex>
+</image>
+
 <image name="background3" extra="true">
 <tile>false</tile>
 <size>1 1</size>
@@ -33,6 +33,10 @@
 <path>./art/sistemas/wall/default.png</path>
 <path>./art/sistemas/wall/${system.theme}.png</path>
 <zIndex>9</zIndex>
+</image>
+ 
+ <image name="pointerl" extra="true">
+<visible>false</visible>
 </image>
   
 <image name="pointer" extra="true">
@@ -95,6 +99,32 @@
 </image>
 
 <image name="personaje" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.4850 0.2567</pos>
+<size>0.2295 0.7155</size>
+<storyboard>       
+       <animation property="x" from="1.01" begin="0" duration="2250" mode="easeOut"/>    
+</storyboard>
+<zIndex>60</zIndex>
+</image>
+
+<image name="personaje2" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.4850 0.2567</pos>
+<size>0.2295 0.7155</size>
+<storyboard>       
+       <animation property="x" from="1.01" begin="0" duration="2250" mode="easeOut"/>    
+</storyboard>
+<zIndex>60</zIndex>
+</image>
+
+<image name="personaje3" extra="true">
 <path>./art/sistemas/character/default.png</path>
 <path>./art/sistemas/character/${system.theme}.png</path>
 <color>FFFFFFFF</color>

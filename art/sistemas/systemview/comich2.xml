@@ -11,20 +11,7 @@
 <path>./art/sistemas/wall/${system.theme}.png</path>
 <zIndex>25</zIndex>
 </image>
- 
-<image name="logo">
-<storyboard event="activate">
-<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
-</storyboard>
-<storyboard event="deactivate">
-<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
-</storyboard>
-<linearSmooth>true</linearSmooth>
-<storyboard event="activate">
-<animation property="scale" to="1.2" duration="1000" mode="easeOut" autoreverse="true" repeat="forever"/>
-</storyboard>
-</image>
- 
+  
 <image name="background1" extra="true">
 <tile>false</tile>
 <size>1 1</size>
@@ -152,6 +139,19 @@
 <rotation>+0.50</rotation> 
 </video>
 
+<image name="logo">
+<storyboard event="activate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<storyboard event="deactivate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<linearSmooth>true</linearSmooth>
+<storyboard event="activate">
+<animation property="scale" to="1.2" duration="1000" mode="easeOut" autoreverse="true" repeat="forever"/>
+</storyboard>
+</image>
+
 <carousel name="systemcarousel">
 <color>1C00ff00</color>
 <colorEnd>1C00ff00</colorEnd>
@@ -216,6 +216,13 @@
 <animation property="opacity" from="1" to="1" begin="350" duration="700" mode="linear"/>
 <animation property="scale" from="1" to="1" begin="350" duration="800"/>
 </storyboard>
+</image>
+
+<image name="pointer" extra="true">
+<visible>false</visible>
+</image>
+<image name="pointerl" extra="true">
+<visible>false</visible>
 </image>
 
 <helpsystem name="help">

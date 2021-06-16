@@ -38,6 +38,7 @@
 <reflexion>0.50 0.0</reflexion>
 <rotation>0</rotation> 
 <fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
+ <linearSmooth>true</linearSmooth>
 <fontSize>0.040</fontSize>
 <zIndex>999</zIndex>
 <storyboard repeat="0">
@@ -53,6 +54,7 @@
 <pos>0 0</pos>
 <origin>0 0</origin>
 <path>./art/sistemas/fondos/fondo simple halo.png</path>
+ <linearSmooth>true</linearSmooth>
 <zIndex>32</zIndex>
 </image>
 
@@ -64,7 +66,12 @@
 <origin>0 0</origin>
 <path>./art/sistemas/wall/default.png</path>
 <path>./art/sistemas/wall/${system.theme}.png</path>
+ <linearSmooth>true</linearSmooth>
 <zIndex>10</zIndex>
+</image>
+
+<image name="pointerl" extra="true">
+<visible>false</visible>
 </image>
     
 <image name="pointer" extra="true">
@@ -74,6 +81,7 @@
 <maxSize>0.075 0.175</maxSize>
 <path>./art/sistemas/pointer/default.png</path>
 <path>./art/sistemas/pointer/${system.theme}.png</path>
+ <linearSmooth>true</linearSmooth>
 <zIndex>90</zIndex> 
 <storyboard repeat="forever">
 <animation property="x" from="0.963" to="0.940" duration="60" autoreverse="true" begin="4000" repeat="3"/>
@@ -83,6 +91,7 @@
 <video name="backgroundvideo" extra="true">
 <path>{random}</path>
 <path>./art/sistemas/videos/${system.theme}.mp4</path>
+ <linearSmooth>true</linearSmooth>
 <size>1 1</size>
 <pos>0 0</pos>
 <origin>0 0</origin>
@@ -95,6 +104,7 @@
 <image name="personaje" extra="true">
 <path>./art/sistemas/character/default.png</path>
 <path>./art/sistemas/character/${system.theme}.png</path>
+ <linearSmooth>true</linearSmooth>
 <color>FFFFFFFF</color>
 <origin>0 0</origin>
 <pos>0.01 0.01</pos>
@@ -108,6 +118,7 @@
 <image name="personaje2" extra="true">
 <path>./art/sistemas/character/default.png</path>
 <path>./art/sistemas/character/${system.theme}.png</path>
+ <linearSmooth>true</linearSmooth>
 <color>FFFFFFFF</color>
 <origin>0 0</origin>
 <pos>0.01 0.01</pos>
@@ -121,6 +132,7 @@
 <image name="personaje3" extra="true">
 <path>./art/sistemas/character/default.png</path>
 <path>./art/sistemas/character/${system.theme}.png</path>
+ <linearSmooth>true</linearSmooth>
 <color>FFFFFFFF</color>
 <origin>0 0</origin>
 <pos>0.01 0.01</pos>

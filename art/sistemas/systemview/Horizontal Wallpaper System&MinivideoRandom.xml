@@ -2,7 +2,6 @@
 <theme>
   <formatVersion>7</formatVersion>
   <view name="system">
-
 <image name="background1" extra="true">
 <tile>false</tile>
 <size>1 1</size>
@@ -10,19 +9,6 @@
 <origin>0 0</origin>
 <path>./art/sistemas/fondos/horizontal&cabin.png</path>
 <zIndex>30</zIndex>
-</image>
-
-<image name="logo">
-<storyboard event="activate">
-<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
-</storyboard>
-<storyboard event="deactivate">
-<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
-</storyboard>
-<linearSmooth>true</linearSmooth>
-<storyboard event="activate">
-<animation property="scale" to="1.2" duration="1000" mode="easeOut" autoreverse="true" repeat="forever"/>
-</storyboard>
 </image>
   
 <image name="background3" extra="true">
@@ -82,13 +68,26 @@
 <color>000000A0</color>
 </image>    
 
+<image name="logo">
+<storyboard event="activate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<storyboard event="deactivate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<linearSmooth>true</linearSmooth>
+<storyboard event="activate">
+<animation property="scale" to="1.2" duration="1000" mode="easeOut" autoreverse="true" repeat="forever"/>
+</storyboard>
+</image>
+
 <carousel name="systemcarousel">
 <color>00000000</color>
 <colorEnd>00000000</colorEnd>
 <systemInfoDelay>300</systemInfoDelay>
 <pos>0 0.0107</pos>
 <size>1 0.2325</size>
-<logoScale>1.15</logoScale>
+<logoScale>1.05</logoScale>
 <maxLogoCount>4</maxLogoCount>
 </carousel>
     
@@ -143,6 +142,13 @@
 <glowSize>2</glowSize>
 <reflexion>0.50 0.0</reflexion>
 <zIndex>61</zIndex>
+</image>
+
+<image name="pointer" extra="true">
+<visible>false</visible>
+</image>
+<image name="pointerl" extra="true">
+<visible>false</visible>
 </image>
 
 <helpsystem name="help">

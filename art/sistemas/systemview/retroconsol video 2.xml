@@ -2,15 +2,6 @@
 <theme>
 <formatVersion>7</formatVersion>
 <view name="system">
-<image name="background1" extra="true">
-<tile>false</tile>
-<size>1 1</size>
-<pos>0 0</pos>
-<origin>0 0</origin>
-<path>./art/sistemas/fondos/system 2.png</path>
-<zIndex>30</zIndex>
-</image>
-  
 <image name="logo">
 <storyboard event="activate">
 <animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
@@ -24,6 +15,15 @@
 </storyboard>
 </image>
 
+<image name="background1" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/system 2.png</path>
+<zIndex>30</zIndex>
+</image>
+  
 <image name="predeterminado" extra="true">
 <tile>false</tile>
 <Delay>800</Delay>
@@ -90,6 +90,13 @@
 <glowSize>2</glowSize>
 <reflexion>0.50 0.0</reflexion>
 </text>
+
+<image name="pointer" extra="true">
+<visible>false</visible>
+</image>
+<image name="pointerl" extra="true">
+<visible>false</visible>
+</image>
         
 <helpsystem name="help">
 <visible>false</visible>

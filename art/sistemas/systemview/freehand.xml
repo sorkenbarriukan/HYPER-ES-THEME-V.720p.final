@@ -93,7 +93,7 @@
       <glowColor>050505</glowColor>
       <glowSize>4</glowSize>
       <reflexion>0.60 0.0</reflexion>
-   </text>
+</text>
         
 <image name="personaje" extra="true">
 <path>./art/sistemas/character/default.png</path>
@@ -154,6 +154,13 @@
 <animation property="scaleOrigin" to="0" begin="6000" duration="0"/>
 <animation property="y" from="0.477"  to="0.497" begin="0" duration="1780" autoreverse="true" begin="2000" repeat="5"/>
 </storyboard>
+</image>
+
+<image name="pointer" extra="true">
+<visible>false</visible>
+</image>
+<image name="pointerl" extra="true">
+<visible>false</visible>
 </image>
 
 <helpsystem name="help">

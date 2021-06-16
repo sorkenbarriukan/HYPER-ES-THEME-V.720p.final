@@ -43,6 +43,10 @@
 <zIndex>25</zIndex>
 </image>
 
+<image name="pointerl" extra="true">
+<visible>false</visible>
+</image>
+
 <image name="pointer" extra="true">
 <tile>false</tile>
 <pos>0.963 0.49</pos>

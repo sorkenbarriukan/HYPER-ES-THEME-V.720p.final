@@ -2,16 +2,6 @@
 <theme>
 <formatVersion>7</formatVersion>
 <view name="system">
-<image name="background3" extra="true">
-<tile>false</tile>
-<size>1 1</size>
-<pos>0 0</pos>
-<origin>0 0</origin>
-<path>./art/sistemas/wall/default.png</path>
-<path>./art/sistemas/wall/${system.theme}.png</path>
-<zIndex>45</zIndex>
-</image>
- 
 <image name="logo">
 <storyboard event="activate">
 <animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
@@ -24,7 +14,17 @@
 <animation property="scale" to="1.2" duration="1000" mode="easeOut" autoreverse="true" repeat="forever"/>
 </storyboard>
 </image>
- 
+
+<image name="background3" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/wall/default.png</path>
+<path>./art/sistemas/wall/${system.theme}.png</path>
+<zIndex>45</zIndex>
+</image>
+  
 <image name="background1" extra="true">
 <tile>false</tile>
 <size>1 1</size>
@@ -226,6 +226,13 @@
         <animation property="opacity" from="0" to="1" duration="2950" mode="easeIn"/>
         <animation property="scale" from="0" to="1" duration="350" mode="easeOut"/>
       </storyboard>
+</image>
+
+<image name="pointer" extra="true">
+<visible>false</visible>
+</image>
+<image name="pointerl" extra="true">
+<visible>false</visible>
 </image>
 
 <image name="box1" extra="true">

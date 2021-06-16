@@ -2,15 +2,6 @@
 <theme>
 <formatVersion>7</formatVersion>
 <view name="system">
-<image name="background1" extra="true">
-<tile>false</tile>
-<size>1 1</size>
-<pos>0 0</pos>
-<origin>0 0</origin>
-<path>./art/sistemas/fondos/atari.png</path>
-<zIndex>26</zIndex>
-</image>  
-
 <image name="logo">
 <storyboard event="activate">
 <animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
@@ -23,6 +14,15 @@
 <animation property="scale" to="1.2" duration="1000" mode="easeOut" autoreverse="true" repeat="forever"/>
 </storyboard>
 </image>
+
+<image name="background1" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/atari.png</path>
+<zIndex>26</zIndex>
+</image>  
 
 <video name="backgroundvideo" extra="true">
 <visible>true</visible>
@@ -160,6 +160,13 @@
 <rotation>0</rotation> 
 <zIndex>65</zIndex>
 </text>
+
+<image name="pointer" extra="true">
+<visible>false</visible>
+</image>
+<image name="pointerl" extra="true">
+<visible>false</visible>
+</image>
 
 <helpsystem name="help">
 <visible>false</visible>

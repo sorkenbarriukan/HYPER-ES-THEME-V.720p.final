@@ -16,7 +16,7 @@
 </storyboard>
 </image>
 
-<image name="background" extra="true">
+<image name="background1" extra="true">
 <visible>false</visible>
 </image>
 
@@ -81,7 +81,11 @@
 <path>./art/sistemas/wall/${system.theme}.png</path>
 <zIndex>9</zIndex>
 </image>
-    
+ 
+ <image name="pointerl" extra="true">
+<visible>false</visible>
+</image>
+   
 <image name="pointer" extra="true">
 <tile>false</tile>
 <pos>0.973 0.50</pos>

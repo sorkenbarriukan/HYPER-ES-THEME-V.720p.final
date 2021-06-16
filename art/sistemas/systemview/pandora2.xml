@@ -2,16 +2,6 @@
 <theme>
 <formatVersion>7</formatVersion>
 <view name="system">
-<image name="background3" extra="true">
-<tile>false</tile>
-<size>1 1</size>
-<pos>0 0</pos>
-<origin>0 0</origin>
-<path>./art/sistemas/wall/default.png</path>
-<path>./art/sistemas/wall/${system.theme}.png</path>
-<zIndex>45</zIndex>
-</image>
-  
 <image name="logo">
 <storyboard event="activate">
 <animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
@@ -25,6 +15,16 @@
 </storyboard>
 </image>
 
+<image name="background3" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/wall/default.png</path>
+<path>./art/sistemas/wall/${system.theme}.png</path>
+<zIndex>45</zIndex>
+</image>
+  
 <image name="background1" extra="true">
 <tile>false</tile>
 <size>1 1</size>
@@ -139,6 +139,8 @@
 <zIndex>51</zIndex>
 </image>
 
+
+
 <image name="box1" extra="true">
 <origin>0.5 0.5</origin>
 <pos>0.70 0.60</pos>
@@ -181,6 +183,13 @@
 <animation property="scaleOrigin" to="0" begin="6000" duration="0"/>
 <animation property="y" from="0.84"  to="0.78" begin="0" duration="180" autoreverse="true" begin="2000" repeat="5"/>
 </storyboard>
+</image>
+
+<image name="pointer" extra="true">
+<visible>false</visible>
+</image>
+<image name="pointerl" extra="true">
+<visible>false</visible>
 </image>
 
 <helpsystem name="help">

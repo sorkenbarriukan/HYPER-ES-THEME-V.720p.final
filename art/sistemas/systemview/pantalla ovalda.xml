@@ -11,20 +11,7 @@
 <path>./art/sistemas/fondos/pabtalla ovalada efecto.png</path>
 <zIndex>20</zIndex>
 </image>
- 
-<image name="logo">
-<storyboard event="activate">
-<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
-</storyboard>
-<storyboard event="deactivate">
-<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
-</storyboard>
-<linearSmooth>true</linearSmooth>
-<storyboard event="activate">
-<animation property="scale" to="1.2" duration="1000" mode="easeOut" autoreverse="true" repeat="forever"/>
-</storyboard>
-</image>
- 
+  
 <image name="background3" extra="true">
 <tile>false</tile>
 <size>1 1</size>
@@ -75,6 +62,19 @@
 <color>FFFFFF</color>   
 <zIndex>54</zIndex>
 </video>
+
+<image name="logo">
+<storyboard event="activate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<storyboard event="deactivate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<linearSmooth>true</linearSmooth>
+<storyboard event="activate">
+<animation property="scale" to="1.2" duration="1000" mode="easeOut" autoreverse="true" repeat="forever"/>
+</storyboard>
+</image>
 
 <carousel name="systemcarousel">
 <linearSmooth>true</linearSmooth>
@@ -145,6 +145,13 @@
 <rotation>0</rotation> 
 <zIndex>90</zIndex>
 </text>
+
+<image name="pointer" extra="true">
+<visible>false</visible>
+</image>
+<image name="pointerl" extra="true">
+<visible>false</visible>
+</image>
 
 <image name="box1" extra="true">
 <origin>0.5 0.5</origin>

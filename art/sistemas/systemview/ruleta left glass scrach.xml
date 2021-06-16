@@ -46,7 +46,7 @@
 <image name="predeterminado" extra="true">
 <tile>false</tile>
 <Delay>800</Delay>
-<roundCorners>0.0248</roundCorners>                
+<roundCorners>0.0248</roundCorners>                 
 <pos>0.6500 0.486</pos>
 <origin>0.5 0.5</origin>
 <size>0.5800 0.774</size>
@@ -62,7 +62,7 @@
 <video name="backgroundvideo" extra="true">
 <visible>true</visible>
 <path>{random}</path>      
-<roundCorners>0.0248</roundCorners>                
+<roundCorners>0.0248</roundCorners>                 
 <pos>0.6500 0.486</pos>
 <origin>0.5 0.5</origin>
 <size>0.5800 0.774</size>

@@ -3,9 +3,22 @@
 <formatVersion>7</formatVersion>
 <view name="basic, detailed, grid, carousel, gamecarousel">
 <image name="personaje" extra="true">
-<storyboard>     
+<storyboard event="open">
+<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
 <animation property="w" from="4" to="0.2" begin="0" duration="1950" mode="easeOut" repeat="1"/>
 </storyboard>
+<storyboard event="activateNext">
+<animation property="w" from="4" to="0.2" begin="0" duration="1950" mode="easeOut" repeat="1"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="w" from="4" to="0.2" begin="0" duration="1950" mode="easeOut" repeat="1"/>
+</storyboard>
+<storyboard event="deactivateNext">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="deactivatePrev">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
+</storyboard> 
 </image>
 
 <image name="personaje2" extra="true">

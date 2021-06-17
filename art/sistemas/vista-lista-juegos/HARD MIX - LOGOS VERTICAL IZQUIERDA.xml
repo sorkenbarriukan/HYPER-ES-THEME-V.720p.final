@@ -108,8 +108,27 @@
 <pos>0.8250 0.8030</pos>
 <maxSize>0.14 0.14</maxSize>
 <reflexion>0.30 0.0</reflexion>
-<storyboard repeat="forever">
-<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="4000" repeat="3"/>
+<storyboard event="open">
+<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
+<animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
+<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+</storyboard>
+<storyboard event="activateNext">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+<animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
+<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+<animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
+<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+</storyboard>
+<storyboard event="deactivateNext">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="deactivatePrev">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
 </storyboard>  
 <zIndex>90</zIndex>
 </image>
@@ -124,7 +143,29 @@
 <glowColor>000000</glowColor>
 <glowSize>2</glowSize>
 <reflexion>0.50 0.0</reflexion>
-<zIndex>60</zIndex>   
+<zIndex>60</zIndex>
+<storyboard event="open">
+<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
+<animation property="y" from="1.01" begin="0" duration="2000" mode="Bump"/>
+<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+</storyboard>
+<storyboard event="activateNext">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+<animation property="y" from="1.01" begin="0" duration="2000" mode="Bump"/>
+<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+<animation property="y" from="1.01" begin="0" duration="2000" mode="Bump"/>
+<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+</storyboard>
+<storyboard event="deactivateNext">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="deactivatePrev">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
+</storyboard>    
 </image>
 
 <image name="personaje2" extra="true">
@@ -137,6 +178,28 @@
 <glowSize>2</glowSize>
 <reflexion>0.50 0.0</reflexion>
 <zIndex>60</zIndex>
+<storyboard event="open">
+<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
+<animation property="y" from="1.01" begin="0" duration="2000" mode="Bump"/>
+<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+</storyboard>
+<storyboard event="activateNext">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+<animation property="y" from="1.01" begin="0" duration="2000" mode="Bump"/>
+<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+<animation property="y" from="1.01" begin="0" duration="2000" mode="Bump"/>
+<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+</storyboard>
+<storyboard event="deactivateNext">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="deactivatePrev">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
+</storyboard> 
 </image>
 
 <image name="personaje3" extra="true">
@@ -150,6 +213,28 @@
 <glowSize>2</glowSize>
 <reflexion>0.50 0.0</reflexion>
 <zIndex>61</zIndex>
+<storyboard event="open">
+<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
+<animation property="y" from="1.01" begin="0" duration="2000" mode="Bump"/>
+<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+</storyboard>
+<storyboard event="activateNext">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+<animation property="y" from="1.01" begin="0" duration="2000" mode="Bump"/>
+<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+<animation property="y" from="1.01" begin="0" duration="2000" mode="Bump"/>
+<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+</storyboard>
+<storyboard event="deactivateNext">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="deactivatePrev">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
+</storyboard> 
 </image>
 
 <image name="predeterminado" extra="true">
@@ -204,6 +289,28 @@
 <fontSize>0.08</fontSize>
 <fontPath>./art/sistemas/fuentes/Bebas Neue.ttf</fontPath>
 <color>00000000</color>
+<storyboard event="open">
+<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
+<animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
+<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+</storyboard>
+<storyboard event="activateNext">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+<animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
+<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+<animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
+<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+</storyboard>
+<storyboard event="deactivateNext">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="deactivatePrev">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
+</storyboard> 
 </text>
 
 <image name="md_marquee">
@@ -211,12 +318,56 @@
 <size>0.200 0.130</size>
 <origin>0.5 0.5</origin>
 <zIndex>90</zIndex>
+<storyboard event="open">
+<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
+<animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
+<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+</storyboard>
+<storyboard event="activateNext">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+<animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
+<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+<animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
+<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+</storyboard>
+<storyboard event="deactivateNext">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="deactivatePrev">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
+</storyboard> 
 </image>	
 
 <image name="logo">
 <pos>0.645 0.080</pos>
 <size>0.200 0.130</size>
 <origin>0.5 0.5</origin>
+<storyboard event="open">
+<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
+<animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
+<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+</storyboard>
+<storyboard event="activateNext">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+<animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
+<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+<animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
+<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+</storyboard>
+<storyboard event="deactivateNext">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="deactivatePrev">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
+</storyboard> 
 </image>
 
 <image name="md_flag"> 
@@ -225,8 +376,27 @@
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
-<storyboard repeat="forever">
-<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+<storyboard event="open">
+<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
+<animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
+<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+</storyboard>
+<storyboard event="activateNext">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+<animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
+<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+<animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
+<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+</storyboard>
+<storyboard event="deactivateNext">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="deactivatePrev">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
 </storyboard>  
 </image>
 

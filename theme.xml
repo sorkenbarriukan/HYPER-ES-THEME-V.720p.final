@@ -560,12 +560,11 @@ RetroBat for windows:  kaylh...  ( http://www.retrobat.ovh/ )
 <include name="(1)-Grid Scanline">./art/sistemas/vista-lista-juegos/Grid Scanline.xml</include>
 <include name="(2)-Grid Detalle">./art/sistemas/vista-lista-juegos/Grid Detalle.xml</include>
 <include name="CARRUSEL">./art/sistemas/vista-lista-juegos/carrusel.xml</include>
-<include name="GAME CARRUSEL">./art/sistemas/vista-lista-juegos/gamecarousel.xml</include>
+<include name="GAMECARRUSEL">./art/sistemas/vista-lista-juegos/gamecarousel.xml</include>
 <include name="MAQUINITA GRANDE  CARRUSEL DERECHA">./art/sistemas/vista-lista-juegos/MAQUINITA GRANDE  CARRUSEL DERECHA.xml</include>
 <include name="MAQUINITA GRANDE  CARRUSEL IZQUIERDA">./art/sistemas/vista-lista-juegos/MAQUINITA GRANDE  CARRUSEL IZQUIERDA.xml</include>
 <include name="(1)-MAQUINITA OBSCURA & LOGOS VERTICAL IZQUIERDA">./art/sistemas/vista-lista-juegos/(1)-MAQUINITA OBSCURA & LOGOS VERTICAL IZQUIERDA.xml</include>
- <include name="(2)-MAQUINITA OBSCURA - LOGOS VERTICAL IZQUIERDA Con Scanline">./art/sistemas/vista-lista-juegos/carrusel.xml</include>
- <include name="CARRUSEL">./art/sistemas/vista-lista-juegos/(2)-MAQUINITA OBSCURA - LOGOS VERTICAL IZQUIERDA Con Scanline.xml</include>
+ <include name="(2)-MAQUINITA OBSCURA - LOGOS VERTICAL IZQUIERDA Con Scanline">./art/sistemas/vista-lista-juegos/(2)-MAQUINITA OBSCURA - LOGOS VERTICAL IZQUIERDA Con Scanline.xml</include>
  <include name="(1)-MAQUINITA AMARILLA GRANDE - LOGOS VERTICAL DERECHA">./art/sistemas/vista-lista-juegos/(1)-MAQUINITA AMARILLA GRANDE - LOGOS VERTICAL DERECHA.xml</include>
  <include name="(2)-MAQUINITA OBSCURA GRANDE - LOGOS VERTICAL DERECHA">./art/sistemas/vista-lista-juegos/(2)-MAQUINITA OBSCURA GRANDE - LOGOS VERTICAL DERECHA.xml</include>
  <include name="(1)-MAQUINITA LARGA  AMARILLA - LOGOS VERTICAL DERECHA & SCANLIN">./art/sistemas/vista-lista-juegos/(1)-MAQUINITA LARGA  AMARILLA - LOGOS VERTICAL DERECHA & SCANLIN.xml</include>

@@ -22,7 +22,7 @@
 <pos>0 0</pos>
 <origin>0 0</origin>
 <color>ffffff</color>
-<path>./art/sistemas/fondos/Hypermax Plus+sistema.png</path>
+<path>./art/sistemas/fondos/hypersys.png</path>
  <linearSmooth>true</linearSmooth>
 <zIndex>30</zIndex>
 </image>
@@ -161,7 +161,7 @@
 <color>00000000</color>
 <maxLogoCount>30</maxLogoCount>
 <logoRotation>8</logoRotation>
-<logoRotationOrigin>3.50 0.5</logoRotationOrigin>
+<logoRotationOrigin>4.50 0.5</logoRotationOrigin>
 <logoAlignment>center</logoAlignment>       
 </carousel>
 

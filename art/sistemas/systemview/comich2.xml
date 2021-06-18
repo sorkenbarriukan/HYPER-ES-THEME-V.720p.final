@@ -26,12 +26,12 @@
 <color>FFFFFFFF</color>
 <origin>0.5 0.5</origin>
 <pos>0.243 0.08</pos>
-<maxsize>0.390 0.144</maxsize>
+<size>0.420 0.174</size>
 <glowColor>000000</glowColor>
 <glowSize>2</glowSize>
 <reflexion>0.00 0.0</reflexion>
 <storyboard repeat="0">  
-<animation property="opacity" from="0" to="10" duration="3950" begin="2000" mode="easeIn"/>
+<animation property="opacity" from="0" to="10" duration="6950" begin="2000" mode="easeIn"/>
 </storyboard>
 <rotation>0</rotation>
 <zIndex>78</zIndex>
@@ -41,34 +41,47 @@
 <path>./art/sistemas/fondos/log station.png</path>
 <color>FFFFFFFF</color>
 <origin>0.5 0.5</origin>
-<pos>0.710 0.15</pos>
-<maxsize>0.390 0.144</maxsize>
+<pos>0.710 0.13</pos>
+<size>0.555 0.205</size>
 <glowColor>000000</glowColor>
 <glowSize>2</glowSize>
 <reflexion>0.00 0.0</reflexion>
 <storyboard repeat="0">  
-<animation property="opacity" from="0" to="10" duration="3950" begin="100" mode="easeIn"/>
+<animation property="opacity" from="0" to="20" duration="19950" begin="100" mode="easeIn"/>
 </storyboard>
 <rotation>0</rotation>
 <zIndex>78</zIndex>
 </image>
+
+
+
+
 
 <image name="image log3" extra="true">
 <path>./art/sistemas/fondos/log magazine.png</path>
 <color>FFFFFFFF</color>
 <origin>0.5 0.5</origin>
 <pos>0.108 0.22</pos>
-<maxsize>0.390 0.144</maxsize>
+<size>0.230 0.144</size>
 <glowColor>000000</glowColor>
 <glowSize>2</glowSize>
 <reflexion>0.00 0.0</reflexion>
 <rotation>0</rotation>
 <storyboard repeat="0">  
-<animation property="opacity" from="0" to="10" duration="3950" mode="easeIn"/> 
-<animation property="opacity" from="0" to="10" duration="3950" begin="5000" mode="easeIn"/>
+<animation property="opacity" from="0" to="10" duration="9950" mode="easeIn"/> 
+<animation property="opacity" from="0" to="10" duration="9950" begin="5000" mode="easeIn"/>
 </storyboard>
 <zIndex>78</zIndex>
 </image>
+
+
+
+
+<!-- <storyboard repeat="0">  
+<animation property="opacity" from="0" to="10" duration="3950" mode="easeIn"/> 
+<animation property="opacity" from="0" to="10" duration="3950" begin="5000" mode="easeIn"/>
+</storyboard> -->
+
 
 <image name="personaje" extra="true">
 <path>./art/sistemas/character/default.png</path>

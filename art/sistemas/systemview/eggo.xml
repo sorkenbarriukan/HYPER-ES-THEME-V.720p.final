@@ -52,7 +52,7 @@
 <tile>false</tile>
 <pos>1.0290 0.500</pos>
 <origin>0.5 0.5</origin>
-<size>1.0100 1.4400</size>
+<size>1.0100 1.2900</size>
 <path>./art/sistemas/fondos/c2.png</path>
 <zIndex>50</zIndex>
  <linearSmooth>true</linearSmooth>
@@ -65,7 +65,7 @@
 <tile>false</tile>
 <pos>1.0290 0.500</pos>
 <origin>0.5 0.5</origin>
-<size>1.0100 1.4400</size>
+<size>1.0100 1.2900</size>
 <path>./art/sistemas/fondos/c3.png</path>
 <zIndex>50</zIndex>
  <linearSmooth>true</linearSmooth>
@@ -78,7 +78,7 @@
 <tile>false</tile>
 <pos>1.0290 0.500</pos>
 <origin>0.5 0.5</origin>
-<size>1.0100 1.4400</size>
+<size>1.0100 1.2900</size>
 <path>./art/sistemas/fondos/c4.png</path>
 <zIndex>50</zIndex>
  <linearSmooth>true</linearSmooth>
@@ -91,7 +91,7 @@
 <tile>false</tile>
 <pos>1.0290 0.500</pos>
 <origin>0.5 0.5</origin>
-<size>1.0100 1.4400</size>
+<size>1.0100 1.2900</size>
 <path>./art/sistemas/fondos/c5.png</path>
 <zIndex>50</zIndex>
  <linearSmooth>true</linearSmooth>
@@ -104,7 +104,7 @@
 <tile>false</tile>
 <pos>1.0290 0.500</pos>
 <origin>0.5 0.5</origin>
-<size>1.0100 1.4400</size>
+<size>1.0100 1.2900</size>
 <path>./art/sistemas/fondos/c6.png</path>
 <zIndex>50</zIndex>
  <linearSmooth>true</linearSmooth>
@@ -117,7 +117,7 @@
 <tile>false</tile>
 <pos>1.0290 0.500</pos>
 <origin>0.5 0.5</origin>
-<size>1.0100 1.4400</size>
+<size>1.0100 1.2900</size>
 <path>./art/sistemas/fondos/c7.png</path>
 <zIndex>50</zIndex>
  <linearSmooth>true</linearSmooth>
@@ -130,7 +130,7 @@
 <tile>false</tile>
 <pos>1.0290 0.500</pos>
 <origin>0.5 0.5</origin>
-<size>1.0100 1.4400</size>
+<size>1.0100 1.2900</size>
 <path>./art/sistemas/fondos/c8.png</path>
 <zIndex>50</zIndex>
  <linearSmooth>true</linearSmooth>
@@ -143,7 +143,7 @@
 <tile>false</tile>
 <pos>1.0290 0.500</pos>
 <origin>0.5 0.5</origin>
-<size>1.0100 1.4400</size>
+<size>1.0100 1.2900</size>
 <path>./art/sistemas/fondos/c9.png</path>
 <zIndex>50</zIndex>
  <linearSmooth>true</linearSmooth>
@@ -156,7 +156,7 @@
 <tile>false</tile>
 <pos>1.0290 0.500</pos>
 <origin>0.5 0.5</origin>
-<size>1.0100 1.4400</size>
+<size>1.0100 1.2900</size>
 <path>./art/sistemas/fondos/c10.png</path>
 <zIndex>48</zIndex>
  <linearSmooth>true</linearSmooth>
@@ -245,7 +245,7 @@
 <maxLogoCount>30</maxLogoCount>
 <defaultTransition>instant</defaultTransition>
 <logoRotation>8</logoRotation>
-<logoRotationOrigin>3.50 0.5</logoRotationOrigin>
+<logoRotationOrigin>3.95 0.5</logoRotationOrigin>
 <logoAlignment>center</logoAlignment>       
 </carousel>
 

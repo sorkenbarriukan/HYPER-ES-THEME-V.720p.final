@@ -13,7 +13,7 @@
 <color>ffffff</color>
 <maxLogoCount>30</maxLogoCount>
 <logoRotation>9</logoRotation>
-<logoRotationOrigin>3.7 0.5</logoRotationOrigin>
+<logoRotationOrigin>4.5 0.5</logoRotationOrigin>
 <logoAlignment>center</logoAlignment>   
 <imageSource>marquee</imageSource>
 </gamecarousel>  

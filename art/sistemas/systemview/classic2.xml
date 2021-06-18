@@ -143,7 +143,7 @@
 <tile>false</tile>
 <pos>1.0290 0.500</pos>
 <origin>0.5 0.5</origin>
-<size>1.0100 1.4400</size>
+<size>1.0100 1.2900</size>
 <path>./art/sistemas/fondos/dvd.png</path>
 <zIndex>50</zIndex>
 <storyboard repeat="forever">

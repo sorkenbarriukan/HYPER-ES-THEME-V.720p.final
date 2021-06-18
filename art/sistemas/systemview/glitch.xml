@@ -247,7 +247,7 @@
 <maxLogoCount>30</maxLogoCount>
 <defaultTransition>instant</defaultTransition>
 <logoRotation>8</logoRotation>
-<logoRotationOrigin>3.50 0.5</logoRotationOrigin>
+<logoRotationOrigin>4.50 0.5</logoRotationOrigin>
 <logoAlignment>center</logoAlignment>       
 </carousel>
 

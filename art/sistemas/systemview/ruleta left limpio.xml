@@ -92,7 +92,7 @@
 <linearSmooth>true</linearSmooth>
 		<defaultTransition>instant</defaultTransition>
         <type>vertical_wheel</type>
-        <pos>-0.390 0</pos>
+        <pos>-0.360 0</pos>
         <size>1 1</size>
         <logoScale>1.05</logoScale>
         <logoSize>0.18 0.11</logoSize>

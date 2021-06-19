@@ -301,8 +301,8 @@
 </helpsystem>
 
 <text name="logoText">
-<pos>0.219 0.237</pos>
-<size>0.339 0.132</size>
+<pos>0.145 0.850</pos>
+<size>0.160 0.130</size>
 <origin>0.5 0.5</origin>
 <alignment>center</alignment>
 <fontSize>0.08</fontSize>
@@ -333,7 +333,7 @@
 </text>
 <image name="logo">
 <pos>0.145 0.850</pos>
-<size>0.200 0.130</size>
+<size>0.160 0.130</size>
 <origin>0.5 0.5</origin>
 <storyboard event="open">
 <animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
@@ -360,8 +360,8 @@
 </image>
 
 <image name="md_marquee">
-<pos>0.150 0.800</pos>
-<size>0.150 0.120</size>
+<pos>0.145 0.850</pos>
+<size>0.160 0.130</size>
 <origin>0.5 0.5</origin>
 <zIndex>90</zIndex>
 <storyboard event="open">

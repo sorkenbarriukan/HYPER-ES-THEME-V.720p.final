@@ -229,8 +229,8 @@
 </helpsystem>
 
 <text name="logoText">
-<pos>0.792 0.777</pos>
-<size>0.335 0.142</size>
+<pos>0.297 0.153</pos>
+<size>0.160 0.112</size>
 <origin>0.5 0.5</origin>
 <alignment>center</alignment>
 <fontSize>0.08</fontSize>
@@ -262,7 +262,7 @@
 
 <image name="logo">
 <pos>0.297 0.153</pos>
-<size>0.215 0.112</size>
+<size>0.160 0.112</size>
 <origin>0.5 0.5</origin>
 <zIndex>99</zIndex>
 <storyboard event="open">
@@ -291,7 +291,7 @@
 
 <image name="md_marquee">
 <pos>0.297 0.153</pos>
-<size>0.215 0.112</size>
+<size>0.160 0.112</size>
 <origin>0.5 0.5</origin>
 <zIndex>99</zIndex>
 <reflexion>0</reflexion>

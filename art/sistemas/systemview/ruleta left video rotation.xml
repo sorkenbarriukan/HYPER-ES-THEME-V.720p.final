@@ -52,9 +52,9 @@
 <Delay>800</Delay>
 <pos>0.6500 0.485</pos>
 <origin>0.5 0.5</origin>
-<size>0.4860 0.682</size>
-<rotation>-10</rotation>  
-<roundCorners>0.0248</roundCorners>  
+<size>0.4820 0.672</size>
+<rotation>-10.2</rotation>
+<roundCorners>0.0268</roundCorners>  
 <path>./art/sistemas/fondos/default.png</path>
 <roundCorners>0.04.9</roundCorners>
 <zIndex>19</zIndex>
@@ -68,18 +68,15 @@
 <video name="backgroundvideo" extra="true">
 <visible>true</visible>
 <path>{random}</path>  
-<rotation>-10</rotation>  
+<rotation>-10.2</rotation>
 <roundCorners>0.0248</roundCorners>               
 <pos>0.6500 0.485</pos>
 <origin>0.5 0.5</origin>
-<size>0.4860 0.682</size>
+<size>0.4820 0.672</size>
 <delay>0</delay>
 <showSnapshotNoVideo>false</showSnapshotNoVideo>
 <showSnapshotDelay>false</showSnapshotDelay>
 <color>FFFFFF</color>   
-<storyboard> 
-<animation property="x" from="1.01" begin="0" duration="1850" mode="easeOut"/>
-</storyboard>
 <zIndex>20</zIndex>
 </video>
 
@@ -98,7 +95,7 @@
 <linearSmooth>true</linearSmooth>
 		<defaultTransition>instant</defaultTransition>
         <type>vertical_wheel</type>
-        <pos>-0.390 0</pos>
+        <pos>-0.360 0</pos>
         <size>1 1</size>
         <logoScale>1.15</logoScale>
         <logoSize>0.18 0.11</logoSize>

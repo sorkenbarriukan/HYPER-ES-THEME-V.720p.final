@@ -158,9 +158,6 @@
 <showSnapshotNoVideo>false</showSnapshotNoVideo>
 <showSnapshotDelay>false</showSnapshotDelay>
 <zIndex>20</zIndex>
-<storyboard> 
-<animation property="x" from="1.01" begin="0" duration="1850" mode="easeOut"/>
-</storyboard>
 </video>
 
 <video name="glitch" extra="true">

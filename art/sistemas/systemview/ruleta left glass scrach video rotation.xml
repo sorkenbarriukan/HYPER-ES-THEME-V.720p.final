@@ -16,12 +16,8 @@
 </image>
 
 <image name="background1" extra="true">
+<visible>false</visible>
 <tile>false</tile>
-<size>1 1</size>
-<pos>0 0</pos>
-<origin>0 0</origin>
-<path>./art/sistemas/fondos/fondo ruleta.png</path>
-<zIndex>30</zIndex>
 </image>
 
 <image name="fondovideo" extra="true">
@@ -30,7 +26,7 @@
 <pos>0 0</pos>
 <origin>0 0</origin>
 <path>./art/sistemas/fondos/ruleta left glass scratch video rotation.png</path>
-<zIndex>22</zIndex>
+<zIndex>62</zIndex>
 </image>
   
 <image name="background3" extra="true">
@@ -61,11 +57,11 @@
 <Delay>800</Delay>
 <pos>0.6500 0.485</pos>
 <origin>0.5 0.5</origin>
-<size>0.4860 0.682</size>
+<size>0.4860 0.670</size>
 <rotation>-10</rotation> 
-<roundCorners>0.04.9</roundCorners>
+<roundCorners>0.0248</roundCorners> 
 <path>./art/sistemas/fondos/default.png</path>
-<zIndex>19</zIndex>
+<zIndex>49</zIndex>
 <storyboard>
         <animation property="y" from="0.05" begin="0" duration="350" mode="easeOut"/>
         <animation property="opacity" from="0" to="1" duration="2950" mode="easeIn"/>
@@ -77,18 +73,15 @@
 <visible>true</visible>
 <path>{random}</path>  
 <rotation>-10</rotation>  
-<roundCorners>0.04.9</roundCorners>             
+<roundCorners>0.0248</roundCorners>              
 <pos>0.6500 0.485</pos>
 <origin>0.5 0.5</origin>
-<size>0.4860 0.682</size>
+<size>0.4860 0.670</size>
 <delay>0</delay>
 <showSnapshotNoVideo>false</showSnapshotNoVideo>
 <showSnapshotDelay>false</showSnapshotDelay>
 <color>FFFFFF</color>  
-<storyboard> 
-<animation property="y" from="1.01" begin="0" duration="1450" mode="easeOut"/>
-</storyboard>
-<zIndex>20</zIndex>
+<zIndex>50</zIndex>
 </video>
 
 <video name="backgroundvideo" extra="true" ifHelpPrompts="false">
@@ -106,7 +99,7 @@
 <linearSmooth>true</linearSmooth>
 		<defaultTransition>instant</defaultTransition>
         <type>vertical_wheel</type>
-        <pos>-0.390 0</pos>
+        <pos>-0.360 0</pos>
         <size>1 1</size>
         <logoScale>1.15</logoScale>
         <logoSize>0.18 0.11</logoSize>

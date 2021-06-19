@@ -168,9 +168,6 @@
 <showSnapshotDelay>false</showSnapshotDelay>
 <roundCorners>0.04.7</roundCorners>
 <zIndex>90</zIndex>
-<storyboard> 
-<animation property="y" from="1.01" begin="0" duration="2250" mode="easeOut"/>
-</storyboard>
 </video>
 
 <text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_players, md_lbl_releasedate">

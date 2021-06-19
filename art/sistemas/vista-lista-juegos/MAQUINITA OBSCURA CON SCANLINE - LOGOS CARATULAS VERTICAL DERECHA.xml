@@ -159,9 +159,6 @@
 <showSnapshotNoVideo>false</showSnapshotNoVideo>
 <showSnapshotDelay>false</showSnapshotDelay>
 <zIndex>20</zIndex>
-<storyboard>  
-        <animation property="x" from="0" begin="0" duration="1250" mode="easeOut"/>  
-</storyboard>
 </video>
 
 <helpsystem name="help">

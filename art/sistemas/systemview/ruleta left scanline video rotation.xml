@@ -43,16 +43,16 @@
 <zIndex>10</zIndex>
 </image>
    
-   <image name="predeterminado" extra="true">
+<image name="predeterminado" extra="true">
+<visible>true</visible>
 <tile>false</tile>
 <Delay>800</Delay>
 <pos>0.6500 0.485</pos>
 <origin>0.5 0.5</origin>
-<size>0.4860 0.682</size>
-<roundCorners>0.0248</roundCorners> 
-<rotation>-10</rotation> 
+<size>0.4820 0.672</size>
+<rotation>-10.2</rotation>  
 <path>./art/sistemas/fondos/default.png</path>
-<roundCorners>0.04.9</roundCorners>
+<roundCorners>0.0248</roundCorners> 
 <zIndex>19</zIndex>
 <storyboard>
         <animation property="y" from="0.05" begin="0" duration="350" mode="easeOut"/>
@@ -64,19 +64,16 @@
 <video name="backgroundvideo" extra="true">
 <visible>true</visible>
 <path>{random}</path>  
-<rotation>-10</rotation>  
+<rotation>-10.2</rotation>  
 <roundCorners>0.0248</roundCorners>            
 <pos>0.6500 0.485</pos>
 <origin>0.5 0.5</origin>
-<size>0.4860 0.682</size>
+<size>0.4820 0.672</size>
 <delay>0</delay>
 <showSnapshotNoVideo>false</showSnapshotNoVideo>
 <showSnapshotDelay>false</showSnapshotDelay>
 <color>FFFFFF</color>   
 <zIndex>20</zIndex>
-<storyboard>       
-<animation property="scale" from="0" to="1" duration="800" mode="easeOutCubic"/>       
-</storyboard>
 </video>
 
 <image name="consola" extra="true">
@@ -110,7 +107,7 @@
 <linearSmooth>true</linearSmooth>
 		<defaultTransition>instant</defaultTransition>
         <type>vertical_wheel</type>
-        <pos>-0.390 0</pos>
+        <pos>-0.360 0</pos>
         <size>1 1</size>
         <logoScale>1.15</logoScale>
         <logoSize>0.18 0.11</logoSize>

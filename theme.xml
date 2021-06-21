@@ -111,6 +111,8 @@ RetroBat for windows:  kaylh...  ( http://www.retrobat.ovh/ )
 <include name="HYPERMAX">./art/sistemas/systemview/hyper.xml</include>
 <include name="GLITCH">./art/sistemas/systemview/glitch.xml</include>
 <include name="EGGO">./art/sistemas/systemview/eggo.xml</include>
+<include name="EGGO VERTICAL">./art/sistemas/systemview/eggovertical.xml</include>
+<include name="EGGO HORIZONTAL">./art/sistemas/systemview/eggohorizontal.xml</include>
 
 <include name="-TATE- IZQUIERDA 1">./art/sistemas/systemview/verticalleft.xml</include>
 <include name="-TATE- IZQUIERDA 2">./art/sistemas/systemview/verticalleft4.xml</include>
@@ -271,6 +273,7 @@ RetroBat for windows:  kaylh...  ( http://www.retrobat.ovh/ )
 <!-- MOVIMIENTO EN LOGO SELECCIONADO DEL CARRUSEL EN SISTEMA-->
 <subset name="activar-movimiento-en-logo-de-carrusel" displayName="${activar-movimiento-en-logo-de-carruselName}">
 <include name="˙NINGUNO" displayName="${si}">./art/sistemas/storyboards/logos/movimiento en carrusel NO.xml</include>
+<include name="˙360" displayName="${si}">./art/sistemas/storyboards/logos/360.xml</include>
 <include name="˙BUMP" displayName="${si}">./art/sistemas/storyboards/logos/movimiento en carrusel SI.xml</include>
 <include name="˙GLITCH" displayName="${si}">./art/sistemas/storyboards/logos/movimiento en carrusel GLITCH.xml</include>
 <include name="˙PARPADEO" displayName="${si}">./art/sistemas/storyboards/logos/movimiento en carrusel PARPADEO.xml</include>
@@ -604,6 +607,9 @@ RetroBat for windows:  kaylh...  ( http://www.retrobat.ovh/ )
 <include name="HYPERMAX">./art/sistemas/vista-lista-juegos/hyper.xml</include>
 <include name="GLITCH">./art/sistemas/vista-lista-juegos/glitch.xml</include>
 <include name="EGGO">./art/sistemas/vista-lista-juegos/eggo.xml</include>
+<include name="EGGO VERTICAL">./art/sistemas/vista-lista-juegos/eggovertical.xml</include>
+<include name="EGGO HORIZONTAL">./art/sistemas/vista-lista-juegos/eggohorizontal.xml</include>
+
 <include name="-TATE  IZQUIERDA - MAQUINITA OBSCURA">./art/sistemas/vista-lista-juegos/-TATE  IZQUIERDA - MAQUINITA OBSCURA.xml</include>
 <include name="-TATE  IZQUIERDA - MAQUINITA AMARILLA">./art/sistemas/vista-lista-juegos/-TATE  IZQUIERDA - MAQUINITA AMARILLA.xml</include>
 <include name="-TATE  DERECHA - MAQUINITA OBSCURA">./art/sistemas/vista-lista-juegos/-TATE  DERECHA - MAQUINITA OBSCURA.xml</include>

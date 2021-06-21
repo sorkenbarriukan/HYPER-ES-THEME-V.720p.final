@@ -17,162 +17,105 @@
 
 <image name="background3" extra="true">
 <tile>false</tile>
-<size>1 1</size>
-<pos>0 0</pos>
-<origin>0 0</origin>
+<roundCorners>0.03</roundCorners>             
+<pos>0.346 0.482</pos>
+<origin>0.5 0.5</origin>
+<size>0.4390 0.524</size>
 <color>FFFFFF</color>
 <path>./art/sistemas/wall/default.png</path>
 <path>./art/sistemas/wall/${system.theme}.png</path>
-<zIndex>23</zIndex>
+<zIndex>22</zIndex>
 </image>
   
-<image name="backgroundvid" extra="true">
-<tile>false</tile>
-<size>1 1</size>
-<roundCorners>0.03</roundCorners>             
-<pos>0.232 0.483</pos>
-<origin>0.5 0.5</origin>
-<size>0.4380 0.518</size>
-<color>FFFFFF</color>
-<path>./art/sistemas/wall/default.png</path>
-<path>./art/sistemas/wall/${system.theme}.png</path>
-<zIndex>24</zIndex>
-</image>
-
 <image name="background1" extra="true">
 <tile>false</tile>
 <size>1 1</size>
 <pos>0 0</pos>
 <origin>0 0</origin>
-<path>./art/sistemas/fondos/eggo.png</path>
+<path>./art/sistemas/fondos/eggov.png</path>
 <zIndex>26</zIndex>
 </image>  
 
-<image name="c2" extra="true">
-<tile>false</tile>
-<pos>1.0290 0.500</pos>
-<origin>0.5 0.5</origin>
-<size>1.0100 1.2900</size>
-<path>./art/sistemas/fondos/c2.png</path>
-<zIndex>50</zIndex>
+<image name="lv1" extra="true">
+<visible>true</visible>
+<pos>0.651 0</pos>
+<origin>0 0</origin>
+<size>0.324 1</size>
+<path>./art/sistemas/fondos/lv1.png</path>
+<zIndex>97</zIndex>
  <linearSmooth>true</linearSmooth>
 <storyboard repeat="forever">
-<animation property="rotation" to="-100" begin="0" duration="9510" autoreverse="true"/>
+<animation property="y" from="0"  to="0.269" begin="0" duration="1780" autoreverse="true" repeat="5"/>
+<animation property="y" from="0"  to="0.269" begin="0" duration="780" autoreverse="true" repeat="5"/>
 </storyboard>
 </image>
 
-<image name="c3" extra="true">
-<tile>false</tile>
-<pos>1.0290 0.500</pos>
-<origin>0.5 0.5</origin>
-<size>1.0100 1.2900</size>
-<path>./art/sistemas/fondos/c3.png</path>
-<zIndex>50</zIndex>
+<image name="lv2" extra="true">
+<visible>true</visible>
+<pos>0.640 0</pos>
+<origin>0 0</origin>
+<size>0.335 1</size>
+<path>./art/sistemas/fondos/lv2.png</path>
+<zIndex>99</zIndex>
  <linearSmooth>true</linearSmooth>
-<storyboard repeat="forever">
-<animation property="rotation" from="30" duration="9000" autoreverse="true" mode="linear" begin="0"/>
+ <storyboard repeat="forever">
+<animation property="y" from="0"  to="-0.269" begin="0" duration="1780" autoreverse="true" repeat="5"/>
 </storyboard>
 </image>
 
-<image name="c4" extra="true">
-<tile>false</tile>
-<pos>1.0290 0.500</pos>
-<origin>0.5 0.5</origin>
-<size>1.0100 1.2900</size>
-<path>./art/sistemas/fondos/c4.png</path>
-<zIndex>50</zIndex>
+<image name="lv3" extra="true">
+<visible>true</visible>
+<pos>0.621 0</pos>
+<origin>0 0</origin>
+<size>0.314 1</size>
+<path>./art/sistemas/fondos/lv3.png</path>
+<zIndex>99</zIndex>
  <linearSmooth>true</linearSmooth>
-<storyboard repeat="forever">
-<animation property="rotation" to="140" begin="0" duration="5510" autoreverse="true"/>
-</storyboard>
+  <storyboard repeat="forever">
+ <animation property="y" from="0"  to="0.069" begin="0" duration="280" autoreverse="true" repeat="5"/>
+  <animation property="y" from="-0"  to="0.269" begin="0" duration="780" autoreverse="true" repeat="5"/>
+ </storyboard>
 </image>
 
-<image name="c5" extra="true">
-<tile>false</tile>
-<pos>1.0290 0.500</pos>
-<origin>0.5 0.5</origin>
-<size>1.0100 1.2900</size>
-<path>./art/sistemas/fondos/c5.png</path>
-<zIndex>50</zIndex>
+<image name="lv4" extra="true">
+<visible>true</visible>
+<pos>0.621 0</pos>
+<origin>0 0</origin>
+<size>0.314 1</size>
+<path>./art/sistemas/fondos/lv4.png</path>
+<zIndex>98</zIndex>
  <linearSmooth>true</linearSmooth>
-<storyboard repeat="forever">
-<animation property="rotation" to="-40" begin="0" duration="5510" autoreverse="true"/>
-</storyboard>
+  <storyboard repeat="forever">
+ <animation property="y" from="0"  to="-0.069" begin="0" duration="280" autoreverse="true" repeat="5"/>
+  <animation property="y" from="-0"  to="-0.269" begin="0" duration="780" autoreverse="true" repeat="5"/>
+ </storyboard>
 </image>
 
-<image name="c6" extra="true">
+<image name="predeterminado" extra="true">
 <tile>false</tile>
-<pos>1.0290 0.500</pos>
+<Delay>800</Delay>
+<roundCorners>0.03</roundCorners>             
+<pos>0.346 0.482</pos>
 <origin>0.5 0.5</origin>
-<size>1.0100 1.2900</size>
-<path>./art/sistemas/fondos/c6.png</path>
-<zIndex>50</zIndex>
- <linearSmooth>true</linearSmooth>
-<storyboard repeat="forever">
-<animation property="rotation" from="-100" duration="6000" autoreverse="true" mode="linear" begin="0"/>
-</storyboard>
-</image>
-
-<image name="c7" extra="true">
-<tile>false</tile>
-<pos>1.0290 0.500</pos>
-<origin>0.5 0.5</origin>
-<size>1.0100 1.2900</size>
-<path>./art/sistemas/fondos/c7.png</path>
-<zIndex>50</zIndex>
- <linearSmooth>true</linearSmooth>
-<storyboard repeat="forever">
-<animation property="rotation" to="300" begin="0" duration="6510" autoreverse="true"/>
-</storyboard>
-</image>
-
-<image name="c8" extra="true">
-<tile>false</tile>
-<pos>1.0290 0.500</pos>
-<origin>0.5 0.5</origin>
-<size>1.0100 1.2900</size>
-<path>./art/sistemas/fondos/c8.png</path>
-<zIndex>50</zIndex>
- <linearSmooth>true</linearSmooth>
-<storyboard repeat="forever">
-<animation property="rotation" from="-100" duration="7000" autoreverse="true" mode="linear" begin="0"/>
-</storyboard>
-</image>
-
-<image name="c9" extra="true">
-<tile>false</tile>
-<pos>1.0290 0.500</pos>
-<origin>0.5 0.5</origin>
-<size>1.0100 1.2900</size>
-<path>./art/sistemas/fondos/c9.png</path>
-<zIndex>50</zIndex>
- <linearSmooth>true</linearSmooth>
-<storyboard repeat="forever">
-<animation property="rotation" from="-50" duration="5000" autoreverse="true" mode="linear" begin="0"/>
-</storyboard>
-</image>
-
-<image name="c10" extra="true">
-<tile>false</tile>
-<pos>1.0290 0.500</pos>
-<origin>0.5 0.5</origin>
-<size>1.0100 1.2900</size>
-<path>./art/sistemas/fondos/c10.png</path>
-<zIndex>48</zIndex>
- <linearSmooth>true</linearSmooth>
-<storyboard repeat="forever">
-<animation property="rotation" from="-50" duration="19000" autoreverse="true" mode="linear" begin="0"/>
+<size>0.4390 0.524</size>
+<path>./art/sistemas/fondos/default.png</path>
+<zIndex>23</zIndex>
+<storyboard>
+<animation property="y" from="0.05" begin="0" duration="350" mode="easeOut"/>
+<animation property="opacity" from="0" to="1" duration="2950" mode="easeIn"/>
+<animation property="scale" from="0" to="1" duration="350" mode="easeOut"/>
 </storyboard>
 </image>
 
 <video name="backgroundvideo" extra="true">
 <visible>true</visible>
 <path>{random}</path>  
+<path>./art/sistemas/videos/${system.theme}.mp4</path>
 <rotation>0</rotation>  
 <roundCorners>0.03</roundCorners>             
-<pos>0.232 0.483</pos>
+<pos>0.346 0.482</pos>
 <origin>0.5 0.5</origin>
-<size>0.4380 0.518</size>
+<size>0.4390 0.524</size>
 <delay>0</delay>
 <showSnapshotNoVideo>false</showSnapshotNoVideo>
 <showSnapshotDelay>false</showSnapshotDelay>
@@ -235,22 +178,38 @@
 </image>
 
 <carousel name="systemcarousel">
-<zIndex>93</zIndex>	      
-<type>vertical_wheel</type>
-<pos>0.064 0</pos>
+<zIndex>120</zIndex>	      
+<type>vertical</type>
+<pos>0.296 0</pos>
 <size>1 1</size>
 <logoScale>1.05</logoScale>
-<logoSize>0.130 0.260</logoSize>
+<logoSize>0.140 0.260</logoSize>
 <color>00000000</color>
-<maxLogoCount>30</maxLogoCount>
+<maxLogoCount>8</maxLogoCount>
 <defaultTransition>instant</defaultTransition>
 <logoRotation>8</logoRotation>
-<logoRotationOrigin>3.95 0.5</logoRotationOrigin>
+<logoRotationOrigin>3.50 0.5</logoRotationOrigin>
 <logoAlignment>center</logoAlignment>       
 </carousel>
 
 <text name="systemInfo">
-<visible>false</visible>
+<glowColor>ffffff</glowColor>
+<pos>-0.15 0.84</pos>
+<backgroundColor>00000000</backgroundColor>
+<color>f71852</color>
+<rotation>0</rotation> 
+<fontPath>./art/sistemas/fuentes/Bad Signal.otf</fontPath>
+ <linearSmooth>true</linearSmooth>
+<fontSize>0.060</fontSize>
+<zIndex>999</zIndex>
+<storyboard repeat="forever">
+<animation property="opacity" from="0" to="10" duration="2950" mode="easeIn"/> 
+<animation property="opacity" from="0" to="10" duration="2950" begin="8000" mode="easeIn"/>
+<animation property="color" from="eb43c8" to="47e1ec" begin="10" duration="1300" autoreverse="true"/>
+<animation property="opacity" from="0" to="1" begin="0" duration="350" mode="linear"/>
+<animation property="x" from="-0.15" to="-0.10" duration="60" autoreverse="true" begin="4000" repeat="3"/>
+<animation property="x" from="-0.15" to="+0.02" duration="860" autoreverse="true" begin="4440" repeat="1"/>
+</storyboard>
 </text> 
 
 <text name="fullName" extra="true">
@@ -289,21 +248,7 @@
 </text>
 
 <text name="releaseYyear" extra="true">
-<text>${system.releaseYearOrNull}</text>
-<alignment>left</alignment>
-<verticalAlignment>top</verticalAlignment>
-<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
-<fontSize>0.024</fontSize>
-<pos>0.03 0.180</pos>
-<pos verticalScreen="true">0.03 0.127</pos>         
-<size>0.94 0.28</size>        
-<zIndex>100</zIndex>
-<color>D0D0D0FF</color>
-<glowColor>000000A0</glowColor>
-<glowSize>1</glowSize>
-<pos tinyScreen="true">0.03 0.19</pos>
-<glowColor tinyScreen="true">00000040</glowColor>
-<fontSize tinyScreen="true">0.035</fontSize>
+<visible>false</visible>
 </text> 
        
 <image name="box1" extra="true">
@@ -367,7 +312,11 @@
 <path>./${system.theme}/art/system-${lang}.svg</path>
 </image>
 
-<image name="pointerl,pointer,glitchB,glitchA,glitchF,personajeB,personajeA,personajeF" extra="true">
+<text name="sys_info,releaseYyear,sys_description" extra="true">
+<visible>false</visible>
+</text>
+
+<image name="pointerl,pointer,glitchB,glitchA,glitchF,personajeB,personajeA,personajeF,c2,c3,c4,c5,c6,c7,c8,c9,c10" extra="true">
 <visible>false</visible>
 </image>
 

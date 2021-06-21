@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 <formatVersion>7</formatVersion>
-<customView name="EGGO" inherits="gamecarousel" displayName="${gridDetailsViewName}">
+<customView name="EGGO VERTICAL" inherits="gamecarousel" displayName="${gridDetailsViewName}">
 
 <gamecarousel name="gamecarousel">
 <zIndex>43</zIndex>	      
-<type>vertical_wheel</type>
-<pos>0.075 0</pos>
+<type>vertical</type>
+<pos>0.296 0</pos>
 <size>1 1</size>
 <logoScale>1.55</logoScale>
 <logoSize>0.130 0.260</logoSize>
 <color>ffffff</color>
-<maxLogoCount>30</maxLogoCount>
+<maxLogoCount>11</maxLogoCount>
 <logoRotation>9</logoRotation>
-<logoRotationOrigin>4.5 0.5</logoRotationOrigin>
+<logoRotationOrigin>3.7 0.5</logoRotationOrigin>
 <logoAlignment>center</logoAlignment>   
 <imageSource>marquee</imageSource>
-<zIndex>95</zIndex>
+<zIndex>195</zIndex>
 </gamecarousel>  
 
 <text name="gamecarouselLogoText">
@@ -32,154 +32,82 @@
 <size>1 1</size>
 <pos>0 0</pos>
 <origin>0 0</origin>
-<path>./art/sistemas/fondos/eggo.png</path>
+<path>./art/sistemas/fondos/eggov.png</path>
 <zIndex>25</zIndex>
 </image> 
 
-<image name="background3" extra="true">
-<visible>false</visible>
-</image>
-  
 <image name="backgroundvid" extra="true">
 <tile>false</tile>
 <size>1 1</size>
 <roundCorners>0.03</roundCorners>             
-<pos>0.232 0.483</pos>
+<pos>0.346 0.482</pos>
 <origin>0.5 0.5</origin>
-<size>0.4380 0.518</size>
+<size>0.4390 0.524</size>
 <color>FFFFFF</color>
 <path>./art/sistemas/wall/default.png</path>
 <path>./art/sistemas/wall/${system.theme}.png</path>
 <zIndex>23</zIndex>
 </image>
  
-<image name="c2" extra="true">
-<tile>false</tile>
-<pos>1.0290 0.500</pos>
-<origin>0.5 0.5</origin>
-<size>1.0100 1.2900</size>
-<path>./art/sistemas/fondos/c2.png</path>
-<zIndex>50</zIndex>
+<image name="lv1" extra="true">
+<visible>true</visible>
+<pos>0.651 0</pos>
+<origin>0 0</origin>
+<size>0.324 1</size>
+<path>./art/sistemas/fondos/lv1.png</path>
+<zIndex>97</zIndex>
  <linearSmooth>true</linearSmooth>
 <storyboard repeat="forever">
-<animation property="rotation" to="-100" begin="0" duration="9510" autoreverse="true"/>
+<animation property="y" from="0"  to="0.269" begin="0" duration="1780" autoreverse="true" repeat="5"/>
+<animation property="y" from="0"  to="0.269" begin="0" duration="780" autoreverse="true" repeat="5"/>
 </storyboard>
 </image>
 
-<image name="c3" extra="true">
-<tile>false</tile>
-<pos>1.0290 0.500</pos>
-<origin>0.5 0.5</origin>
-<size>1.0100 1.2900</size>
-<path>./art/sistemas/fondos/c3.png</path>
-<zIndex>50</zIndex>
+<image name="lv2" extra="true">
+<visible>true</visible>
+<pos>0.640 0</pos>
+<origin>0 0</origin>
+<size>0.335 1</size>
+<path>./art/sistemas/fondos/lv2.png</path>
+<zIndex>99</zIndex>
  <linearSmooth>true</linearSmooth>
-<storyboard repeat="forever">
-<animation property="rotation" from="30" duration="9000" autoreverse="true" mode="linear" begin="0"/>
+ <storyboard repeat="forever">
+<animation property="y" from="0"  to="-0.269" begin="0" duration="1780" autoreverse="true" repeat="5"/>
 </storyboard>
 </image>
 
-<image name="c4" extra="true">
-<tile>false</tile>
-<pos>1.0290 0.500</pos>
-<origin>0.5 0.5</origin>
-<size>1.0100 1.2900</size>
-<path>./art/sistemas/fondos/c4.png</path>
-<zIndex>50</zIndex>
+<image name="lv3" extra="true">
+<visible>true</visible>
+<pos>0.621 0</pos>
+<origin>0 0</origin>
+<size>0.314 1</size>
+<path>./art/sistemas/fondos/lv3.png</path>
+<zIndex>99</zIndex>
  <linearSmooth>true</linearSmooth>
-<storyboard repeat="forever">
-<animation property="rotation" to="140" begin="0" duration="5510" autoreverse="true"/>
-</storyboard>
+  <storyboard repeat="forever">
+ <animation property="y" from="0"  to="0.069" begin="0" duration="280" autoreverse="true" repeat="5"/>
+  <animation property="y" from="-0"  to="0.269" begin="0" duration="780" autoreverse="true" repeat="5"/>
+ </storyboard>
 </image>
-
-<image name="c5" extra="true">
-<tile>false</tile>
-<pos>1.0290 0.500</pos>
-<origin>0.5 0.5</origin>
-<size>1.0100 1.2900</size>
-<path>./art/sistemas/fondos/c5.png</path>
-<zIndex>50</zIndex>
+ 
+<image name="lv4" extra="true">
+<visible>true</visible>
+<pos>0.621 0</pos>
+<origin>0 0</origin>
+<size>0.314 1</size>
+<path>./art/sistemas/fondos/lv4.png</path>
+<zIndex>98</zIndex>
  <linearSmooth>true</linearSmooth>
-<storyboard repeat="forever">
-<animation property="rotation" to="-40" begin="0" duration="5510" autoreverse="true"/>
-</storyboard>
-</image>
-
-<image name="c6" extra="true">
-<tile>false</tile>
-<pos>1.0290 0.500</pos>
-<origin>0.5 0.5</origin>
-<size>1.0100 1.2900</size>
-<path>./art/sistemas/fondos/c6.png</path>
-<zIndex>50</zIndex>
- <linearSmooth>true</linearSmooth>
-<storyboard repeat="forever">
-<animation property="rotation" from="-100" duration="6000" autoreverse="true" mode="linear" begin="0"/>
-</storyboard>
-</image>
-
-<image name="c7" extra="true">
-<tile>false</tile>
-<pos>1.0290 0.500</pos>
-<origin>0.5 0.5</origin>
-<size>1.0100 1.2900</size>
-<path>./art/sistemas/fondos/c7.png</path>
-<zIndex>50</zIndex>
- <linearSmooth>true</linearSmooth>
-<storyboard repeat="forever">
-<animation property="rotation" to="300" begin="0" duration="6510" autoreverse="true"/>
-</storyboard>
-</image>
-
-<image name="c8" extra="true">
-<tile>false</tile>
-<pos>1.0290 0.500</pos>
-<origin>0.5 0.5</origin>
-<size>1.0100 1.2900</size>
-<path>./art/sistemas/fondos/c8.png</path>
-<zIndex>50</zIndex>
- <linearSmooth>true</linearSmooth>
-<storyboard repeat="forever">
-<animation property="rotation" from="-100" duration="7000" autoreverse="true" mode="linear" begin="0"/>
-</storyboard>
-</image>
-
-<image name="c9" extra="true">
-<tile>false</tile>
-<pos>1.0290 0.500</pos>
-<origin>0.5 0.5</origin>
-<size>1.0100 1.2900</size>
-<path>./art/sistemas/fondos/c9.png</path>
-<zIndex>50</zIndex>
- <linearSmooth>true</linearSmooth>
-<storyboard repeat="forever">
-<animation property="rotation" from="-50" duration="5000" autoreverse="true" mode="linear" begin="0"/>
-</storyboard>
-</image>
-
-<image name="c10" extra="true">
-<tile>false</tile>
-<pos>1.0290 0.500</pos>
-<origin>0.5 0.5</origin>
-<size>1.0100 1.2900</size>
-<path>./art/sistemas/fondos/c10.png</path>
-<zIndex>48</zIndex>
- <linearSmooth>true</linearSmooth>
-<storyboard repeat="forever">
-<animation property="rotation" from="-50" duration="19000" autoreverse="true" mode="linear" begin="0"/>
-</storyboard>
+  <storyboard repeat="forever">
+ <animation property="y" from="0"  to="-0.069" begin="0" duration="280" autoreverse="true" repeat="5"/>
+  <animation property="y" from="-0"  to="-0.269" begin="0" duration="780" autoreverse="true" repeat="5"/>
+ </storyboard>
 </image>
     
-<image name="pointer" extra="true">
+<image name="pointer,pointerA,pointerF,background3,c2,c3,c4,c5,c6,c7,c8,c9,c10" extra="true">
 <visible>false</visible>
 </image>
-<image name="pointerA" extra="true">
-<visible>false</visible>
-</image>
-<image name="pointerF" extra="true">
-<visible>false</visible>
-</image>
-   
+ 
 <helpsystem name="help">
 <fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
 <fontSize>0.025</fontSize>
@@ -201,17 +129,17 @@
 <animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
 <animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
 <animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
-<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="4000" repeat="3"/>
 </storyboard>
 <storyboard event="activateNext">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
 <animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
-<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="4000" repeat="3"/>
 </storyboard>
 <storyboard event="activatePrev">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
 <animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
-<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="4000" repeat="3"/>
 </storyboard>
 <storyboard event="deactivateNext">
 <animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
@@ -236,15 +164,15 @@
 <storyboard event="open">
 <animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
 <animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
-<animation property="y" from="1.01" begin="0" duration="1100" mode="Bump"/>
+<animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
 </storyboard>
 <storyboard event="activateNext">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
-<animation property="y" from="1.01" begin="0" duration="1100" mode="Bump"/>
+<animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
 </storyboard>
 <storyboard event="activatePrev">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
-<animation property="y" from="1.01" begin="0" duration="1100" mode="Bump"/>
+<animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
 </storyboard>
 <storyboard event="deactivateNext">
 <animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
@@ -268,15 +196,15 @@
 <storyboard event="open">
 <animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
 <animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
-<animation property="y" from="1.01" begin="0" duration="1100" mode="Bump"/>
+<animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
 </storyboard>
 <storyboard event="activateNext">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
-<animation property="y" from="1.01" begin="0" duration="1100" mode="Bump"/>
+<animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
 </storyboard>
 <storyboard event="activatePrev">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
-<animation property="y" from="1.01" begin="0" duration="1100" mode="Bump"/>
+<animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
 </storyboard>
 <storyboard event="deactivateNext">
 <animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
@@ -300,45 +228,45 @@
 <storyboard event="open">
 <animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
 <animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
-<animation property="y" from="1.01" begin="0" duration="1100" mode="Bump"/>
+<animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
 </storyboard>
 <storyboard event="activateNext">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
-<animation property="y" from="1.01" begin="0" duration="1100" mode="Bump"/>
+<animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
 </storyboard>
 <storyboard event="activatePrev">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
-<animation property="y" from="1.01" begin="0" duration="1100" mode="Bump"/>
+<animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
 </storyboard>
 <storyboard event="deactivateNext">
 <animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
 </storyboard>
 <storyboard event="deactivatePrev">
 <animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
-</storyboard> 
+</storyboard>  
 </image>
 	
 <video name="md_video">
 <visible>true</visible>
 <color>ffffff</color>
 <roundCorners>0.03</roundCorners>             
-<pos>0.232 0.483</pos>
+<pos>0.346 0.482</pos>
 <origin>0.5 0.5</origin>
-<size>0.4380 0.518</size>  
+<size>0.4390 0.524</size>  
 <delay>0</delay>
 <effect>none</effect>    		 
 <showSnapshotNoVideo>true</showSnapshotNoVideo>
 <showSnapshotDelay>true</showSnapshotDelay>
-<zIndex>24</zIndex>
+<zIndex>25</zIndex>
 </video> 
 
 <image name="md_image">
 <visible>true</visible>
 <roundCorners>0.03</roundCorners>             
-<pos>0.232 0.483</pos>
+<pos>0.346 0.482</pos>
 <origin>0.5 0.5</origin>
-<size>0.4380 0.518</size>  
-<zIndex>18</zIndex>
+<size>0.4390 0.524</size>  
+<zIndex>24</zIndex>
 </image>
 	
 <text name="md_name">
@@ -354,17 +282,20 @@
 <animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
 <animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
 <animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
-<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+<animation property="opacity" from="0" to="10" duration="2950" begin="24000" mode="easeIn"/>
+<animation property="opacity" from="0" to="10" duration="2950" begin="40000" mode="easeIn"/>
 </storyboard>
 <storyboard event="activateNext">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
 <animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
-<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+<animation property="opacity" from="0" to="10" duration="2950" begin="24000" mode="easeIn"/>
+<animation property="opacity" from="0" to="10" duration="2950" begin="40000" mode="easeIn"/>
 </storyboard>
 <storyboard event="activatePrev">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
 <animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
-<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+<animation property="opacity" from="0" to="10" duration="2950" begin="24000" mode="easeIn"/>
+<animation property="opacity" from="0" to="10" duration="2950" begin="40000" mode="easeIn"/>
 </storyboard>
 <storyboard event="deactivateNext">
 <animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
@@ -375,7 +306,7 @@
 </image>
 	
 <text name="logoText">
-<pos>0.201 0.10</pos>
+<pos>0.330 0.10</pos>
 <size>0.143 0.119</size>
 <origin>0.5 0.5</origin>
 <fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
@@ -388,17 +319,14 @@
 <animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
 <animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
 <animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
-<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
 </storyboard>
 <storyboard event="activateNext">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
 <animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
-<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
 </storyboard>
 <storyboard event="activatePrev">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
 <animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
-<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
 </storyboard>
 <storyboard event="deactivateNext">
 <animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
@@ -410,7 +338,7 @@
 </text>
 
 <image name="md_marquee">
-<pos>0.201 0.10</pos>
+<pos>0.330 0.10</pos>
 <size>0.143 0.119</size>
 <origin>0.5 0.5</origin>
 <linearSmooth>true</linearSmooth>
@@ -418,17 +346,14 @@
 <animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
 <animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
 <animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
-<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
 </storyboard>
 <storyboard event="activateNext">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
 <animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
-<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
 </storyboard>
 <storyboard event="activatePrev">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
 <animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
-<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
 </storyboard>
 <storyboard event="deactivateNext">
 <animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
@@ -440,7 +365,7 @@
 </image>
 
 <image name="logo">
-<pos>0.201 0.10</pos>
+<pos>0.330 0.10</pos>
 <size>0.143 0.119</size>
 <origin>0.5 0.5</origin>
 <origin>0.5 0.5</origin>
@@ -449,17 +374,14 @@
 <animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
 <animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
 <animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
-<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
 </storyboard>
 <storyboard event="activateNext">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
 <animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
-<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
 </storyboard>
 <storyboard event="activatePrev">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
 <animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
-<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
 </storyboard>
 <storyboard event="deactivateNext">
 <animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
@@ -479,17 +401,14 @@
 <animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
 <animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
 <animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
-<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
 </storyboard>
 <storyboard event="activateNext">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
 <animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
-<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
 </storyboard>
 <storyboard event="activatePrev">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
 <animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
-<animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
 </storyboard>
 <storyboard event="deactivateNext">
 <animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>

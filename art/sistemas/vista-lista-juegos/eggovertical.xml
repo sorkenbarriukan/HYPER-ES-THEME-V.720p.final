@@ -164,22 +164,22 @@
 <storyboard event="open">
 <animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
 <animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
-<animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
+<animation property="w" from="0" to="0.14" begin="0" duration="1450" mode="easeOut" repeat="1"/>
 </storyboard>
 <storyboard event="activateNext">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
-<animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
+<animation property="w" from="0" to="0.14" begin="0" duration="1450" mode="easeOut" repeat="1"/>
 </storyboard>
 <storyboard event="activatePrev">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
-<animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
+<animation property="w" from="0" to="0.14" begin="0" duration="1450" mode="easeOut" repeat="1"/>
 </storyboard>
 <storyboard event="deactivateNext">
 <animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
 </storyboard>
 <storyboard event="deactivatePrev">
 <animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
-</storyboard>  
+</storyboard>   
 </image>
 
 <image name="personaje2" extra="true">
@@ -196,15 +196,15 @@
 <storyboard event="open">
 <animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
 <animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
-<animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
+<animation property="w" from="0" to="0.14" begin="0" duration="1450" mode="easeOut" repeat="1"/>
 </storyboard>
 <storyboard event="activateNext">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
-<animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
+<animation property="w" from="0" to="0.14" begin="0" duration="1450" mode="easeOut" repeat="1"/>
 </storyboard>
 <storyboard event="activatePrev">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
-<animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
+<animation property="w" from="0" to="0.14" begin="0" duration="1450" mode="easeOut" repeat="1"/>
 </storyboard>
 <storyboard event="deactivateNext">
 <animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
@@ -228,15 +228,15 @@
 <storyboard event="open">
 <animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
 <animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
-<animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
+<animation property="w" from="0" to="0.14" begin="0" duration="1450" mode="easeOut" repeat="1"/>
 </storyboard>
 <storyboard event="activateNext">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
-<animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
+<animation property="w" from="0" to="0.14" begin="0" duration="1450" mode="easeOut" repeat="1"/>
 </storyboard>
 <storyboard event="activatePrev">
 <animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
-<animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
+<animation property="w" from="0" to="0.14" begin="0" duration="1450" mode="easeOut" repeat="1"/>
 </storyboard>
 <storyboard event="deactivateNext">
 <animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
